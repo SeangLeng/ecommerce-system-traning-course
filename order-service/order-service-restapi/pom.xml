@@ -10,5 +10,10 @@
     </parent>
 
     <artifactId>order-service-restapi</artifactId>
-
+    <dependencies>
+        <dependency>
+            <groupId>mptc.seangleng</groupId>
+            <artifactId>order-application-service</artifactId>
+        </dependency>
+    </dependencies>
 </project>
