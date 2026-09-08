@@ -11,5 +11,10 @@
 
     <!--working with DTO-->
     <artifactId>order-service-persistance</artifactId>
-
+    <dependencies>
+        <dependency>
+            <groupId>mptc.seangleng</groupId>
+            <artifactId>order-application-service</artifactId>
+        </dependency>
+    </dependencies>
 </project>
