@@ -19,6 +19,8 @@ public class Order extends AggregateRoot<OrderId> {
     private OrderStatus orderStatus;
     private List<String> failureMessages;
 
+
+
     // Critical business logic
     public void validateOrder() {
         validateInitialOrder();
