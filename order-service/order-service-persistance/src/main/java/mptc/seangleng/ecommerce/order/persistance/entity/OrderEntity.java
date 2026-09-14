@@ -4,7 +4,7 @@ import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import mptc.seangleng.ecommerce.ecommerce.valueobject.OrderStatus;
+import mptc.seangleng.ecommerce.order.ecommerce.valueobject.OrderStatus;
 
 import java.math.BigDecimal;
 import java.util.List;

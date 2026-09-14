@@ -48,6 +48,12 @@
             </dependency>
             <dependency>
                 <groupId>mptc.seangleng</groupId>
+                <artifactId>common-restapi</artifactId>
+                <!--declare version of dependency to all of module which always use the version the same as parent!-->
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>mptc.seangleng</groupId>
                 <artifactId>order-domain-core</artifactId>
                 <version>${project.version}</version>
             </dependency>
