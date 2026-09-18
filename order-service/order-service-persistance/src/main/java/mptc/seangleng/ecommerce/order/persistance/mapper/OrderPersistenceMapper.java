@@ -1,0 +1,13 @@
+package mptc.seangleng.ecommerce.order.persistance.mapper;
+
+import mptc.seangleng.ecommerce.order.entity.Customer;
+import mptc.seangleng.ecommerce.order.persistance.entity.CustomerEntity;
+import mptc.seangleng.ecommerce.order.persistance.entity.OrderEntity;
+import org.mapstruct.Mapper;
+import org.mapstruct.Mapping;
+
+@Mapper(componentModel = "spring")
+public interface OrderPersistenceMapper {
+    @Mapping(source = "id", target = "id.value")
+    Customer customerEntityToCustomer(CustomerEntity customerEntity);
+}

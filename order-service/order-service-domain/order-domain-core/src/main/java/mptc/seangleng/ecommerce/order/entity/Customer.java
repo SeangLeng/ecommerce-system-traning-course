@@ -21,18 +21,9 @@ public class Customer extends AggregateRoot<CustomerId> {
         givenName = builder.givenName;
     }
 
-    public String getUsername() {
-        return username;
+    public static Builder builder() {
+        return new Builder();
     }
-
-    public String getFamilyName() {
-        return familyName;
-    }
-
-    public String getGivenName() {
-        return givenName;
-    }
-
 
     public static final class Builder {
         private CustomerId id;
@@ -41,10 +32,6 @@ public class Customer extends AggregateRoot<CustomerId> {
         private String givenName;
 
         private Builder() {
-        }
-
-        public static Builder builder() {
-            return new Builder();
         }
 
         public Builder id(CustomerId val) {
