@@ -28,16 +28,16 @@ public class Business extends AggregateRoot<BusinessId> {
         return active;
     }
 
+    public static Builder builder() {
+        return new Builder();
+    }
+
     public static final class Builder {
         private BusinessId id;
         private List<Product> products;
         private Boolean active;
 
         private Builder() {
-        }
-
-        public static Builder builder() {
-            return new Builder();
         }
 
         public Builder id(BusinessId val) {
