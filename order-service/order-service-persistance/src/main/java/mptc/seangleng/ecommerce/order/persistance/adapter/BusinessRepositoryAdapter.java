@@ -17,7 +17,7 @@ public class BusinessRepositoryAdapter implements BusinessRepository {
     private final BusinessPersistenceMapper businessPersistenceMapper;
 
     @Override
-    public Optional<Business> findById(UUID id) {
-        return businessJpaRepository.findById(id).map(businessPersistenceMapper::businessToBusinessEntity);
+    public Optional<Business> findBusinessById(UUID id) {
+        return Optional.empty();
     }
 }

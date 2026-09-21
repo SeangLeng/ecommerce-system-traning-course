@@ -22,16 +22,16 @@ public class Product extends BaseEntity<ProductId> {
         return price;
     }
 
+    public static Builder builder() {
+        return new Builder();
+    }
+
     public static final class Builder {
         private ProductId id;
         private String name;
         private Money price;
 
         private Builder() {
-        }
-
-        public static Builder builder() {
-            return new Builder();
         }
 
         public Builder id(ProductId val) {

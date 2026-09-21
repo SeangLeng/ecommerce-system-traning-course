@@ -26,7 +26,7 @@ public class GlobalExceptionHandler {
     }
 
     @ResponseStatus(HttpStatus.BAD_REQUEST)
-    @ExceptionHandler(MethodArgumentNotValidException.class)
+    @ExceptionHandler(Exception.class)
     public RestApiErrorResponse<?> handleException(
             MethodArgumentNotValidException ex
     ) {

@@ -6,5 +6,5 @@ import java.util.Optional;
 import java.util.UUID;
 
 public interface BusinessRepository {
-    Optional<Business> findById(UUID id);
+    Optional<Business> findBusinessById(UUID id);
 }

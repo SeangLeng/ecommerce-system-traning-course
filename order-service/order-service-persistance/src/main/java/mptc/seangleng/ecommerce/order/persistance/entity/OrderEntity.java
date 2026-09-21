@@ -36,5 +36,5 @@ public class OrderEntity {
 
     private UUID trackId;
     private OrderStatus orderStatus;
-    private String[] failureMessage;
+    private String failureMessage;
 }

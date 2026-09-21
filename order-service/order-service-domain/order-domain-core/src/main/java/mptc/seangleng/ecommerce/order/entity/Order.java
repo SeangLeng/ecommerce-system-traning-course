@@ -19,7 +19,17 @@ public class Order extends AggregateRoot<OrderId> {
     private OrderStatus orderStatus;
     private List<String> failureMessages;
 
-
+    private Order(Builder builder) {
+        super.setId(builder.id);
+        customerId = builder.customerId;
+        businessId = builder.businessId;
+        delivery = builder.delivery;
+        price = builder.price;
+        orderItems = builder.orderItems;
+        trackingId = builder.trackingId;
+        orderStatus = builder.orderStatus;
+        failureMessages = builder.failureMessages;
+    }
 
     // Critical business logic
     public void validateOrder() {
@@ -147,16 +157,8 @@ public class Order extends AggregateRoot<OrderId> {
         return failureMessages;
     }
 
-    private Order(Builder builder) {
-        super.setId(builder.id);
-        customerId = builder.customerId;
-        businessId = builder.businessId;
-        delivery = builder.delivery;
-        price = builder.money;
-        orderItems = builder.orderItems;
-        trackingId = builder.trackingId;
-        orderStatus = builder.orderStatus;
-        failureMessages = builder.failureMessages;
+    public static Builder builder() {
+        return new Builder();
     }
 
     public static final class Builder {
@@ -164,17 +166,13 @@ public class Order extends AggregateRoot<OrderId> {
         private CustomerId customerId;
         private BusinessId businessId;
         private StreetAddress delivery;
-        private Money money;
+        private Money price;
         private List<OrderItem> orderItems;
         private TrackingId trackingId;
         private OrderStatus orderStatus;
         private List<String> failureMessages;
 
         private Builder() {
-        }
-
-        public static Builder builder() {
-            return new Builder();
         }
 
         public Builder id(OrderId val) {
@@ -197,8 +195,8 @@ public class Order extends AggregateRoot<OrderId> {
             return this;
         }
 
-        public Builder money(Money val) {
-            money = val;
+        public Builder price(Money val) {
+            price = val;
             return this;
         }
 
