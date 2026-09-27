@@ -5,8 +5,8 @@ import mptc.seangleng.ecommerce.order.ecommerce.valueobject.Money;
 import mptc.seangleng.ecommerce.order.ecommerce.valueobject.ProductId;
 
 public class Product extends BaseEntity<ProductId> {
-    private final String name;
-    private final Money price;
+    private String name;
+    private Money price;
 
     private Product(Builder builder) {
         super.setId(builder.id);
@@ -22,16 +22,21 @@ public class Product extends BaseEntity<ProductId> {
         return price;
     }
 
+    public void updateConfirmedNameAndPrice(String name, Money price) {
+        this.name = name;
+        this.price = price;
+    }
+
+    public static Builder builder() {
+        return new Builder();
+    }
+
     public static final class Builder {
         private ProductId id;
         private String name;
         private Money price;
 
         private Builder() {
-        }
-
-        public static Builder builder() {
-            return new Builder();
         }
 
         public Builder id(ProductId val) {

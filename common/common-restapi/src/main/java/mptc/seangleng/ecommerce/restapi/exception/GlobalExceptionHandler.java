@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 
-import java.util.ArrayList;
 import java.util.List;
 
 @RestControllerAdvice
@@ -27,14 +26,14 @@ public class GlobalExceptionHandler {
     }
 
     @ResponseStatus(HttpStatus.BAD_REQUEST)
-    @ExceptionHandler(MethodArgumentNotValidException.class)
+    @ExceptionHandler(Exception.class)
     public RestApiErrorResponse<?> handleException(
             MethodArgumentNotValidException ex
     ) {
         return RestApiErrorResponse.builder()
                 .code(HttpStatus.BAD_REQUEST.getReasonPhrase())
                 .message("Data validation failed!")
-                .detail(this.extractFieldErrors(ex.getBindingResult().getFieldErrors()))
+                .detail(extractFieldErrors(ex.getBindingResult().getFieldErrors()))
                 .build();
     }
 }
