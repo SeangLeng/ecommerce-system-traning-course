@@ -21,6 +21,7 @@
     <modules>
         <module>common</module>
         <module>order-service</module>
+        <module>payment-service</module>
     </modules>
 
     <properties>
@@ -93,6 +94,11 @@
             <dependency>
                 <groupId>mptc.seangleng</groupId>
                 <artifactId>order-service-main</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>mptc.seangleng</groupId>
+                <artifactId>payment-domain-core</artifactId>
                 <version>${project.version}</version>
             </dependency>
         </dependencies>

@@ -19,8 +19,12 @@ public record Money(
     }
 
     // validate money input greater than original
-    public Boolean isGreaterThan(Money amount) {
-        return amount.amount().compareTo(BigDecimal.ZERO) > 0;
+    public Boolean isGreaterThan(Money money) {
+        return this.amount.compareTo(money.amount) > 0;
+    }
+
+    public Boolean isGreaterThanEqual(Money money) {
+        return this.amount.compareTo(money.amount) >= 0;
     }
 
     // adding money
@@ -35,7 +39,7 @@ public record Money(
 
     // Subtract money
     public Money subtract(Money money) {
-        return new Money(setScale(money.amount.subtract(money.amount)));
+        return new Money(setScale(this.amount.subtract(money.amount)));
     }
 
     /*
