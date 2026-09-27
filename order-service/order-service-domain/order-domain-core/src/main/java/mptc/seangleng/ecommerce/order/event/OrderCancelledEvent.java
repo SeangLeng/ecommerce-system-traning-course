@@ -5,7 +5,7 @@ import mptc.seangleng.ecommerce.order.entity.Order;
 import java.time.ZonedDateTime;
 
 public class OrderCancelledEvent extends OrderEvent {
-    public OrderCancelledEvent(ZonedDateTime createdAt, Order order) {
+    public OrderCancelledEvent(Order order, ZonedDateTime createdAt) {
         super(createdAt, order);
     }
 }

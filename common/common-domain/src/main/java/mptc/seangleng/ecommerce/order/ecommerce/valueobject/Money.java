@@ -2,6 +2,7 @@ package mptc.seangleng.ecommerce.order.ecommerce.valueobject;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
+import java.util.Objects;
 
 /*
  * Why we use record?
@@ -43,5 +44,17 @@ public record Money(
      * */
     public Money multiply(int multiplier) {
         return new Money(setScale(this.amount.multiply(BigDecimal.valueOf(multiplier))));
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (o == null || getClass() != o.getClass()) return false;
+        Money money = (Money) o;
+        return Objects.equals(setScale(amount), setScale(money.amount));
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hashCode(setScale(amount));
     }
 }

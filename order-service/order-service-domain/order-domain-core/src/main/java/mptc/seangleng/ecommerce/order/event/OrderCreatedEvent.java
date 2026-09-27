@@ -11,7 +11,7 @@ import java.time.ZonedDateTime;
 public class OrderCreatedEvent extends OrderEvent {
     private Order order;
 
-    public OrderCreatedEvent(ZonedDateTime createdAt, Order order) {
+    public OrderCreatedEvent(Order order, ZonedDateTime createdAt) {
         super(createdAt, order);
     }
 }
