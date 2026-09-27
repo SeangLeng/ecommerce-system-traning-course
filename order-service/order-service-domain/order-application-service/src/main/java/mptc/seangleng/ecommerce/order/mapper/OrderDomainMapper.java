@@ -1,7 +1,9 @@
 package mptc.seangleng.ecommerce.order.mapper;
 
+import mptc.seangleng.ecommerce.order.dto.CommandOrderAddress;
 import mptc.seangleng.ecommerce.order.dto.CommandOrderItem;
 import mptc.seangleng.ecommerce.order.dto.CreateOrderCommand;
+import mptc.seangleng.ecommerce.order.ecommerce.valueobject.StreetAddress;
 import mptc.seangleng.ecommerce.order.entity.Order;
 import mptc.seangleng.ecommerce.order.entity.OrderItem;
 import org.mapstruct.Mapper;
@@ -21,4 +23,7 @@ public interface OrderDomainMapper {
     @Mapping(source = "price", target = "price.amount")
     @Mapping(source = "subTotal", target = "subTotal.amount")
     OrderItem commandOrderItemToOrderItem(CommandOrderItem commandOrderItem);
+
+    @Mapping(target = "id", expression = "java(java.util.UUID.randomUUID())")
+    StreetAddress commandOrderAddressToStreetAddress(CommandOrderAddress address);
 }

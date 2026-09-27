@@ -14,12 +14,10 @@ import java.util.UUID;
 @Table(name = "order_address")
 public class OrderAddressEntity {
     @Id
-    @GeneratedValue(strategy = GenerationType.UUID)
     private UUID id;
-    private String Street;
-    private String PastaCode;
-    private String City;
-    private String StreetAddress;
+    private String street;
+    private String postalCode;
+    private String city;
 
     @OneToOne(mappedBy = "streetAddress")
     private OrderEntity orderEntity;
