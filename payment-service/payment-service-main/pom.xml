@@ -5,11 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>mptc.seangleng</groupId>
-        <artifactId>order-service</artifactId>
+        <artifactId>payment-service</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>order-service-main</artifactId>
+    <artifactId>payment-service-main</artifactId>
 
     <dependencies>
         <dependency>
@@ -18,23 +18,7 @@
         </dependency>
         <dependency>
             <groupId>mptc.seangleng</groupId>
-            <artifactId>order-domain-core</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>mptc.seangleng</groupId>
-            <artifactId>order-application-service</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>mptc.seangleng</groupId>
-            <artifactId>order-service-messaging</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>mptc.seangleng</groupId>
-            <artifactId>order-service-persistance</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>mptc.seangleng</groupId>
-            <artifactId>order-service-restapi</artifactId>
+            <artifactId>payment-domain-core</artifactId>
         </dependency>
 
         <dependency>
@@ -47,11 +31,6 @@
             <artifactId>spring-boot-starter-webmvc-test</artifactId>
             <scope>test</scope>
         </dependency>
-
-        <dependency>
-            <groupId>org.postgresql</groupId>
-            <artifactId>postgresql</artifactId>
-            <scope>runtime</scope>
-        </dependency>
     </dependencies>
+
 </project>

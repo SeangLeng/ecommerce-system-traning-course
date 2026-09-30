@@ -13,5 +13,6 @@
     <packaging>pom</packaging>
     <modules>
         <module>payment-service-domain</module>
+        <module>payment-service-main</module>
     </modules>
 </project>

@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: payment-service
+  profiles:
+    active: dev
+  cloud:
+    nacos:
+      discovery:
+        namespace: ${spring.profiles.active}
+      username: nacos
+      password: Leng@123
+      server-addr: 127.0.0.1:8848
+server:
+  port: 0
