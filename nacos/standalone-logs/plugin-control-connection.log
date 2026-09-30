@@ -1030,3 +1030,151 @@
 
 2026-09-30 17:25:17,883 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
 
+2026-09-30 17:25:18,895 INFO Connection check task start
+
+2026-09-30 17:25:18,896 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2026-09-30 17:25:18,896 INFO Out dated connection ,size=0
+
+2026-09-30 17:25:18,897 INFO Connection check task end
+
+2026-09-30 17:25:20,889 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2026-09-30 17:25:21,904 INFO Connection check task start
+
+2026-09-30 17:25:21,905 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2026-09-30 17:25:21,906 INFO Out dated connection ,size=0
+
+2026-09-30 17:25:21,906 INFO Connection check task end
+
+2026-09-30 17:25:23,893 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2026-09-30 17:25:24,907 INFO Connection check task start
+
+2026-09-30 17:25:24,908 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2026-09-30 17:25:24,909 INFO Out dated connection ,size=0
+
+2026-09-30 17:25:24,909 INFO Connection check task end
+
+2026-09-30 17:25:26,900 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2026-09-30 17:25:27,913 INFO Connection check task start
+
+2026-09-30 17:25:27,915 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2026-09-30 17:25:27,915 INFO Out dated connection ,size=0
+
+2026-09-30 17:25:27,915 INFO Connection check task end
+
+2026-09-30 17:25:29,904 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2026-09-30 17:25:30,922 INFO Connection check task start
+
+2026-09-30 17:25:30,922 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2026-09-30 17:25:30,922 INFO Out dated connection ,size=0
+
+2026-09-30 17:25:30,922 INFO Connection check task end
+
+2026-09-30 17:25:32,911 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2026-09-30 17:25:33,928 INFO Connection check task start
+
+2026-09-30 17:25:33,928 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2026-09-30 17:25:33,929 INFO Out dated connection ,size=0
+
+2026-09-30 17:25:33,929 INFO Connection check task end
+
+2026-09-30 17:25:35,918 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2026-09-30 17:25:36,930 INFO Connection check task start
+
+2026-09-30 17:25:36,931 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2026-09-30 17:25:36,932 INFO Out dated connection ,size=0
+
+2026-09-30 17:25:36,932 INFO Connection check task end
+
+2026-09-30 17:25:38,926 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2026-09-30 17:25:39,939 INFO Connection check task start
+
+2026-09-30 17:25:39,941 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2026-09-30 17:25:39,941 INFO Out dated connection ,size=0
+
+2026-09-30 17:25:39,941 INFO Connection check task end
+
+2026-09-30 17:25:41,931 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2026-09-30 17:25:42,945 INFO Connection check task start
+
+2026-09-30 17:25:42,946 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2026-09-30 17:25:42,946 INFO Out dated connection ,size=0
+
+2026-09-30 17:25:42,946 INFO Connection check task end
+
+2026-09-30 17:25:44,938 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2026-09-30 17:25:45,947 INFO Connection check task start
+
+2026-09-30 17:25:45,948 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2026-09-30 17:25:45,949 INFO Out dated connection ,size=0
+
+2026-09-30 17:25:45,949 INFO Connection check task end
+
+2026-09-30 17:25:47,947 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2026-09-30 17:25:48,954 INFO Connection check task start
+
+2026-09-30 17:25:48,955 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2026-09-30 17:25:48,955 INFO Out dated connection ,size=0
+
+2026-09-30 17:25:48,955 INFO Connection check task end
+
+2026-09-30 17:25:50,953 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2026-09-30 17:25:51,959 INFO Connection check task start
+
+2026-09-30 17:25:51,960 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2026-09-30 17:25:51,960 INFO Out dated connection ,size=0
+
+2026-09-30 17:25:51,960 INFO Connection check task end
+
+2026-09-30 17:25:53,959 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2026-09-30 17:25:54,961 INFO Connection check task start
+
+2026-09-30 17:25:54,962 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2026-09-30 17:25:54,962 INFO Out dated connection ,size=0
+
+2026-09-30 17:25:54,962 INFO Connection check task end
+
+2026-09-30 17:25:56,968 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2026-09-30 17:25:57,971 INFO Connection check task start
+
+2026-09-30 17:25:57,972 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2026-09-30 17:25:57,972 INFO Out dated connection ,size=0
+
+2026-09-30 17:25:57,972 INFO Connection check task end
+
+2026-09-30 17:25:59,971 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2026-09-30 17:26:00,973 INFO Connection check task start
+
+2026-09-30 17:26:00,973 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2026-09-30 17:26:00,974 INFO Out dated connection ,size=0
+
+2026-09-30 17:26:00,974 INFO Connection check task end
+
