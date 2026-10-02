@@ -9,41 +9,25 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>payment-service-main</artifactId>
+    <artifactId>payment-service-persistence</artifactId>
 
     <dependencies>
         <dependency>
             <groupId>mptc.seangleng</groupId>
-            <artifactId>common-starter</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>mptc.seangleng</groupId>
-            <artifactId>payment-domain-core</artifactId>
+            <artifactId>common-persistence</artifactId>
         </dependency>
         <dependency>
             <groupId>mptc.seangleng</groupId>
             <artifactId>payment-application-service</artifactId>
         </dependency>
         <dependency>
-            <groupId>mptc.seangleng</groupId>
-            <artifactId>payment-service-persistence</artifactId>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-jpa</artifactId>
         </dependency>
-
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-webmvc</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-webmvc-test</artifactId>
+            <artifactId>spring-boot-starter-data-jpa-test</artifactId>
             <scope>test</scope>
-        </dependency>
-
-        <dependency>
-            <groupId>org.postgresql</groupId>
-            <artifactId>postgresql</artifactId>
-            <scope>runtime</scope>
         </dependency>
     </dependencies>
 </project>

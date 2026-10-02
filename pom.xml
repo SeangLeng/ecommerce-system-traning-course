@@ -112,6 +112,16 @@
             </dependency>
             <dependency>
                 <groupId>mptc.seangleng</groupId>
+                <artifactId>payment-application-service</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>mptc.seangleng</groupId>
+                <artifactId>payment-service-persistence</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>mptc.seangleng</groupId>
                 <artifactId>payment-service-main</artifactId>
                 <version>${project.version}</version>
             </dependency>
