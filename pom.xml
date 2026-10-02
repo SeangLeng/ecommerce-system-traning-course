@@ -22,6 +22,8 @@
         <module>common</module>
         <module>order-service</module>
         <module>payment-service</module>
+        <module>customer-servce</module>
+        <module>business-service</module>
     </modules>
 
     <properties>
@@ -111,6 +113,61 @@
             <dependency>
                 <groupId>mptc.seangleng</groupId>
                 <artifactId>payment-service-main</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>mptc.seangleng</groupId>
+                <artifactId>customer-service-domain</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>mptc.seangleng</groupId>
+                <artifactId>customer-service-main</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>mptc.seangleng</groupId>
+                <artifactId>customer-service-persistence</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>mptc.seangleng</groupId>
+                <artifactId>customer-service-restapi</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>mptc.seangleng</groupId>
+                <artifactId>customer-application-service</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>mptc.seangleng</groupId>
+                <artifactId>customer-domain-core</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>mptc.seangleng</groupId>
+                <artifactId>business-service-domain</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>mptc.seangleng</groupId>
+                <artifactId>business-domain-core</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>mptc.seangleng</groupId>
+                <artifactId>business-application-service</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>mptc.seangleng</groupId>
+                <artifactId>business-service-persistence</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>mptc.seangleng</groupId>
+                <artifactId>business-service-main</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
