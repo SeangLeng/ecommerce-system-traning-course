@@ -3,8 +3,14 @@ spring:
     name: business-service
   profiles:
     active: dev
+  config:
+    import:
+      - nacos:${spring.application.name}.${spring.cloud.nacos.config.file-extension}
   cloud:
     nacos:
+      config:
+        file-extension: yml
+        namespace: ${spring.profiles.active}
       username: nacos
       password: Leng@123
       server-addr: 127.0.0.1:8848
@@ -25,3 +31,4 @@ spring:
 
 server:
   port: 0
+  forward-headers-strategy: framework

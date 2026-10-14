@@ -1,0 +1,7 @@
+2026-10-07 19:03:01,970|a120ca624b91|nacos.ai.skills.bootstrap|nacos_internal|public|null|1791370981952|a120ca624b91|persist|pub|-1|fb315125afed65877df475b6b9806247
+2026-10-07 19:03:02,048|a120ca624b91|nacos.ai.skills.bootstrap|nacos_internal|public|null|1791370981952|172.26.0.2|dump|ok|96|13
+2026-10-07 19:03:02,111|a120ca624b91|nacos.ai.skills.bootstrap|nacos_internal|public|null|1791370982111|null|persist|remove|-1|null
+2026-10-07 19:03:02,155|a120ca624b91|nacos.ai.skills.bootstrap|nacos_internal|public|null|1791370982111|172.26.0.2|dump|remove-ok|44|0
+2026-10-07 19:03:03,407|a120ca624b91|order-service.yml|DEFAULT_GROUP|dev|null|1790937493923|pull|ok|433489484|172.16.30.147|false|grpc
+2026-10-07 19:04:22,321|a120ca624b91|order-service.yml|DEFAULT_GROUP|dev|null|1790937493923|pull|ok|433568398|172.16.30.147|false|grpc
+2026-10-07 19:06:02,317|a120ca624b91|order-service.yml|DEFAULT_GROUP|dev|null|1790937493923|pull|ok|433668394|172.16.30.147|false|grpc
