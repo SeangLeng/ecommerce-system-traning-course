@@ -38,6 +38,17 @@ management:
 server:
   port: 8585
 
+scalar:
+  sources:
+    - title: Order Service
+      url: /order-service/v3/api-docs
+    - title: Customer Service
+      url: /customer-service/v3/api-docs
+    - title: Payment Service
+      url: /payment-service/v3/api-docs
+    - title: Business Service
+      url: /business-service/v3/api-docs
+
 springdoc:
   swagger-ui:
     urls:

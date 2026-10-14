@@ -1454,3 +1454,15 @@
 2026-10-14 18:43:28,254|opType: listen | rt: 0ms | status: 200 | requestIp: 172.16.30.147 | listenSize: 1 | listenOrCancel: true | appName: unknown
 2026-10-14 18:43:28,901|opType: listen | rt: 0ms | status: 200 | requestIp: 172.16.30.147 | listenSize: 1 | listenOrCancel: true | appName: unknown
 2026-10-14 18:44:07,136|opType: listen | rt: 1ms | status: 200 | requestIp: 172.16.30.147 | listenSize: 1 | listenOrCancel: true | appName: unknown
+2026-10-14 18:51:01,724|opType: get | rt: 23ms | status: success | requestIp: 172.16.30.147 | dataId: payment-service.yml | group: DEFAULT_GROUP | tenant: dev | md5: 0a0b3779fbb35f53c3e8640ab85df5f6
+2026-10-14 18:51:02,693|opType: get | rt: 0ms | status: success | requestIp: 172.16.30.147 | dataId: customer-service.yml | group: DEFAULT_GROUP | tenant: dev | md5: 113c05583e74a07df8a7f14e3cb427eb
+2026-10-14 18:51:04,983|opType: get | rt: 0ms | status: success | requestIp: 172.16.30.147 | dataId: order-service.yml | group: DEFAULT_GROUP | tenant: dev | md5: 8473a1c3aff351eae5594f781679277c
+2026-10-14 18:51:05,365|opType: listen | rt: 0ms | status: 200 | requestIp: 172.16.30.147 | listenSize: 1 | listenOrCancel: true | appName: unknown
+2026-10-14 18:51:06,004|opType: listen | rt: 0ms | status: 200 | requestIp: 172.16.30.147 | listenSize: 1 | listenOrCancel: true | appName: unknown
+2026-10-14 18:51:06,199|opType: get | rt: 0ms | status: success | requestIp: 172.16.30.147 | dataId: business-service.yml | group: DEFAULT_GROUP | tenant: dev | md5: 16cad06023e0eef2c50f6650e6f108d6
+2026-10-14 18:51:08,026|opType: listen | rt: 0ms | status: 200 | requestIp: 172.16.30.147 | listenSize: 1 | listenOrCancel: true | appName: unknown
+2026-10-14 18:51:08,928|opType: listen | rt: 0ms | status: 200 | requestIp: 172.16.30.147 | listenSize: 1 | listenOrCancel: true | appName: unknown
+2026-10-14 18:54:05,441|opType: listen | rt: 1ms | status: 200 | requestIp: 172.16.30.147 | listenSize: 1 | listenOrCancel: true | appName: unknown
+2026-10-14 18:54:06,116|opType: listen | rt: 0ms | status: 200 | requestIp: 172.16.30.147 | listenSize: 1 | listenOrCancel: true | appName: unknown
+2026-10-14 18:54:08,122|opType: listen | rt: 0ms | status: 200 | requestIp: 172.16.30.147 | listenSize: 1 | listenOrCancel: true | appName: unknown
+2026-10-14 18:54:09,004|opType: listen | rt: 0ms | status: 200 | requestIp: 172.16.30.147 | listenSize: 1 | listenOrCancel: true | appName: unknown

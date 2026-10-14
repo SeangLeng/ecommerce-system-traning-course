@@ -46,6 +46,12 @@
             <artifactId>springdoc-openapi-starter-webflux-ui</artifactId>
             <version>3.1.1</version>
         </dependency>
+
+        <dependency>
+            <groupId>org.springdoc</groupId>
+            <artifactId>springdoc-openapi-starter-webflux-scalar</artifactId>
+            <version>3.1.1</version>
+        </dependency>
     </dependencies>
 
     <build>

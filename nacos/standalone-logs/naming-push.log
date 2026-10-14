@@ -294,3 +294,41 @@ java.util.concurrent.TimeoutException: Timeout After 5000 milliseconds, requestI
 
 2026-10-14 18:32:07,235 INFO [PUSH-SUCC] 8ms, all delay time 605ms, SLA 605ms, Service{namespace='dev', group='DEFAULT_GROUP', name='business-service', ephemeral=true, revision=5}, originalSize=1, DataSize=1, target=172.16.30.147
 
+2026-10-14 18:51:00,405 INFO [PUSH] Task merge for Service{namespace='dev', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=1}
+
+2026-10-14 18:51:00,476 INFO [PUSH] Task merge for Service{namespace='dev', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=2}
+
+2026-10-14 18:51:05,501 INFO [PUSH] Task merge for Service{namespace='dev', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=3}
+
+2026-10-14 18:51:05,501 INFO [PUSH] Task merge for Service{namespace='dev', group='DEFAULT_GROUP', name='payment-service', ephemeral=true, revision=1}
+
+2026-10-14 18:51:05,855 INFO [PUSH-SUCC] 5ms, all delay time 523ms, SLA 523ms, Service{namespace='dev', group='DEFAULT_GROUP', name='payment-service', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=172.16.30.147
+
+2026-10-14 18:51:06,056 INFO [PUSH-SUCC] 4ms, all delay time 589ms, SLA 589ms, Service{namespace='dev', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=3}, originalSize=1, DataSize=1, target=172.16.30.147
+
+2026-10-14 18:51:36,218 INFO [PUSH-SUCC] 61ms, all delay time 650ms for subscriber 172.16.30.147, Service{namespace='dev', group='DEFAULT_GROUP', name='business-service', ephemeral=true, revision=1}, originalSize=1, DataSize=1
+
+2026-10-14 18:51:36,219 INFO [PUSH-SUCC] 62ms, all delay time 651ms for subscriber 172.16.30.147, Service{namespace='dev', group='DEFAULT_GROUP', name='customer-service', ephemeral=true, revision=1}, originalSize=1, DataSize=1
+
+2026-10-14 18:51:36,221 INFO [PUSH-SUCC] 62ms, all delay time 653ms for subscriber 172.16.30.147, Service{namespace='dev', group='DEFAULT_GROUP', name='order-service', ephemeral=true, revision=1}, originalSize=1, DataSize=1
+
+2026-10-14 18:56:35,702 INFO [PUSH] Task merge for Service{namespace='dev', group='DEFAULT_GROUP', name='payment-service', ephemeral=true, revision=2}
+
+2026-10-14 18:56:35,703 INFO [PUSH] Task merge for Service{namespace='dev', group='DEFAULT_GROUP', name='business-service', ephemeral=true, revision=2}
+
+2026-10-14 18:56:35,703 INFO [PUSH] Task merge for Service{namespace='dev', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=4}
+
+2026-10-14 18:56:35,703 INFO [PUSH] Task merge for Service{namespace='dev', group='DEFAULT_GROUP', name='order-service', ephemeral=true, revision=2}
+
+2026-10-14 18:56:35,703 INFO [PUSH] Task merge for Service{namespace='dev', group='DEFAULT_GROUP', name='customer-service', ephemeral=true, revision=2}
+
+2026-10-14 18:56:36,111 INFO [PUSH-SUCC] 17ms, all delay time 603ms, SLA 603ms, Service{namespace='dev', group='DEFAULT_GROUP', name='business-service', ephemeral=true, revision=2}, originalSize=0, DataSize=0, target=172.16.30.147
+
+2026-10-14 18:56:36,112 INFO [PUSH-SUCC] 18ms, all delay time 603ms, SLA 603ms, Service{namespace='dev', group='DEFAULT_GROUP', name='customer-service', ephemeral=true, revision=2}, originalSize=0, DataSize=0, target=172.16.30.147
+
+2026-10-14 18:56:36,114 INFO [PUSH-SUCC] 19ms, all delay time 605ms, SLA 605ms, Service{namespace='dev', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=4}, originalSize=0, DataSize=0, target=172.16.30.147
+
+2026-10-14 18:56:36,116 INFO [PUSH-SUCC] 21ms, all delay time 606ms, SLA 606ms, Service{namespace='dev', group='DEFAULT_GROUP', name='payment-service', ephemeral=true, revision=2}, originalSize=0, DataSize=0, target=172.16.30.147
+
+2026-10-14 18:56:36,117 INFO [PUSH-SUCC] 21ms, all delay time 609ms, SLA 609ms, Service{namespace='dev', group='DEFAULT_GROUP', name='order-service', ephemeral=true, revision=2}, originalSize=0, DataSize=0, target=172.16.30.147
+

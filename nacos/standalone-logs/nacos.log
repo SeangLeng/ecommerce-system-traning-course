@@ -1095,3 +1095,15 @@ org.springframework.web.servlet.resource.NoResourceFoundException: No static res
 
 2026-10-14 18:42:40,287 WARN history config cleaner successfully
 
+2026-10-14 18:52:39,836 INFO [capacityManagement] start correct usage
+
+2026-10-14 18:52:40,070 INFO [capacityManagement] end correct usage, cost: 0.232387s
+
+2026-10-14 18:52:40,291 WARN clearHistoryConfig get scheduled
+
+2026-10-14 18:52:40,292 WARN clearHistoryConfig is enable in current context, try to run cleaner
+
+2026-10-14 18:52:40,293 WARN clearConfigHistory, getBeforeStamp:2026-09-14 18:52:40.0, pageSize:1000
+
+2026-10-14 18:52:40,298 WARN history config cleaner successfully
+
