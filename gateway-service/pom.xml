@@ -52,6 +52,12 @@
             <artifactId>springdoc-openapi-starter-webflux-scalar</artifactId>
             <version>3.1.1</version>
         </dependency>
+
+    <!--OAUTH2 Client-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-security-oauth2-client</artifactId>
+        </dependency>
     </dependencies>
 
     <build>

@@ -1,0 +1,150 @@
+2026-10-15 02:37:14,416 WARN clearHistoryConfig get scheduled
+
+2026-10-15 02:37:14,423 WARN clearHistoryConfig is enable in current context, try to run cleaner
+
+2026-10-15 02:37:14,424 WARN clearConfigHistory, getBeforeStamp:2026-09-15 02:37:14.0, pageSize:1000
+
+2026-10-15 02:37:14,426 WARN history config cleaner successfully
+
+2026-10-15 02:37:14,860 INFO [capacityManagement] start correct usage
+
+2026-10-15 02:37:15,293 INFO [capacityManagement] end correct usage, cost: 0.430051917s
+
+2026-10-15 03:23:38,946 WARN clearHistoryConfig get scheduled
+
+2026-10-15 03:23:38,947 WARN clearHistoryConfig is enable in current context, try to run cleaner
+
+2026-10-15 03:23:38,948 WARN clearConfigHistory, getBeforeStamp:2026-09-15 03:23:38.0, pageSize:1000
+
+2026-10-15 03:23:38,955 WARN history config cleaner successfully
+
+2026-10-15 03:23:39,807 INFO [capacityManagement] start correct usage
+
+2026-10-15 03:23:40,034 INFO [capacityManagement] end correct usage, cost: 0.225354084s
+
+2026-10-15 03:34:25,576 WARN clearHistoryConfig get scheduled
+
+2026-10-15 03:34:25,577 WARN clearHistoryConfig is enable in current context, try to run cleaner
+
+2026-10-15 03:34:25,578 WARN clearConfigHistory, getBeforeStamp:2026-09-15 03:34:25.0, pageSize:1000
+
+2026-10-15 03:34:25,583 WARN history config cleaner successfully
+
+2026-10-15 03:34:26,658 INFO [capacityManagement] start correct usage
+
+2026-10-15 03:34:26,886 INFO [capacityManagement] end correct usage, cost: 0.227068167s
+
+2026-10-15 03:45:11,809 WARN clearHistoryConfig get scheduled
+
+2026-10-15 03:45:11,809 WARN clearHistoryConfig is enable in current context, try to run cleaner
+
+2026-10-15 03:45:11,809 WARN clearConfigHistory, getBeforeStamp:2026-09-15 03:45:11.0, pageSize:1000
+
+2026-10-15 03:45:11,810 WARN history config cleaner successfully
+
+2026-10-15 03:45:13,107 INFO [capacityManagement] start correct usage
+
+2026-10-15 03:45:13,332 INFO [capacityManagement] end correct usage, cost: 0.224793792s
+
+2026-10-15 07:30:16,474 WARN clearHistoryConfig get scheduled
+
+2026-10-15 07:30:16,475 WARN clearHistoryConfig is enable in current context, try to run cleaner
+
+2026-10-15 07:30:16,476 WARN clearConfigHistory, getBeforeStamp:2026-09-15 07:30:16.0, pageSize:1000
+
+2026-10-15 07:30:16,479 WARN history config cleaner successfully
+
+2026-10-15 07:30:17,990 INFO [capacityManagement] start correct usage
+
+2026-10-15 07:30:18,215 INFO [capacityManagement] end correct usage, cost: 0.22454875s
+
+2026-10-15 13:55:15,686 WARN clearHistoryConfig get scheduled
+
+2026-10-15 13:55:15,687 WARN clearHistoryConfig is enable in current context, try to run cleaner
+
+2026-10-15 13:55:15,688 WARN clearConfigHistory, getBeforeStamp:2026-09-15 13:55:15.0, pageSize:1000
+
+2026-10-15 13:55:15,693 WARN history config cleaner successfully
+
+2026-10-15 13:55:17,415 INFO [capacityManagement] start correct usage
+
+2026-10-15 13:55:17,641 INFO [capacityManagement] end correct usage, cost: 0.225460375s
+
+2026-10-15 18:21:37,691 WARN clearHistoryConfig get scheduled
+
+2026-10-15 18:21:37,692 WARN clearHistoryConfig is enable in current context, try to run cleaner
+
+2026-10-15 18:21:37,693 WARN clearConfigHistory, getBeforeStamp:2026-09-15 18:21:37.0, pageSize:1000
+
+2026-10-15 18:21:37,697 WARN history config cleaner successfully
+
+2026-10-15 18:21:39,646 INFO [capacityManagement] start correct usage
+
+2026-10-15 18:21:39,865 INFO [capacityManagement] end correct usage, cost: 0.218291583s
+
+2026-10-15 21:49:31,861 WARN clearHistoryConfig get scheduled
+
+2026-10-15 21:49:31,866 WARN clearHistoryConfig is enable in current context, try to run cleaner
+
+2026-10-15 21:49:31,868 WARN clearConfigHistory, getBeforeStamp:2026-09-15 21:49:31.0, pageSize:1000
+
+2026-10-15 21:49:31,873 WARN history config cleaner successfully
+
+2026-10-15 21:49:34,027 INFO [capacityManagement] start correct usage
+
+2026-10-15 21:49:34,242 INFO [capacityManagement] end correct usage, cost: 0.214958667s
+
+2026-10-15 21:59:31,885 WARN clearHistoryConfig get scheduled
+
+2026-10-15 21:59:31,888 WARN clearHistoryConfig is enable in current context, try to run cleaner
+
+2026-10-15 21:59:31,891 WARN clearConfigHistory, getBeforeStamp:2026-09-15 21:59:31.0, pageSize:1000
+
+2026-10-15 21:59:31,897 WARN history config cleaner successfully
+
+2026-10-15 21:59:34,250 INFO [capacityManagement] start correct usage
+
+2026-10-15 21:59:34,470 INFO [capacityManagement] end correct usage, cost: 0.218896208s
+
+2026-10-15 22:09:31,895 WARN clearHistoryConfig get scheduled
+
+2026-10-15 22:09:31,895 WARN clearHistoryConfig is enable in current context, try to run cleaner
+
+2026-10-15 22:09:31,896 WARN clearConfigHistory, getBeforeStamp:2026-09-15 22:09:31.0, pageSize:1000
+
+2026-10-15 22:09:31,899 WARN history config cleaner successfully
+
+2026-10-15 22:09:34,465 INFO [capacityManagement] start correct usage
+
+2026-10-15 22:09:34,686 INFO [capacityManagement] end correct usage, cost: 0.2164385s
+
+2026-10-15 22:15:49,340 INFO [NotifyCenter] Start destroying Publisher
+
+2026-10-15 22:15:49,341 WARN [WatchFileCenter] start close
+
+2026-10-15 22:15:49,341 INFO [ThreadPoolManager] Start destroying ThreadPool
+
+2026-10-15 22:15:49,341 INFO [HttpClientBeanHolder] Start destroying common HttpClient
+
+2026-10-15 22:15:49,345 WARN [WatchFileCenter] start to shutdown this watcher which is watch : /home/nacos/conf
+
+2026-10-15 22:15:49,345 INFO [NotifyCenter] Completed destruction of Publisher
+
+2026-10-15 22:15:49,346 INFO [HttpClientBeanHolder] Completed destruction of HttpClient
+
+2026-10-15 22:15:49,348 WARN [WatchFileCenter] already closed
+
+2026-10-15 22:15:49,354 INFO Commencing graceful shutdown. Waiting for active requests to complete
+
+2026-10-15 22:15:49,359 INFO Graceful shutdown complete
+
+2026-10-15 22:15:49,375 INFO Commencing graceful shutdown. Waiting for active requests to complete
+
+2026-10-15 22:15:49,376 INFO Graceful shutdown complete
+
+2026-10-15 22:15:49,420 INFO Shutdown managed channel: a120ca624b91:7848, ManagedChannelOrphanWrapper{delegate=ManagedChannelImpl{logId=4, target=a120ca624b91:7848}}.
+
+2026-10-15 22:15:49,421 INFO The channel a120ca624b91:7848 is in state: SHUTDOWN.
+
+2026-10-15 22:15:49,421 WARN This channel a120ca624b91:7848 has started shutting down. Any new RPCs should fail immediately.
+

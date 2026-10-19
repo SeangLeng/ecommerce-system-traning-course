@@ -9,7 +9,7 @@ spring:
         webflux:
           discovery:
             locator:
-              enabled: true
+              enabled: true # can set false when used routes.
               lower-case-service-id: true
           trusted-proxies: ".*" # to enable the CORS
     #          routes:
@@ -25,6 +25,23 @@ spring:
       server-addr: 127.0.0.1:8848
       discovery:
         namespace: ${spring.profiles.active}
+  security:
+    oauth2:
+      client:
+        provider:
+          keycloak:
+            issuer-uri:  http://localhost:8888/realms/ecommerce
+        registration:
+          ecommerce-postman:
+            client-id: ecommerce-postman
+#            client-secret: secret
+            provider: keycloak
+            scope:
+              - openid
+              - email
+              - profile
+            authorization-grant-type: authorization_code
+            redirect-uri: "http://localhost:8585/login/oauth2/code/ecommerce-postman"
 
 management:
   endpoints:
@@ -37,6 +54,7 @@ management:
 
 server:
   port: 8585
+
 
 scalar:
   sources:
@@ -60,3 +78,6 @@ springdoc:
         url: /payment-service/v3/api-docs
       - name: Business Service
         url: /business-service/v3/api-docs
+#    enabled: false # can use on production
+#  api-docs:
+#    enabled: false
