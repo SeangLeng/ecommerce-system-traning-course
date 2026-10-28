@@ -1,8 +1,36 @@
-2026-10-27 09:48:17,261 INFO Nacos GrpcSdkServer Rpc server stopping
+2026-10-28 10:17:52,223 INFO [ClientConnectionEventListenerRegistry] registry listener - ConfigConnectionEventListener
 
-2026-10-27 09:48:17,263 INFO Nacos GrpcClusterServer Rpc server stopping
+2026-10-28 10:17:52,320 INFO [ClientConnectionEventListenerRegistry] registry listener - ConnectionBasedClientManager
 
-2026-10-27 09:48:17,278 INFO Nacos GrpcClusterServer Rpc server stopped successfully...
+2026-10-28 10:17:53,976 INFO [ClientConnectionEventListenerRegistry] registry listener - AiConnectionBasedClientManager
 
-2026-10-27 09:48:17,278 INFO Nacos GrpcSdkServer Rpc server stopped successfully...
+2026-10-28 10:17:54,069 INFO Nacos GrpcSdkServer Rpc server starting at port 9848
+
+2026-10-28 10:17:54,076 INFO Load ProtocolNegotiatorBuilder com.alibaba.nacos.core.remote.grpc.negotiator.tls.SdkDefaultTlsProtocolNegotiatorBuilder for type DEFAULT_TLS
+
+2026-10-28 10:17:54,076 INFO Load ProtocolNegotiatorBuilder com.alibaba.nacos.core.remote.grpc.negotiator.tls.ClusterDefaultTlsProtocolNegotiatorBuilder for type CLUSTER_DEFAULT_TLS
+
+2026-10-28 10:17:54,076 WARN Not found ProtocolNegotiatorBuilder for type nacos.remote.server.rpc.protocol.negotiator.type, will use default type nacos.remote.server.rpc.protocol.negotiator.type
+
+2026-10-28 10:17:54,080 WARN Recommended use 'nacos.remote.server.grpc.sdk.max-inbound-message-size' property instead 'nacos.remote.server.grpc.maxinbound.message.size', now property value is 10485760
+
+2026-10-28 10:17:54,082 INFO Ssl Context auto refresh is not supported.
+
+2026-10-28 10:17:54,082 INFO Ssl Context auto refresh is not supported.
+
+2026-10-28 10:17:54,082 INFO RpcServerSslContextRefresher initialization completed.
+
+2026-10-28 10:17:54,082 INFO Nacos GrpcSdkServer Rpc server started at port 9848
+
+2026-10-28 10:17:54,084 INFO Nacos GrpcClusterServer Rpc server starting at port 9849
+
+2026-10-28 10:17:54,085 WARN Not found ProtocolNegotiatorBuilder for type nacos.remote.cluster.server.rpc.protocol.negotiator.type, will use default type nacos.remote.cluster.server.rpc.protocol.negotiator.type
+
+2026-10-28 10:17:54,086 WARN Recommended use 'nacos.remote.server.grpc.cluster.max-inbound-message-size' property instead 'nacos.remote.server.grpc.maxinbound.message.size', now property value is 10485760
+
+2026-10-28 10:17:54,087 INFO Nacos GrpcClusterServer Rpc server started at port 9849
+
+2026-10-28 10:17:54,128 INFO [ClientConnectionEventListenerRegistry] registry listener - RpcAckCallbackInitorOrCleaner
+
+2026-10-28 10:18:38,075 INFO nacos has been loaded, class: com.alibaba.nacos.core.remote.grpc.ConnectionGeneratorServiceImpl
 

@@ -13,10 +13,11 @@ spring:
               lower-case-service-id: true
           trusted-proxies: ".*" # to enable the CORS
           routes:
-            - id: vue-js # Register frontend to gateway.
-              uri: http://[::1]:5173 # order-service is the application name
-              predicates:
-                - Path=/**
+#            - id: vue-js # Register frontend to gateway.
+#              uri: http://[::1]:5173 # order-service is the application name
+#              predicates:
+#                - Path=/**
+
           # To forward token to downstream service
           # spring.cloud.gateway.webflux.default-filters:
           #   - TokenRelay=Ï
@@ -55,10 +56,10 @@ management:
   endpoints:
     web:
       exposure:
-        include: "*"  # Exposes all endpoints before actuator over HTTP
+        include: 'health,info,gateway'
   endpoint:
-    health:
-      show-details: always  # Shows full disk, DB, and component health details
+    gateway:
+      access: read_only
 
 server:
   port: 8585

@@ -1,0 +1,66 @@
+2026-10-27 02:37:15,621 WARN clearHistoryConfig get scheduled
+
+2026-10-27 02:37:15,628 WARN clearHistoryConfig is enable in current context, try to run cleaner
+
+2026-10-27 02:37:15,629 WARN clearConfigHistory, getBeforeStamp:2026-09-27 02:37:15.0, pageSize:1000
+
+2026-10-27 02:37:15,633 WARN history config cleaner successfully
+
+2026-10-27 02:37:15,845 INFO [capacityManagement] start correct usage
+
+2026-10-27 02:37:16,065 INFO [capacityManagement] end correct usage, cost: 0.219705875s
+
+2026-10-27 06:45:41,981 WARN clearHistoryConfig get scheduled
+
+2026-10-27 06:45:41,982 WARN clearHistoryConfig is enable in current context, try to run cleaner
+
+2026-10-27 06:45:41,983 WARN clearConfigHistory, getBeforeStamp:2026-09-27 06:45:41.0, pageSize:1000
+
+2026-10-27 06:45:41,987 WARN history config cleaner successfully
+
+2026-10-27 06:45:42,411 INFO [capacityManagement] start correct usage
+
+2026-10-27 06:45:42,633 INFO [capacityManagement] end correct usage, cost: 0.2212525s
+
+2026-10-27 09:45:01,854 WARN clearHistoryConfig get scheduled
+
+2026-10-27 09:45:01,854 WARN clearHistoryConfig is enable in current context, try to run cleaner
+
+2026-10-27 09:45:01,855 WARN clearConfigHistory, getBeforeStamp:2026-09-27 09:45:01.0, pageSize:1000
+
+2026-10-27 09:45:01,859 WARN history config cleaner successfully
+
+2026-10-27 09:45:02,503 INFO [capacityManagement] start correct usage
+
+2026-10-27 09:45:02,718 INFO [capacityManagement] end correct usage, cost: 0.214138251s
+
+2026-10-27 09:48:17,260 INFO [NotifyCenter] Start destroying Publisher
+
+2026-10-27 09:48:17,261 INFO [ThreadPoolManager] Start destroying ThreadPool
+
+2026-10-27 09:48:17,264 INFO [NotifyCenter] Completed destruction of Publisher
+
+2026-10-27 09:48:17,263 INFO [HttpClientBeanHolder] Start destroying common HttpClient
+
+2026-10-27 09:48:17,263 WARN [WatchFileCenter] start close
+
+2026-10-27 09:48:17,266 WARN [WatchFileCenter] start to shutdown this watcher which is watch : /home/nacos/conf
+
+2026-10-27 09:48:17,267 INFO [HttpClientBeanHolder] Completed destruction of HttpClient
+
+2026-10-27 09:48:17,267 WARN [WatchFileCenter] already closed
+
+2026-10-27 09:48:17,271 INFO Commencing graceful shutdown. Waiting for active requests to complete
+
+2026-10-27 09:48:17,281 INFO Graceful shutdown complete
+
+2026-10-27 09:48:17,300 INFO Commencing graceful shutdown. Waiting for active requests to complete
+
+2026-10-27 09:48:17,301 INFO Graceful shutdown complete
+
+2026-10-27 09:48:17,351 INFO Shutdown managed channel: a120ca624b91:7848, ManagedChannelOrphanWrapper{delegate=ManagedChannelImpl{logId=4, target=a120ca624b91:7848}}.
+
+2026-10-27 09:48:17,352 INFO The channel a120ca624b91:7848 is in state: SHUTDOWN.
+
+2026-10-27 09:48:17,353 WARN This channel a120ca624b91:7848 has started shutting down. Any new RPCs should fail immediately.
+
