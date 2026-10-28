@@ -1,0 +1,20 @@
+2026-10-24 07:07:54,018 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_persistent_service/log from log index 11 to 11, cost 0 ms.
+
+2026-10-24 07:07:55,719 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/lock_acquire_service_v2/log from log index 11 to 11, cost 1 ms.
+
+2026-10-24 07:08:07,720 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/plugin_state/log from log index 11 to 11, cost 0 ms.
+
+2026-10-24 07:10:26,447 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_service_metadata/log from log index 11 to 11, cost 0 ms.
+
+2026-10-24 10:52:06,775 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_instance_metadata/log from log index 11 to 11, cost 0 ms.
+
+2026-10-24 11:12:11,615 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_persistent_service_v2/log from log index 11 to 11, cost 1 ms.
+
+2026-10-24 22:24:42,028 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_persistent_service/log from log index 11 to 11, cost 0 ms.
+
+2026-10-24 22:24:43,716 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/lock_acquire_service_v2/log from log index 11 to 11, cost 0 ms.
+
+2026-10-24 22:24:55,714 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/plugin_state/log from log index 11 to 11, cost 0 ms.
+
+2026-10-24 22:26:49,484 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_service_metadata/log from log index 11 to 11, cost 0 ms.
+

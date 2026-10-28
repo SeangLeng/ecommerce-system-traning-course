@@ -1,0 +1,302 @@
+2026-10-26 17:04:24,570 INFO SPI service [com.alipay.sofa.jraft.JRaftServiceFactory - com.alipay.sofa.jraft.core.DefaultJRaftServiceFactory] loading.
+
+2026-10-26 17:04:24,643 INFO SPI service [com.alipay.sofa.jraft.rpc.RaftRpcFactory - com.alibaba.nacos.core.distributed.raft.grpc.NacosGrpcRaftRpcFactory] loading.
+
+2026-10-26 17:04:25,004 INFO SPI service [com.alipay.sofa.jraft.util.JRaftSignalHandler - com.alipay.sofa.jraft.NodeDescribeSignalHandler] loading.
+
+2026-10-26 17:04:25,005 INFO SPI service [com.alipay.sofa.jraft.util.JRaftSignalHandler - com.alipay.sofa.jraft.NodeMetricsSignalHandler] loading.
+
+2026-10-26 17:04:25,006 INFO SPI service [com.alipay.sofa.jraft.util.JRaftSignalHandler - com.alipay.sofa.jraft.ThreadPoolMetricsSignalHandler] loading.
+
+2026-10-26 17:04:25,008 INFO SPI service [com.alipay.sofa.jraft.util.timer.RaftTimerFactory - com.alipay.sofa.jraft.util.timer.DefaultRaftTimerFactory] loading.
+
+2026-10-26 17:04:25,014 INFO The number of active nodes increment to 1.
+
+2026-10-26 17:04:25,200 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_persistent_service_v2/log from log index 0 to 11, cost 0 ms.
+
+2026-10-26 17:04:25,204 INFO Starts FSMCaller successfully.
+
+2026-10-26 17:04:25,211 INFO Loading snapshot, meta=last_included_index: 10
+last_included_term: 10
+peers: "a120ca624b91:7848"
+.
+
+2026-10-26 17:04:25,244 INFO Node <naming_persistent_service_v2/a120ca624b91:7848> onSnapshotLoadDone, last_included_index: 10
+last_included_term: 10
+peers: "a120ca624b91:7848"
+
+
+2026-10-26 17:04:25,244 INFO Node <naming_persistent_service_v2/a120ca624b91:7848> target priority value has changed from: 0, to: -1.
+
+2026-10-26 17:04:25,245 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_persistent_service_v2/log from log index 11 to 11, cost 0 ms.
+
+2026-10-26 17:04:25,246 INFO Node <naming_persistent_service_v2/a120ca624b91:7848> init ballot box's lastCommittedIndex=10.
+
+2026-10-26 17:04:25,252 INFO Node <naming_persistent_service_v2/a120ca624b91:7848> init, term=10, lastLogId=LogId [index=10, term=10], conf=a120ca624b91:7848, oldConf=.
+
+2026-10-26 17:04:25,254 INFO Node <naming_persistent_service_v2/a120ca624b91:7848> start vote and grant vote self, term=10.
+
+2026-10-26 17:04:25,261 INFO Save raft meta, path=/home/nacos/data/protocol/raft/naming_persistent_service_v2/meta-data, term=11, votedFor=a120ca624b91:7848, cost time=6 ms
+
+2026-10-26 17:04:25,262 INFO Node <naming_persistent_service_v2/a120ca624b91:7848> become leader of group, term=11, conf=a120ca624b91:7848, oldConf=.
+
+2026-10-26 17:04:25,264 INFO -Djraft.recyclers.maxCapacityPerThread: 4096.
+
+2026-10-26 17:04:25,266 INFO Start the RaftGroupService successfully.
+
+2026-10-26 17:04:25,276 INFO The number of active nodes increment to 2.
+
+2026-10-26 17:04:25,277 INFO onLeaderStart: term=11.
+
+2026-10-26 17:04:25,301 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_persistent_service/log from log index 0 to 11, cost 0 ms.
+
+2026-10-26 17:04:25,302 INFO Starts FSMCaller successfully.
+
+2026-10-26 17:04:25,306 INFO Loading snapshot, meta=last_included_index: 10
+last_included_term: 10
+peers: "a120ca624b91:7848"
+.
+
+2026-10-26 17:04:25,308 INFO Node <naming_persistent_service/a120ca624b91:7848> onSnapshotLoadDone, last_included_index: 10
+last_included_term: 10
+peers: "a120ca624b91:7848"
+
+
+2026-10-26 17:04:25,309 INFO Node <naming_persistent_service/a120ca624b91:7848> target priority value has changed from: 0, to: -1.
+
+2026-10-26 17:04:25,309 INFO Node <naming_persistent_service/a120ca624b91:7848> init ballot box's lastCommittedIndex=10.
+
+2026-10-26 17:04:25,310 INFO Node <naming_persistent_service/a120ca624b91:7848> init, term=10, lastLogId=LogId [index=10, term=10], conf=a120ca624b91:7848, oldConf=.
+
+2026-10-26 17:04:25,311 INFO Node <naming_persistent_service/a120ca624b91:7848> start vote and grant vote self, term=10.
+
+2026-10-26 17:04:25,311 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_persistent_service/log from log index 11 to 11, cost 0 ms.
+
+2026-10-26 17:04:25,312 INFO Save raft meta, path=/home/nacos/data/protocol/raft/naming_persistent_service/meta-data, term=11, votedFor=a120ca624b91:7848, cost time=1 ms
+
+2026-10-26 17:04:25,313 INFO Node <naming_persistent_service/a120ca624b91:7848> become leader of group, term=11, conf=a120ca624b91:7848, oldConf=.
+
+2026-10-26 17:04:25,313 INFO Start the RaftGroupService successfully.
+
+2026-10-26 17:04:25,314 INFO onLeaderStart: term=11.
+
+2026-10-26 17:04:25,324 INFO The number of active nodes increment to 3.
+
+2026-10-26 17:04:25,349 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_instance_metadata/log from log index 0 to 11, cost 1 ms.
+
+2026-10-26 17:04:25,349 INFO Starts FSMCaller successfully.
+
+2026-10-26 17:04:25,350 INFO Loading snapshot, meta=last_included_index: 10
+last_included_term: 10
+peers: "a120ca624b91:7848"
+.
+
+2026-10-26 17:04:25,354 INFO Node <naming_instance_metadata/a120ca624b91:7848> onSnapshotLoadDone, last_included_index: 10
+last_included_term: 10
+peers: "a120ca624b91:7848"
+
+
+2026-10-26 17:04:25,354 INFO Node <naming_instance_metadata/a120ca624b91:7848> target priority value has changed from: 0, to: -1.
+
+2026-10-26 17:04:25,354 INFO Node <naming_instance_metadata/a120ca624b91:7848> init ballot box's lastCommittedIndex=10.
+
+2026-10-26 17:04:25,355 INFO Node <naming_instance_metadata/a120ca624b91:7848> init, term=10, lastLogId=LogId [index=10, term=10], conf=a120ca624b91:7848, oldConf=.
+
+2026-10-26 17:04:25,356 INFO Node <naming_instance_metadata/a120ca624b91:7848> start vote and grant vote self, term=10.
+
+2026-10-26 17:04:25,357 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_instance_metadata/log from log index 11 to 11, cost 0 ms.
+
+2026-10-26 17:04:25,357 INFO Save raft meta, path=/home/nacos/data/protocol/raft/naming_instance_metadata/meta-data, term=11, votedFor=a120ca624b91:7848, cost time=1 ms
+
+2026-10-26 17:04:25,357 INFO Node <naming_instance_metadata/a120ca624b91:7848> become leader of group, term=11, conf=a120ca624b91:7848, oldConf=.
+
+2026-10-26 17:04:25,358 INFO Start the RaftGroupService successfully.
+
+2026-10-26 17:04:25,359 INFO onLeaderStart: term=11.
+
+2026-10-26 17:04:25,360 INFO The number of active nodes increment to 4.
+
+2026-10-26 17:04:25,384 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_service_metadata/log from log index 0 to 11, cost 0 ms.
+
+2026-10-26 17:04:25,385 INFO Starts FSMCaller successfully.
+
+2026-10-26 17:04:25,388 INFO Loading snapshot, meta=last_included_index: 10
+last_included_term: 10
+peers: "a120ca624b91:7848"
+.
+
+2026-10-26 17:04:25,389 INFO Node <naming_service_metadata/a120ca624b91:7848> onSnapshotLoadDone, last_included_index: 10
+last_included_term: 10
+peers: "a120ca624b91:7848"
+
+
+2026-10-26 17:04:25,390 INFO Node <naming_service_metadata/a120ca624b91:7848> target priority value has changed from: 0, to: -1.
+
+2026-10-26 17:04:25,390 INFO Node <naming_service_metadata/a120ca624b91:7848> init ballot box's lastCommittedIndex=10.
+
+2026-10-26 17:04:25,391 INFO Node <naming_service_metadata/a120ca624b91:7848> init, term=10, lastLogId=LogId [index=10, term=10], conf=a120ca624b91:7848, oldConf=.
+
+2026-10-26 17:04:25,391 INFO Node <naming_service_metadata/a120ca624b91:7848> start vote and grant vote self, term=10.
+
+2026-10-26 17:04:25,392 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_service_metadata/log from log index 11 to 11, cost 0 ms.
+
+2026-10-26 17:04:25,394 INFO Save raft meta, path=/home/nacos/data/protocol/raft/naming_service_metadata/meta-data, term=11, votedFor=a120ca624b91:7848, cost time=3 ms
+
+2026-10-26 17:04:25,394 INFO Node <naming_service_metadata/a120ca624b91:7848> become leader of group, term=11, conf=a120ca624b91:7848, oldConf=.
+
+2026-10-26 17:04:25,395 INFO Start the RaftGroupService successfully.
+
+2026-10-26 17:04:25,400 INFO onLeaderStart: term=11.
+
+2026-10-26 17:04:26,156 INFO The number of active nodes increment to 5.
+
+2026-10-26 17:04:26,173 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/lock_acquire_service_v2/log from log index 0 to 11, cost 1 ms.
+
+2026-10-26 17:04:26,174 INFO Starts FSMCaller successfully.
+
+2026-10-26 17:04:26,176 INFO Loading snapshot, meta=last_included_index: 10
+last_included_term: 10
+peers: "a120ca624b91:7848"
+.
+
+2026-10-26 17:04:26,177 INFO Node <lock_acquire_service_v2/a120ca624b91:7848> onSnapshotLoadDone, last_included_index: 10
+last_included_term: 10
+peers: "a120ca624b91:7848"
+
+
+2026-10-26 17:04:26,177 INFO Node <lock_acquire_service_v2/a120ca624b91:7848> target priority value has changed from: 0, to: -1.
+
+2026-10-26 17:04:26,177 INFO Node <lock_acquire_service_v2/a120ca624b91:7848> init ballot box's lastCommittedIndex=10.
+
+2026-10-26 17:04:26,178 INFO Node <lock_acquire_service_v2/a120ca624b91:7848> init, term=10, lastLogId=LogId [index=10, term=10], conf=a120ca624b91:7848, oldConf=.
+
+2026-10-26 17:04:26,178 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/lock_acquire_service_v2/log from log index 11 to 11, cost 0 ms.
+
+2026-10-26 17:04:26,179 INFO Node <lock_acquire_service_v2/a120ca624b91:7848> start vote and grant vote self, term=10.
+
+2026-10-26 17:04:26,180 INFO Save raft meta, path=/home/nacos/data/protocol/raft/lock_acquire_service_v2/meta-data, term=11, votedFor=a120ca624b91:7848, cost time=1 ms
+
+2026-10-26 17:04:26,180 INFO Node <lock_acquire_service_v2/a120ca624b91:7848> become leader of group, term=11, conf=a120ca624b91:7848, oldConf=.
+
+2026-10-26 17:04:26,180 INFO Start the RaftGroupService successfully.
+
+2026-10-26 17:04:26,184 INFO onLeaderStart: term=11.
+
+2026-10-26 17:04:26,231 INFO The number of active nodes increment to 6.
+
+2026-10-26 17:04:26,249 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/plugin_state/log from log index 0 to 11, cost 0 ms.
+
+2026-10-26 17:04:26,250 INFO Starts FSMCaller successfully.
+
+2026-10-26 17:04:26,254 INFO Loading snapshot, meta=last_included_index: 10
+last_included_term: 10
+peers: "a120ca624b91:7848"
+.
+
+2026-10-26 17:04:26,256 INFO Node <plugin_state/a120ca624b91:7848> onSnapshotLoadDone, last_included_index: 10
+last_included_term: 10
+peers: "a120ca624b91:7848"
+
+
+2026-10-26 17:04:26,256 INFO Node <plugin_state/a120ca624b91:7848> target priority value has changed from: 0, to: -1.
+
+2026-10-26 17:04:26,257 INFO Node <plugin_state/a120ca624b91:7848> init ballot box's lastCommittedIndex=10.
+
+2026-10-26 17:04:26,257 INFO Node <plugin_state/a120ca624b91:7848> init, term=10, lastLogId=LogId [index=10, term=10], conf=a120ca624b91:7848, oldConf=.
+
+2026-10-26 17:04:26,257 INFO Node <plugin_state/a120ca624b91:7848> start vote and grant vote self, term=10.
+
+2026-10-26 17:04:26,258 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/plugin_state/log from log index 11 to 11, cost 0 ms.
+
+2026-10-26 17:04:26,260 INFO Save raft meta, path=/home/nacos/data/protocol/raft/plugin_state/meta-data, term=11, votedFor=a120ca624b91:7848, cost time=2 ms
+
+2026-10-26 17:04:26,260 INFO Node <plugin_state/a120ca624b91:7848> become leader of group, term=11, conf=a120ca624b91:7848, oldConf=.
+
+2026-10-26 17:04:26,261 INFO Start the RaftGroupService successfully.
+
+2026-10-26 17:04:26,263 INFO onLeaderStart: term=11.
+
+2026-10-26 17:23:38,854 INFO Deleting snapshot /home/nacos/data/protocol/raft/naming_persistent_service/snapshot/snapshot_11.
+
+2026-10-26 17:23:38,854 INFO Renaming /home/nacos/data/protocol/raft/naming_persistent_service/snapshot/temp to /home/nacos/data/protocol/raft/naming_persistent_service/snapshot/snapshot_11.
+
+2026-10-26 17:23:38,854 INFO Deleting snapshot /home/nacos/data/protocol/raft/naming_persistent_service/snapshot/snapshot_10.
+
+2026-10-26 17:23:38,856 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_persistent_service/log from log index 11 to 11, cost 0 ms.
+
+2026-10-26 17:28:49,768 INFO Deleting snapshot /home/nacos/data/protocol/raft/plugin_state/snapshot/snapshot_11.
+
+2026-10-26 17:28:49,768 INFO Renaming /home/nacos/data/protocol/raft/plugin_state/snapshot/temp to /home/nacos/data/protocol/raft/plugin_state/snapshot/snapshot_11.
+
+2026-10-26 17:28:49,769 INFO Deleting snapshot /home/nacos/data/protocol/raft/plugin_state/snapshot/snapshot_10.
+
+2026-10-26 17:28:49,771 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/plugin_state/log from log index 11 to 11, cost 0 ms.
+
+2026-10-26 17:31:08,203 INFO Deleting snapshot /home/nacos/data/protocol/raft/naming_service_metadata/snapshot/snapshot_11.
+
+2026-10-26 17:31:08,203 INFO Renaming /home/nacos/data/protocol/raft/naming_service_metadata/snapshot/temp to /home/nacos/data/protocol/raft/naming_service_metadata/snapshot/snapshot_11.
+
+2026-10-26 17:31:08,204 INFO Deleting snapshot /home/nacos/data/protocol/raft/naming_service_metadata/snapshot/snapshot_10.
+
+2026-10-26 17:31:08,206 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_service_metadata/log from log index 11 to 11, cost 0 ms.
+
+2026-10-26 17:31:28,033 INFO Deleting snapshot /home/nacos/data/protocol/raft/lock_acquire_service_v2/snapshot/snapshot_11.
+
+2026-10-26 17:31:28,033 INFO Renaming /home/nacos/data/protocol/raft/lock_acquire_service_v2/snapshot/temp to /home/nacos/data/protocol/raft/lock_acquire_service_v2/snapshot/snapshot_11.
+
+2026-10-26 17:31:28,034 INFO Deleting snapshot /home/nacos/data/protocol/raft/lock_acquire_service_v2/snapshot/snapshot_10.
+
+2026-10-26 17:31:28,035 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/lock_acquire_service_v2/log from log index 11 to 11, cost 0 ms.
+
+2026-10-26 17:33:45,852 INFO Deleting snapshot /home/nacos/data/protocol/raft/naming_instance_metadata/snapshot/snapshot_11.
+
+2026-10-26 17:33:45,853 INFO Renaming /home/nacos/data/protocol/raft/naming_instance_metadata/snapshot/temp to /home/nacos/data/protocol/raft/naming_instance_metadata/snapshot/snapshot_11.
+
+2026-10-26 17:33:45,854 INFO Deleting snapshot /home/nacos/data/protocol/raft/naming_instance_metadata/snapshot/snapshot_10.
+
+2026-10-26 17:33:45,856 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_instance_metadata/log from log index 11 to 11, cost 0 ms.
+
+2026-10-26 17:34:46,857 INFO Deleting snapshot /home/nacos/data/protocol/raft/naming_persistent_service_v2/snapshot/snapshot_11.
+
+2026-10-26 17:34:46,858 INFO Renaming /home/nacos/data/protocol/raft/naming_persistent_service_v2/snapshot/temp to /home/nacos/data/protocol/raft/naming_persistent_service_v2/snapshot/snapshot_11.
+
+2026-10-26 17:34:46,858 INFO Deleting snapshot /home/nacos/data/protocol/raft/naming_persistent_service_v2/snapshot/snapshot_10.
+
+2026-10-26 17:34:46,860 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_persistent_service_v2/log from log index 11 to 11, cost 0 ms.
+
+2026-10-26 17:53:38,854 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_persistent_service/log from log index 11 to 12, cost 0 ms.
+
+2026-10-26 17:58:49,761 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/plugin_state/log from log index 11 to 12, cost 0 ms.
+
+2026-10-26 18:01:08,205 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_service_metadata/log from log index 11 to 12, cost 0 ms.
+
+2026-10-26 18:01:28,036 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/lock_acquire_service_v2/log from log index 11 to 12, cost 0 ms.
+
+2026-10-26 18:03:45,854 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_instance_metadata/log from log index 11 to 12, cost 0 ms.
+
+2026-10-26 18:04:46,863 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_persistent_service_v2/log from log index 11 to 12, cost 1 ms.
+
+2026-10-26 18:23:38,868 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_persistent_service/log from log index 12 to 12, cost 0 ms.
+
+2026-10-26 18:28:49,774 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/plugin_state/log from log index 12 to 12, cost 1 ms.
+
+2026-10-26 18:31:08,216 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_service_metadata/log from log index 12 to 12, cost 0 ms.
+
+2026-10-26 18:31:28,047 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/lock_acquire_service_v2/log from log index 12 to 12, cost 0 ms.
+
+2026-10-26 18:33:45,867 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_instance_metadata/log from log index 12 to 12, cost 0 ms.
+
+2026-10-26 18:34:46,877 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_persistent_service_v2/log from log index 12 to 12, cost 0 ms.
+
+2026-10-26 18:53:38,881 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_persistent_service/log from log index 12 to 12, cost 0 ms.
+
+2026-10-26 18:58:49,793 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/plugin_state/log from log index 12 to 12, cost 0 ms.
+
+2026-10-26 19:01:08,234 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_service_metadata/log from log index 12 to 12, cost 0 ms.
+
+2026-10-26 19:01:28,065 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/lock_acquire_service_v2/log from log index 12 to 12, cost 0 ms.
+
+2026-10-26 19:03:45,884 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_instance_metadata/log from log index 12 to 12, cost 0 ms.
+
+2026-10-26 19:04:46,887 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_persistent_service_v2/log from log index 12 to 12, cost 0 ms.
+

@@ -12,13 +12,17 @@ spring:
               enabled: true # can set false when used routes.
               lower-case-service-id: true
           trusted-proxies: ".*" # to enable the CORS
-    #          routes:
-#            - id: order-service
-#              uri: lb://order-service # order-service is the application name
-#              predicates:
-#                - Path=/order-service/**
-#              filters:
-#                - RewritePath=/order-service/?(?<segment>.*), /$\{segment}
+          routes:
+            - id: vue-js # Register frontend to gateway.
+              uri: http://[::1]:5173 # order-service is the application name
+              predicates:
+                - Path=/**
+          # To forward token to downstream service
+          # spring.cloud.gateway.webflux.default-filters:
+          #   - TokenRelay=Ï
+          default-filters:
+            - SaveSession
+            - TokenRelay=
     nacos:
       username: nacos
       password: Leng@123
@@ -42,6 +46,10 @@ spring:
               - profile
             authorization-grant-type: authorization_code
             redirect-uri: "http://localhost:8585/login/oauth2/code/ecommerce-postman"
+  data:
+    redis:
+      host: localhost
+      port: 6379
 
 management:
   endpoints:

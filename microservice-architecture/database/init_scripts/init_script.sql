@@ -3,3 +3,4 @@ create database db_payment OWNER ecommerce_usr;
 create database db_business OWNER ecommerce_usr;
 create database db_customer OWNER ecommerce_usr;
 create database db_keycloak OWNER ecommerce_usr;
+create database db_user OWNER ecommerce_usr;

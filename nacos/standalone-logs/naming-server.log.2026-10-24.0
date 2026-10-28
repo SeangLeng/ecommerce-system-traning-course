@@ -1,0 +1,140 @@
+2026-10-24 00:20:23,897 INFO Client connection 1792771103395_192.168.65.1_51619 disconnect, remove instances and subscribers
+
+2026-10-24 00:20:23,898 WARN [fuzzy-watch] service change matched,service key dev@@DEFAULT_GROUP@@user-main,changed type DELETE_SERVICE 
+
+2026-10-24 00:20:23,899 INFO Client connection 1792751822070_192.168.65.1_59709 disconnect, remove instances and subscribers
+
+2026-10-24 00:20:23,899 WARN [fuzzy-watch] service change matched,service key dev@@DEFAULT_GROUP@@business-service,changed type DELETE_SERVICE 
+
+2026-10-24 00:20:23,901 INFO Client connection 1792767792023_192.168.65.1_60043 disconnect, remove instances and subscribers
+
+2026-10-24 00:20:23,902 WARN [fuzzy-watch] service change matched,service key dev@@DEFAULT_GROUP@@gateway-service,changed type DELETE_SERVICE 
+
+2026-10-24 00:20:23,906 INFO Client connection 1792772423900_192.168.65.1_65339 connect
+
+2026-10-24 00:20:23,912 INFO Client connection 1792772423907_192.168.65.1_52259 connect
+
+2026-10-24 00:20:23,913 INFO Client connection 1792772423908_192.168.65.1_49026 connect
+
+2026-10-24 00:20:26,765 INFO Client change for service Service{namespace='dev', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=6}, 1792772423907_192.168.65.1_52259
+
+2026-10-24 00:20:26,765 INFO Client change for service Service{namespace='dev', group='DEFAULT_GROUP', name='user-main', ephemeral=true, revision=8}, 1792772423900_192.168.65.1_65339
+
+2026-10-24 00:20:26,765 WARN [fuzzy-watch] service change matched,service key dev@@DEFAULT_GROUP@@gateway-service,changed type ADD_SERVICE 
+
+2026-10-24 00:20:26,765 WARN [fuzzy-watch] service change matched,service key dev@@DEFAULT_GROUP@@user-main,changed type ADD_SERVICE 
+
+2026-10-24 00:20:26,768 INFO Client change for service Service{namespace='dev', group='DEFAULT_GROUP', name='business-service', ephemeral=true, revision=4}, 1792772423908_192.168.65.1_49026
+
+2026-10-24 00:20:26,769 WARN [fuzzy-watch] service change matched,service key dev@@DEFAULT_GROUP@@business-service,changed type ADD_SERVICE 
+
+2026-10-24 02:20:35,467 INFO Client connection 1792758781470_192.168.65.1_51523 disconnect, remove instances and subscribers
+
+2026-10-24 02:20:35,468 WARN [fuzzy-watch] service change matched,service key dev@@DEFAULT_GROUP@@customer-service,changed type DELETE_SERVICE 
+
+2026-10-24 02:20:35,482 INFO Client connection 1792779635477_192.168.65.1_37922 connect
+
+2026-10-24 02:20:37,900 INFO Client change for service Service{namespace='dev', group='DEFAULT_GROUP', name='customer-service', ephemeral=true, revision=6}, 1792779635477_192.168.65.1_37922
+
+2026-10-24 02:20:37,902 WARN [fuzzy-watch] service change matched,service key dev@@DEFAULT_GROUP@@customer-service,changed type ADD_SERVICE 
+
+2026-10-24 05:53:30,294 INFO Client connection 1792779635477_192.168.65.1_37922 disconnect, remove instances and subscribers
+
+2026-10-24 05:53:30,295 WARN [fuzzy-watch] service change matched,service key dev@@DEFAULT_GROUP@@customer-service,changed type DELETE_SERVICE 
+
+2026-10-24 05:53:30,308 INFO Client connection 1792792410304_192.168.65.1_51280 connect
+
+2026-10-24 05:53:32,453 INFO Client change for service Service{namespace='dev', group='DEFAULT_GROUP', name='customer-service', ephemeral=true, revision=8}, 1792792410304_192.168.65.1_51280
+
+2026-10-24 05:53:32,455 WARN [fuzzy-watch] service change matched,service key dev@@DEFAULT_GROUP@@customer-service,changed type ADD_SERVICE 
+
+2026-10-24 08:10:02,908 INFO Client connection 1792792410304_192.168.65.1_51280 disconnect, remove instances and subscribers
+
+2026-10-24 08:10:02,908 WARN [fuzzy-watch] service change matched,service key dev@@DEFAULT_GROUP@@customer-service,changed type DELETE_SERVICE 
+
+2026-10-24 08:10:02,914 INFO Client connection 1792800602912_192.168.65.1_43527 connect
+
+2026-10-24 08:10:04,765 INFO Client change for service Service{namespace='dev', group='DEFAULT_GROUP', name='customer-service', ephemeral=true, revision=10}, 1792800602912_192.168.65.1_43527
+
+2026-10-24 08:10:04,765 WARN [fuzzy-watch] service change matched,service key dev@@DEFAULT_GROUP@@customer-service,changed type ADD_SERVICE 
+
+2026-10-24 09:10:34,871 INFO Client connection 1792772423907_192.168.65.1_52259 disconnect, remove instances and subscribers
+
+2026-10-24 09:10:34,872 WARN [fuzzy-watch] service change matched,service key dev@@DEFAULT_GROUP@@gateway-service,changed type DELETE_SERVICE 
+
+2026-10-24 09:10:34,884 INFO Client connection 1792804234880_192.168.65.1_38809 connect
+
+2026-10-24 09:10:36,523 INFO Client change for service Service{namespace='dev', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=8}, 1792804234880_192.168.65.1_38809
+
+2026-10-24 09:10:36,524 WARN [fuzzy-watch] service change matched,service key dev@@DEFAULT_GROUP@@gateway-service,changed type ADD_SERVICE 
+
+2026-10-24 10:33:26,154 INFO Client connection 1792804234880_192.168.65.1_38809 disconnect, remove instances and subscribers
+
+2026-10-24 10:33:26,155 WARN [fuzzy-watch] service change matched,service key dev@@DEFAULT_GROUP@@gateway-service,changed type DELETE_SERVICE 
+
+2026-10-24 10:33:26,165 INFO Client connection 1792809206161_192.168.65.1_64344 connect
+
+2026-10-24 10:33:27,431 INFO Client change for service Service{namespace='dev', group='DEFAULT_GROUP', name='gateway-service', ephemeral=true, revision=10}, 1792809206161_192.168.65.1_64344
+
+2026-10-24 10:33:27,431 WARN [fuzzy-watch] service change matched,service key dev@@DEFAULT_GROUP@@gateway-service,changed type ADD_SERVICE 
+
+2026-10-24 10:51:58,845 INFO Client connection 1792770083059_192.168.65.1_24735 disconnect, remove instances and subscribers
+
+2026-10-24 10:51:58,845 WARN [fuzzy-watch] service change matched,service key dev@@DEFAULT_GROUP@@order-service,changed type DELETE_SERVICE 
+
+2026-10-24 10:51:58,850 INFO Client connection 1792810318848_192.168.65.1_53864 connect
+
+2026-10-24 10:51:59,973 INFO Client change for service Service{namespace='dev', group='DEFAULT_GROUP', name='order-service', ephemeral=true, revision=8}, 1792810318848_192.168.65.1_53864
+
+2026-10-24 10:51:59,975 WARN [fuzzy-watch] service change matched,service key dev@@DEFAULT_GROUP@@order-service,changed type ADD_SERVICE 
+
+2026-10-24 11:12:08,349 INFO Client connection 1792772423900_192.168.65.1_65339 disconnect, remove instances and subscribers
+
+2026-10-24 11:12:08,352 WARN [fuzzy-watch] service change matched,service key dev@@DEFAULT_GROUP@@user-main,changed type DELETE_SERVICE 
+
+2026-10-24 11:12:08,377 INFO Client connection 1792811528367_192.168.65.1_21760 connect
+
+2026-10-24 11:12:09,395 INFO Client change for service Service{namespace='dev', group='DEFAULT_GROUP', name='user-main', ephemeral=true, revision=10}, 1792811528367_192.168.65.1_21760
+
+2026-10-24 11:12:09,396 WARN [fuzzy-watch] service change matched,service key dev@@DEFAULT_GROUP@@user-main,changed type ADD_SERVICE 
+
+2026-10-24 15:54:53,470 INFO Client connection 1792811528367_192.168.65.1_21760 disconnect, remove instances and subscribers
+
+2026-10-24 15:54:53,470 WARN [fuzzy-watch] service change matched,service key dev@@DEFAULT_GROUP@@user-main,changed type DELETE_SERVICE 
+
+2026-10-24 15:54:53,482 INFO Client connection 1792828493478_192.168.65.1_48301 connect
+
+2026-10-24 15:54:53,581 INFO Client change for service Service{namespace='dev', group='DEFAULT_GROUP', name='user-main', ephemeral=true, revision=12}, 1792828493478_192.168.65.1_48301
+
+2026-10-24 15:54:53,581 WARN [fuzzy-watch] service change matched,service key dev@@DEFAULT_GROUP@@user-main,changed type ADD_SERVICE 
+
+2026-10-24 16:18:39,607 INFO Client connection 1792828493478_192.168.65.1_48301 disconnect, remove instances and subscribers
+
+2026-10-24 16:18:39,607 WARN [fuzzy-watch] service change matched,service key dev@@DEFAULT_GROUP@@user-main,changed type DELETE_SERVICE 
+
+2026-10-24 16:18:39,616 INFO Client connection 1792829919613_192.168.65.1_19568 connect
+
+2026-10-24 16:18:42,583 INFO Client change for service Service{namespace='dev', group='DEFAULT_GROUP', name='user-main', ephemeral=true, revision=14}, 1792829919613_192.168.65.1_19568
+
+2026-10-24 16:18:42,585 WARN [fuzzy-watch] service change matched,service key dev@@DEFAULT_GROUP@@user-main,changed type ADD_SERVICE 
+
+2026-10-24 18:42:52,445 INFO Client connection 1792829919613_192.168.65.1_19568 disconnect, remove instances and subscribers
+
+2026-10-24 18:42:52,446 WARN [fuzzy-watch] service change matched,service key dev@@DEFAULT_GROUP@@user-main,changed type DELETE_SERVICE 
+
+2026-10-24 18:42:52,453 INFO Client connection 1792838572450_192.168.65.1_39437 connect
+
+2026-10-24 18:42:55,198 INFO Client change for service Service{namespace='dev', group='DEFAULT_GROUP', name='user-main', ephemeral=true, revision=16}, 1792838572450_192.168.65.1_39437
+
+2026-10-24 18:42:55,198 WARN [fuzzy-watch] service change matched,service key dev@@DEFAULT_GROUP@@user-main,changed type ADD_SERVICE 
+
+2026-10-24 22:00:55,082 INFO Client connection 1792761300845_192.168.65.1_37394 disconnect, remove instances and subscribers
+
+2026-10-24 22:00:55,084 WARN [fuzzy-watch] service change matched,service key dev@@DEFAULT_GROUP@@payment-service,changed type DELETE_SERVICE 
+
+2026-10-24 22:00:55,098 INFO Client connection 1792850455094_192.168.65.1_37010 connect
+
+2026-10-24 22:00:57,307 INFO Client change for service Service{namespace='dev', group='DEFAULT_GROUP', name='payment-service', ephemeral=true, revision=6}, 1792850455094_192.168.65.1_37010
+
+2026-10-24 22:00:57,308 WARN [fuzzy-watch] service change matched,service key dev@@DEFAULT_GROUP@@payment-service,changed type ADD_SERVICE 
+

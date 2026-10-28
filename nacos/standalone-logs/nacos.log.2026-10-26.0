@@ -1,0 +1,842 @@
+2026-10-26 17:04:18,874 INFO Starting NacosBootstrap v3.2.4 using Java 17.0.20 with PID 1 (/home/nacos/target/nacos-server.jar started by root in /home/nacos)
+
+2026-10-26 17:04:18,877 INFO The following 1 profile is active: "standalone"
+
+2026-10-26 17:04:19,046 INFO Load Nacos package exclude filter success, package prefix com.alibaba.nacos.plugin.auth.impl, filter com.alibaba.nacos.plugin.auth.impl.config.AuthImplPackageExcludeFilter
+
+2026-10-26 17:04:19,046 INFO Load Nacos package exclude filter success, package prefix com.alibaba.nacos.console, filter com.alibaba.nacos.console.config.ConsolePackageExcludeFilter
+
+2026-10-26 17:04:19,047 INFO Load Nacos package exclude filter success, package prefix com.alibaba.nacos.config.server, filter com.alibaba.nacos.config.server.filter.ConfigEnabledFilter
+
+2026-10-26 17:04:19,048 INFO Load Nacos package exclude filter success, package prefix com.alibaba.nacos.naming, filter com.alibaba.nacos.naming.config.NamingEnabledFilter
+
+2026-10-26 17:04:19,048 INFO Load Nacos package exclude filter success, package prefix com.alibaba.nacos.ai, filter com.alibaba.nacos.ai.config.AiEnabledFilter
+
+2026-10-26 17:04:19,049 INFO Load Nacos package exclude filter success, package prefix com.alibaba.nacos.istio, filter com.alibaba.nacos.istio.config.IstioEnabledFilter
+
+2026-10-26 17:04:19,049 INFO Load Nacos package exclude filter success, package prefix com.alibaba.nacos.k8s.sync, filter com.alibaba.nacos.k8s.sync.K8sSyncEnabledFilter
+
+2026-10-26 17:04:19,049 INFO Load Nacos package exclude filter success, package prefix com.alibaba.nacos.airegistry, filter com.alibaba.nacos.airegistry.config.AiRegistryPackageExcludeFilter
+
+2026-10-26 17:04:19,428 INFO Skip @SpringBootApplication annotation for class com.alibaba.nacos.bootstrap.NacosBootstrap to avoid duplicate scan
+
+2026-10-26 17:04:19,430 INFO Skip @SpringBootApplication annotation for class com.alibaba.nacos.Nacos to avoid duplicate scan
+
+2026-10-26 17:04:19,432 INFO Skip @SpringBootApplication annotation for class com.alibaba.nacos.console.NacosConsole to avoid duplicate scan
+
+2026-10-26 17:04:19,467 INFO Skip @SpringBootApplication annotation for class com.alibaba.nacos.config.server.Config to avoid duplicate scan
+
+2026-10-26 17:04:19,530 INFO Skip @SpringBootApplication annotation for class com.alibaba.nacos.naming.NamingApp to avoid duplicate scan
+
+2026-10-26 17:04:19,551 INFO Skip @SpringBootApplication annotation for class com.alibaba.nacos.cmdb.CmdbApp to avoid duplicate scan
+
+2026-10-26 17:04:19,624 INFO Skip @SpringBootApplication annotation for class com.alibaba.nacos.istio.IstioApp to avoid duplicate scan
+
+2026-10-26 17:04:19,625 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2026-10-26 17:04:19,626 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2026-10-26 17:04:19,626 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2026-10-26 17:04:19,626 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2026-10-26 17:04:19,626 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2026-10-26 17:04:19,627 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2026-10-26 17:04:19,627 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2026-10-26 17:04:19,627 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2026-10-26 17:04:19,627 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2026-10-26 17:04:19,627 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2026-10-26 17:04:19,627 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2026-10-26 17:04:19,628 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2026-10-26 17:04:19,628 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2026-10-26 17:04:19,628 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2026-10-26 17:04:19,628 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2026-10-26 17:04:19,628 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2026-10-26 17:04:19,628 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2026-10-26 17:04:19,629 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2026-10-26 17:04:19,629 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2026-10-26 17:04:19,629 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2026-10-26 17:04:19,629 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2026-10-26 17:04:19,629 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2026-10-26 17:04:19,629 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2026-10-26 17:04:19,630 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2026-10-26 17:04:19,630 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2026-10-26 17:04:19,630 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2026-10-26 17:04:19,630 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2026-10-26 17:04:19,630 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2026-10-26 17:04:19,630 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2026-10-26 17:04:19,630 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2026-10-26 17:04:19,630 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2026-10-26 17:04:19,631 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2026-10-26 17:04:19,631 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2026-10-26 17:04:19,631 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2026-10-26 17:04:19,631 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2026-10-26 17:04:19,631 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2026-10-26 17:04:19,631 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2026-10-26 17:04:19,631 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2026-10-26 17:04:19,631 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2026-10-26 17:04:19,631 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2026-10-26 17:04:19,632 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2026-10-26 17:04:19,632 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2026-10-26 17:04:19,632 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2026-10-26 17:04:19,632 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2026-10-26 17:04:19,632 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2026-10-26 17:04:19,633 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2026-10-26 17:04:19,633 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2026-10-26 17:04:19,633 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2026-10-26 17:04:19,633 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2026-10-26 17:04:19,633 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2026-10-26 17:04:19,634 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2026-10-26 17:04:19,634 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2026-10-26 17:04:19,634 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2026-10-26 17:04:19,634 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2026-10-26 17:04:19,634 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2026-10-26 17:04:19,635 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2026-10-26 17:04:19,635 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2026-10-26 17:04:19,635 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2026-10-26 17:04:19,635 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2026-10-26 17:04:19,635 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2026-10-26 17:04:19,635 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2026-10-26 17:04:19,636 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2026-10-26 17:04:19,636 WARN Istio module disabled because set nacos.extension.naming.istio.enabled as false
+
+2026-10-26 17:04:19,647 INFO Skip @SpringBootApplication annotation for class com.alibaba.nacos.prometheus.PrometheusApp to avoid duplicate scan
+
+2026-10-26 17:04:19,652 WARN K8s Sync module disabled because set nacos.k8s.sync.enabled as false
+
+2026-10-26 17:04:19,653 WARN K8s Sync module disabled because set nacos.k8s.sync.enabled as false
+
+2026-10-26 17:04:19,653 WARN K8s Sync module disabled because set nacos.k8s.sync.enabled as false
+
+2026-10-26 17:04:19,653 WARN K8s Sync module disabled because set nacos.k8s.sync.enabled as false
+
+2026-10-26 17:04:19,654 WARN K8s Sync module disabled because set nacos.k8s.sync.enabled as false
+
+2026-10-26 17:04:19,655 WARN K8s Sync module disabled because set nacos.k8s.sync.enabled as false
+
+2026-10-26 17:04:19,655 WARN K8s Sync module disabled because set nacos.k8s.sync.enabled as false
+
+2026-10-26 17:04:19,697 INFO Skip @SpringBootApplication annotation for class com.alibaba.nacos.NacosServerWebApplication to avoid duplicate scan
+
+2026-10-26 17:04:19,698 INFO Skip @SpringBootApplication annotation for class com.alibaba.nacos.airegistry.NacosAiRegistry to avoid duplicate scan
+
+2026-10-26 17:04:19,872 INFO Nacos Server is starting...
+
+2026-10-26 17:04:20,873 INFO Nacos Server is starting...
+
+2026-10-26 17:04:21,194 INFO HikariPool-1 - Starting...
+
+2026-10-26 17:04:21,207 WARN Registered driver with driverClassName=org.apache.derby.jdbc.EmbeddedDriver was not found, trying direct instantiation.
+
+2026-10-26 17:04:21,345 INFO HikariPool-1 - Driver does not support get/set network timeout for connections. (Feature not implemented: No details.)
+
+2026-10-26 17:04:21,348 INFO HikariPool-1 - Start completed.
+
+2026-10-26 17:04:21,578 INFO [MapperManager] Load Mapper(class com.alibaba.nacos.plugin.datasource.impl.derby.ConfigInfoBetaMapperByDerby) datasource(derby) tableName(config_info_beta) successfully.
+
+2026-10-26 17:04:21,578 INFO [MapperManager] Load Mapper(class com.alibaba.nacos.plugin.datasource.impl.derby.ConfigInfoMapperByDerby) datasource(derby) tableName(config_info) successfully.
+
+2026-10-26 17:04:21,578 INFO [MapperManager] Load Mapper(class com.alibaba.nacos.plugin.datasource.impl.derby.ConfigInfoTagMapperByDerby) datasource(derby) tableName(config_info_tag) successfully.
+
+2026-10-26 17:04:21,578 INFO [MapperManager] Load Mapper(class com.alibaba.nacos.plugin.datasource.impl.derby.ConfigInfoGrayMapperByDerby) datasource(derby) tableName(config_info_gray) successfully.
+
+2026-10-26 17:04:21,578 INFO [MapperManager] Load Mapper(class com.alibaba.nacos.plugin.datasource.impl.derby.ConfigInfoTagsRelationMapperByDerby) datasource(derby) tableName(config_tags_relation) successfully.
+
+2026-10-26 17:04:21,578 INFO [MapperManager] Load Mapper(class com.alibaba.nacos.plugin.datasource.impl.derby.HistoryConfigInfoMapperByDerby) datasource(derby) tableName(his_config_info) successfully.
+
+2026-10-26 17:04:21,578 INFO [MapperManager] Load Mapper(class com.alibaba.nacos.plugin.datasource.impl.derby.TenantInfoMapperByDerby) datasource(derby) tableName(tenant_info) successfully.
+
+2026-10-26 17:04:21,578 INFO [MapperManager] Load Mapper(class com.alibaba.nacos.plugin.datasource.impl.derby.TenantCapacityMapperByDerby) datasource(derby) tableName(tenant_capacity) successfully.
+
+2026-10-26 17:04:21,578 INFO [MapperManager] Load Mapper(class com.alibaba.nacos.plugin.datasource.impl.derby.GroupCapacityMapperByDerby) datasource(derby) tableName(group_capacity) successfully.
+
+2026-10-26 17:04:21,578 INFO [MapperManager] Load Mapper(class com.alibaba.nacos.plugin.datasource.impl.derby.ConfigMigrateMapperByDerby) datasource(derby) tableName(migrate_config) successfully.
+
+2026-10-26 17:04:21,579 INFO [MapperManager] Load Mapper(class com.alibaba.nacos.plugin.datasource.impl.derby.AiResourceMapperByDerby) datasource(derby) tableName(ai_resource) successfully.
+
+2026-10-26 17:04:21,579 INFO [MapperManager] Load Mapper(class com.alibaba.nacos.plugin.datasource.impl.derby.AiResourceVersionMapperByDerby) datasource(derby) tableName(ai_resource_version) successfully.
+
+2026-10-26 17:04:21,579 INFO [MapperManager] Load Mapper(class com.alibaba.nacos.plugin.datasource.impl.mysql.ConfigInfoBetaMapperByMySql) datasource(mysql) tableName(config_info_beta) successfully.
+
+2026-10-26 17:04:21,579 INFO [MapperManager] Load Mapper(class com.alibaba.nacos.plugin.datasource.impl.mysql.ConfigInfoMapperByMySql) datasource(mysql) tableName(config_info) successfully.
+
+2026-10-26 17:04:21,579 INFO [MapperManager] Load Mapper(class com.alibaba.nacos.plugin.datasource.impl.mysql.ConfigInfoTagMapperByMySql) datasource(mysql) tableName(config_info_tag) successfully.
+
+2026-10-26 17:04:21,579 INFO [MapperManager] Load Mapper(class com.alibaba.nacos.plugin.datasource.impl.mysql.ConfigInfoGrayMapperByMySql) datasource(mysql) tableName(config_info_gray) successfully.
+
+2026-10-26 17:04:21,579 INFO [MapperManager] Load Mapper(class com.alibaba.nacos.plugin.datasource.impl.mysql.ConfigTagsRelationMapperByMySql) datasource(mysql) tableName(config_tags_relation) successfully.
+
+2026-10-26 17:04:21,579 INFO [MapperManager] Load Mapper(class com.alibaba.nacos.plugin.datasource.impl.mysql.HistoryConfigInfoMapperByMySql) datasource(mysql) tableName(his_config_info) successfully.
+
+2026-10-26 17:04:21,579 INFO [MapperManager] Load Mapper(class com.alibaba.nacos.plugin.datasource.impl.mysql.TenantInfoMapperByMySql) datasource(mysql) tableName(tenant_info) successfully.
+
+2026-10-26 17:04:21,579 INFO [MapperManager] Load Mapper(class com.alibaba.nacos.plugin.datasource.impl.mysql.TenantCapacityMapperByMySql) datasource(mysql) tableName(tenant_capacity) successfully.
+
+2026-10-26 17:04:21,579 INFO [MapperManager] Load Mapper(class com.alibaba.nacos.plugin.datasource.impl.mysql.GroupCapacityMapperByMysql) datasource(mysql) tableName(group_capacity) successfully.
+
+2026-10-26 17:04:21,579 INFO [MapperManager] Load Mapper(class com.alibaba.nacos.plugin.datasource.impl.mysql.ConfigMigrateMapperByMysql) datasource(mysql) tableName(migrate_config) successfully.
+
+2026-10-26 17:04:21,579 INFO [MapperManager] Load Mapper(class com.alibaba.nacos.plugin.datasource.impl.mysql.AiResourceMapperByMySql) datasource(mysql) tableName(ai_resource) successfully.
+
+2026-10-26 17:04:21,579 INFO [MapperManager] Load Mapper(class com.alibaba.nacos.plugin.datasource.impl.mysql.AiResourceVersionMapperByMySql) datasource(mysql) tableName(ai_resource_version) successfully.
+
+2026-10-26 17:04:21,579 INFO [MapperManager] Load Mapper(class com.alibaba.nacos.plugin.datasource.impl.oracle.ConfigInfoBetaMapperByOracle) datasource(oracle) tableName(config_info_beta) successfully.
+
+2026-10-26 17:04:21,579 INFO [MapperManager] Load Mapper(class com.alibaba.nacos.plugin.datasource.impl.oracle.ConfigInfoMapperByOracle) datasource(oracle) tableName(config_info) successfully.
+
+2026-10-26 17:04:21,579 INFO [MapperManager] Load Mapper(class com.alibaba.nacos.plugin.datasource.impl.oracle.ConfigInfoTagMapperByOracle) datasource(oracle) tableName(config_info_tag) successfully.
+
+2026-10-26 17:04:21,580 INFO [MapperManager] Load Mapper(class com.alibaba.nacos.plugin.datasource.impl.oracle.ConfigInfoGrayMapperByOracle) datasource(oracle) tableName(config_info_gray) successfully.
+
+2026-10-26 17:04:21,580 INFO [MapperManager] Load Mapper(class com.alibaba.nacos.plugin.datasource.impl.oracle.ConfigTagsRelationMapperByOracle) datasource(oracle) tableName(config_tags_relation) successfully.
+
+2026-10-26 17:04:21,580 INFO [MapperManager] Load Mapper(class com.alibaba.nacos.plugin.datasource.impl.oracle.HistoryConfigInfoMapperByOracle) datasource(oracle) tableName(his_config_info) successfully.
+
+2026-10-26 17:04:21,580 INFO [MapperManager] Load Mapper(class com.alibaba.nacos.plugin.datasource.impl.oracle.TenantInfoMapperByOracle) datasource(oracle) tableName(tenant_info) successfully.
+
+2026-10-26 17:04:21,580 INFO [MapperManager] Load Mapper(class com.alibaba.nacos.plugin.datasource.impl.oracle.TenantCapacityMapperByOracle) datasource(oracle) tableName(tenant_capacity) successfully.
+
+2026-10-26 17:04:21,580 INFO [MapperManager] Load Mapper(class com.alibaba.nacos.plugin.datasource.impl.oracle.GroupCapacityMapperByOracle) datasource(oracle) tableName(group_capacity) successfully.
+
+2026-10-26 17:04:21,580 INFO [MapperManager] Load Mapper(class com.alibaba.nacos.plugin.datasource.impl.oracle.ConfigMigrateMapperByOracle) datasource(oracle) tableName(migrate_config) successfully.
+
+2026-10-26 17:04:21,580 INFO [MapperManager] Load Mapper(class com.alibaba.nacos.plugin.datasource.impl.oracle.AiResourceMapperByOracle) datasource(oracle) tableName(ai_resource) successfully.
+
+2026-10-26 17:04:21,580 INFO [MapperManager] Load Mapper(class com.alibaba.nacos.plugin.datasource.impl.oracle.AiResourceVersionMapperByOracle) datasource(oracle) tableName(ai_resource_version) successfully.
+
+2026-10-26 17:04:21,580 INFO [MapperManager] Load Mapper(class com.alibaba.nacos.plugin.datasource.impl.postgresql.ConfigInfoBetaMapperByPostgresql) datasource(postgresql) tableName(config_info_beta) successfully.
+
+2026-10-26 17:04:21,580 INFO [MapperManager] Load Mapper(class com.alibaba.nacos.plugin.datasource.impl.postgresql.ConfigInfoMapperByPostgresql) datasource(postgresql) tableName(config_info) successfully.
+
+2026-10-26 17:04:21,580 INFO [MapperManager] Load Mapper(class com.alibaba.nacos.plugin.datasource.impl.postgresql.ConfigInfoTagMapperByPostgresql) datasource(postgresql) tableName(config_info_tag) successfully.
+
+2026-10-26 17:04:21,580 INFO [MapperManager] Load Mapper(class com.alibaba.nacos.plugin.datasource.impl.postgresql.ConfigInfoGrayMapperByPostgresql) datasource(postgresql) tableName(config_info_gray) successfully.
+
+2026-10-26 17:04:21,580 INFO [MapperManager] Load Mapper(class com.alibaba.nacos.plugin.datasource.impl.postgresql.ConfigTagsRelationMapperByPostgresql) datasource(postgresql) tableName(config_tags_relation) successfully.
+
+2026-10-26 17:04:21,580 INFO [MapperManager] Load Mapper(class com.alibaba.nacos.plugin.datasource.impl.postgresql.GroupCapacityMapperByPostgresql) datasource(postgresql) tableName(group_capacity) successfully.
+
+2026-10-26 17:04:21,580 INFO [MapperManager] Load Mapper(class com.alibaba.nacos.plugin.datasource.impl.postgresql.HistoryConfigInfoMapperByPostgresql) datasource(postgresql) tableName(his_config_info) successfully.
+
+2026-10-26 17:04:21,580 INFO [MapperManager] Load Mapper(class com.alibaba.nacos.plugin.datasource.impl.postgresql.TenantCapacityMapperByPostgresql) datasource(postgresql) tableName(tenant_capacity) successfully.
+
+2026-10-26 17:04:21,581 INFO [MapperManager] Load Mapper(class com.alibaba.nacos.plugin.datasource.impl.postgresql.TenantInfoMapperByPostgresql) datasource(postgresql) tableName(tenant_info) successfully.
+
+2026-10-26 17:04:21,581 INFO [MapperManager] Load Mapper(class com.alibaba.nacos.plugin.datasource.impl.postgresql.ConfigMigrateMapperByPostgresql) datasource(postgresql) tableName(migrate_config) successfully.
+
+2026-10-26 17:04:21,581 INFO [MapperManager] Load Mapper(class com.alibaba.nacos.plugin.datasource.impl.postgresql.AiResourceMapperByPostgresql) datasource(postgresql) tableName(ai_resource) successfully.
+
+2026-10-26 17:04:21,581 INFO [MapperManager] Load Mapper(class com.alibaba.nacos.plugin.datasource.impl.postgresql.AiResourceVersionMapperByPostgresql) datasource(postgresql) tableName(ai_resource_version) successfully.
+
+2026-10-26 17:04:21,646 INFO ConfigQueryHandlerChain has been initialized successfully with chain: nacos
+
+2026-10-26 17:04:21,871 INFO Nacos-related cluster resource initialization
+
+2026-10-26 17:04:21,875 INFO Nacos Server is starting...
+
+2026-10-26 17:04:21,878 INFO Load com.alibaba.nacos.naming.ability.NamingAbilityInitializer for ServerAbilityInitializer
+
+2026-10-26 17:04:21,878 INFO Load com.alibaba.nacos.core.ability.RemoteAbilityInitializer for ServerAbilityInitializer
+
+2026-10-26 17:04:21,884 INFO The cluster resource is initialized
+
+2026-10-26 17:04:21,976 INFO Get configCompatible config from env, ConfigCompatibleConfig{namespaceCompatibleMode=true}
+
+2026-10-26 17:04:22,154 INFO [migrate] start migrate config namespace
+
+2026-10-26 17:04:22,191 INFO [migrate] migrating config namespace from empty to public, finished:0
+
+2026-10-26 17:04:22,222 INFO [migrate] syncing config namespace from empty to public, finished:0
+
+2026-10-26 17:04:22,256 INFO [migrate] syncing config namespace from public to empty, finished:0
+
+2026-10-26 17:04:22,261 INFO [migrate] migrating config gray namespace from empty to public, finished:0
+
+2026-10-26 17:04:22,266 INFO [migrate] syncing config gray namespace from empty to public, finished:0
+
+2026-10-26 17:04:22,267 INFO [migrate] syncing config gray namespace from public to empty, finished:0
+
+2026-10-26 17:04:22,267 INFO [migrate] finish migrate config namespacetotal time taken: 291 ms
+
+2026-10-26 17:04:22,420 INFO [ConfigCacheFactoryDelegate] Matched ConfigCacheFactory not found, Load Default NacosConfigCacheFactory successfully.
+
+2026-10-26 17:04:22,471 INFO [ConfigCachePostProcessorDelegate] Matched ConfigCachePostProcessor not found, load Default NacosConfigCachePostProcessor successfully
+
+2026-10-26 17:04:22,879 INFO Nacos Server is starting...
+
+2026-10-26 17:04:23,880 INFO Nacos Server is starting...
+
+2026-10-26 17:04:24,296 INFO Get historyConfigCleaner config from env, activeHistoryConfigCleaner{ activeHistoryConfigCleaner=nacos}
+
+2026-10-26 17:04:24,881 INFO Nacos Server is starting...
+
+2026-10-26 17:04:24,901 INFO Get NacosConsoleAuth config from env, NacosConsoleAuthConfig{authEnabled=true, nacosAuthSystemType='nacos'}
+
+2026-10-26 17:04:24,904 INFO Get NacosServerAdminAuth config from env, NacosServerAdminAuthConfig{authEnabled=true, nacosAuthSystemType='nacos', serverIdentityKey='serverIdentity', serverIdentityValue='security'}
+
+2026-10-26 17:04:24,908 INFO Get NacosServerAuth config from env, NacosServerAuthConfig{authEnabled=false, nacosAuthSystemType='nacos', serverIdentityKey='serverIdentity', serverIdentityValue='security', authPluginProperties={nacos={token.expire.seconds=18000, token.secret.key=VGhpc0lzTXlDdXN0b21TZWNyZXRLZXkwMTIzNDU2Nzg=, token.cache.enable=false}}}
+
+2026-10-26 17:04:24,910 INFO Not found ServerIdentityChecker implementation from SPI, use default.
+
+2026-10-26 17:04:25,329 INFO Creating new channel to: a120ca624b91:7848.
+
+2026-10-26 17:04:25,342 INFO The channel a120ca624b91:7848 is in state: CONNECTING.
+
+2026-10-26 17:04:25,496 INFO [TracePluginManager] Load NacosTraceSubscriber(class com.alibaba.nacos.plugin.trace.ai.AiResourceTraceLogSubscriber) name(ai-resource-trace-log) successfully.
+
+2026-10-26 17:04:25,502 INFO The channel a120ca624b91:7848 is in state: READY.
+
+2026-10-26 17:04:25,503 INFO The channel a120ca624b91:7848 has successfully established.
+
+2026-10-26 17:04:25,563 INFO [settings] [maintainer-http-client] connect timeout:2000
+
+2026-10-26 17:04:25,563 INFO [settings] [maintainer-http-client] read timeout:5000
+
+2026-10-26 17:04:25,563 INFO [settings] [maintainer-http-client] max retry times:3
+
+2026-10-26 17:04:25,563 INFO [settings] [maintainer-http-client] auth refresh interval mills:5000
+
+2026-10-26 17:04:25,568 INFO [settings] [req-serv] nacos-server port:8848
+
+2026-10-26 17:04:25,569 INFO Load and match ServerListProvider com.alibaba.nacos.client.address.EndpointServerListProvider, match result: false
+
+2026-10-26 17:04:25,569 INFO Load and match ServerListProvider com.alibaba.nacos.client.address.PropertiesListProvider, match result: true
+
+2026-10-26 17:04:25,569 INFO Will use com.alibaba.nacos.client.address.PropertiesListProvider as ServerListProvider
+
+2026-10-26 17:04:25,574 INFO [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.console.handler.impl.remote.ConsoleMaintainerClientAuthPlugin success.
+
+2026-10-26 17:04:25,574 INFO [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+
+2026-10-26 17:04:25,574 INFO [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+
+2026-10-26 17:04:25,574 INFO [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.oidc.OidcClientAuthServiceImpl success.
+
+2026-10-26 17:04:25,577 INFO null No credential found
+
+2026-10-26 17:04:25,580 INFO Copilot config storage initialized with default serverAddr: 127.0.0.1:8848
+
+2026-10-26 17:04:25,595 ERROR [NACOS Exception] Server address: 127.0.0.1:8848, Error: Connection refused
+
+2026-10-26 17:04:25,696 ERROR [NACOS Exception] Server address: 127.0.0.1:8848, Error: Connection refused
+
+2026-10-26 17:04:25,798 ERROR [NACOS Exception] Server address: 127.0.0.1:8848, Error: Connection refused
+
+2026-10-26 17:04:25,886 INFO Nacos Server is starting...
+
+2026-10-26 17:04:25,901 ERROR [NACOS Exception] Server address: 127.0.0.1:8848, Error: Connection refused
+
+2026-10-26 17:04:26,002 INFO Copilot configuration refreshed
+
+2026-10-26 17:04:26,024 INFO Get PipelineConfig config from env, PipelineConfig{enabled=true, nodes=[skill-scanner]}
+
+2026-10-26 17:04:26,027 INFO [SkillScannerPipeline] skill-scanner 已就绪，插件已加载（静态扫描），command=/home/nacos/.venv/bin/skill-scanner
+
+2026-10-26 17:04:26,028 INFO Loaded pipeline plugin: skill-scanner
+
+2026-10-26 17:04:26,101 INFO Creating McpCacheIndex bean with maxSize=10000, expireTime=3600s, cleanupInterval=300s
+
+2026-10-26 17:04:26,104 INFO Creating ScheduledExecutorService for MCP cache with syncInterval=300s
+
+2026-10-26 17:04:26,104 INFO Creating CachedMcpServerIndex bean with cache enabled
+
+2026-10-26 17:04:26,106 INFO Cache sync task started with interval: 300s
+
+2026-10-26 17:04:26,106 INFO CachedMcpServerIndex initialized with cacheEnabled=true, syncInterval=300s
+
+2026-10-26 17:04:26,187 INFO Ready to get current node abilities...
+
+2026-10-26 17:04:26,188 INFO Ready to initialize current node abilities, support modes: [SDK_CLIENT]
+
+2026-10-26 17:04:26,189 INFO Initialize current abilities finish...
+
+2026-10-26 17:04:26,190 INFO Ready to get current node abilities...
+
+2026-10-26 17:04:26,191 INFO Ready to initialize current node abilities, support modes: [SERVER, CLUSTER_CLIENT, SDK_CLIENT]
+
+2026-10-26 17:04:26,191 INFO Initialize current abilities finish...
+
+2026-10-26 17:04:26,191 INFO [AbilityControlManager] Successfully initialize AbilityControlManager
+
+2026-10-26 17:04:26,256 INFO [PluginStateSnapshotOperation] Snapshot loaded: 0 states, 0 configs
+
+2026-10-26 17:04:26,262 INFO [StandalonePluginStateSynchronizer] Initialized in standalone mode
+
+2026-10-26 17:04:26,318 INFO [ANONYMOUS-INIT] AI anonymous access is disabled, skip initialization.
+
+2026-10-26 17:04:26,489 WARN The meter (MeterId{name='nacos_monitor', tags=[tag(group=plugin_state),tag(module=core),tag(name=raftLeaderStatus)]}) registration has failed: Prometheus requires that all meters with the same name have the same set of tag keys. There is already an existing meter named 'nacos_monitor' containing tag keys [module, name]. The meter you are attempting to register has keys [group, module, name]. Note that subsequent logs will be logged at debug level.
+
+2026-10-26 17:04:26,527 WARN Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+
+2026-10-26 17:04:26,888 INFO Nacos Server is starting...
+
+2026-10-26 17:04:26,939 INFO Registered AiResourceStorage: nacos_config
+
+2026-10-26 17:04:26,948 INFO Started NacosBootstrap in 9.02 seconds (process running for 9.56)
+
+2026-10-26 17:04:26,948 INFO Nacos started successfully in stand alone mode with embedded storage in 9007 ms
+
+2026-10-26 17:04:26,953 INFO Using PromptLegacyDataReader: nacos
+
+2026-10-26 17:04:26,963 INFO [PluginManager] Discovered 1 ai-pipeline plugins
+
+2026-10-26 17:04:26,963 INFO [PluginManager] Discovered 1 ai-storage plugins
+
+2026-10-26 17:04:26,967 INFO [VisibilityPluginManager] Loaded VisibilityService(class com.alibaba.nacos.plugin.auth.impl.DefaultAiVisibilityService:nacos) successfully.
+
+2026-10-26 17:04:26,968 INFO [PluginManager] Discovered 1 visibility plugins
+
+2026-10-26 17:04:26,972 INFO [AuthPluginManager] Load AuthPluginService(class com.alibaba.nacos.plugin.auth.impl.NacosAuthPluginService) AuthServiceName(nacos) successfully.
+
+2026-10-26 17:04:26,973 INFO [AuthPluginManager] Load AuthPluginService(class com.alibaba.nacos.plugin.auth.impl.LdapAuthPluginService) AuthServiceName(ldap) successfully.
+
+2026-10-26 17:04:26,973 INFO [AuthPluginManager] Load AuthPluginService(class com.alibaba.nacos.plugin.auth.impl.oidc.OidcAuthPluginService) AuthServiceName(oidc) successfully.
+
+2026-10-26 17:04:26,973 INFO [PluginManager] Discovered 3 auth plugins
+
+2026-10-26 17:04:26,973 INFO [PluginManager] Discovered 1 trace plugins
+
+2026-10-26 17:04:26,975 INFO [PluginManager] Discovered 1 control plugins
+
+2026-10-26 17:04:26,977 INFO [PluginManager] No plugins found for type: config-change
+
+2026-10-26 17:04:26,978 INFO [PluginManager] No plugins found for type: encryption
+
+2026-10-26 17:04:26,978 INFO [PluginManager] Discovered 4 datasource-dialect plugins
+
+2026-10-26 17:04:26,979 INFO [PluginManager] No plugins found for type: environment
+
+2026-10-26 17:04:26,980 INFO [PluginManager] Initialized, 12 plugins discovered
+
+2026-10-26 17:04:26,981 INFO No legacy prompt data found by reader 'nacos', skip migration
+
+2026-10-26 17:04:26,987 INFO Spring Environment's active profiles : [standalone] in standalone mode : true
+
+2026-10-26 17:04:27,010 INFO The following 1 profile is active: "standalone"
+
+2026-10-26 17:04:27,023 INFO Load Nacos package exclude filter success, package prefix com.alibaba.nacos.plugin.auth.impl, filter com.alibaba.nacos.plugin.auth.impl.config.AuthImplPackageExcludeFilter
+
+2026-10-26 17:04:27,023 INFO Load Nacos package exclude filter success, package prefix com.alibaba.nacos.console, filter com.alibaba.nacos.console.config.ConsolePackageExcludeFilter
+
+2026-10-26 17:04:27,023 INFO Load Nacos package exclude filter success, package prefix com.alibaba.nacos.config.server, filter com.alibaba.nacos.config.server.filter.ConfigEnabledFilter
+
+2026-10-26 17:04:27,023 INFO Load Nacos package exclude filter success, package prefix com.alibaba.nacos.naming, filter com.alibaba.nacos.naming.config.NamingEnabledFilter
+
+2026-10-26 17:04:27,023 INFO Load Nacos package exclude filter success, package prefix com.alibaba.nacos.ai, filter com.alibaba.nacos.ai.config.AiEnabledFilter
+
+2026-10-26 17:04:27,023 INFO Load Nacos package exclude filter success, package prefix com.alibaba.nacos.istio, filter com.alibaba.nacos.istio.config.IstioEnabledFilter
+
+2026-10-26 17:04:27,023 INFO Load Nacos package exclude filter success, package prefix com.alibaba.nacos.k8s.sync, filter com.alibaba.nacos.k8s.sync.K8sSyncEnabledFilter
+
+2026-10-26 17:04:27,023 INFO Load Nacos package exclude filter success, package prefix com.alibaba.nacos.airegistry, filter com.alibaba.nacos.airegistry.config.AiRegistryPackageExcludeFilter
+
+2026-10-26 17:04:27,658 WARN Skip duplicate built-in skill name `frontend-design` from archive path `github.com/pbakaus/impeccable/frontend-design`
+
+2026-10-26 17:04:27,680 WARN Bean 'nacosWebBeanPostProcessorConfiguration' of type [com.alibaba.nacos.server.NacosWebBeanPostProcessorConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [nacosDuplicateSpringBeanPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
+
+2026-10-26 17:04:27,680 INFO [CapacityManagement] Intercepting publishConfig operation for dataId: nacos.ai.skills.bootstrap, group: nacos_internal, namespaceId: public
+
+2026-10-26 17:04:27,684 INFO [CapacityManagement] Handling insert operation for group: nacos_internal, namespaceId: public
+
+2026-10-26 17:04:27,719 WARN Use unknown config change pointcut due to unknown source type: null, requestProtocol: null, requestTarget: null
+
+2026-10-26 17:04:27,762 INFO Get topN config from env, TopNConfig{enabled=true, topNCount=10, internalMs=0}
+
+2026-10-26 17:04:27,776 INFO Start built-in skill bootstrap in namespace `public`, total 180, missing 6, existing 174, concurrency 4
+
+2026-10-26 17:04:27,778 INFO Import built-in skill `ckm:banner-design` from `github.com/nextlevelbuilder/ui-ux-pro-max-skill/ckm-banner-design`
+
+2026-10-26 17:04:27,778 INFO Import built-in skill `ckm:brand` from `github.com/nextlevelbuilder/ui-ux-pro-max-skill/ckm-brand`
+
+2026-10-26 17:04:27,778 INFO Import built-in skill `ckm:design` from `github.com/nextlevelbuilder/ui-ux-pro-max-skill/ckm-design`
+
+2026-10-26 17:04:27,778 INFO Import built-in skill `ckm:design-system` from `github.com/nextlevelbuilder/ui-ux-pro-max-skill/ckm-design-system`
+
+2026-10-26 17:04:27,785 INFO Get ParamCheck config from env, ParamCheckConfig{paramCheckEnabled=true, activeParamChecker=default}
+
+2026-10-26 17:04:27,791 ERROR Failed to bootstrap built-in skill `ckm:design-system` from `github.com/nextlevelbuilder/ui-ux-pro-max-skill/ckm-design-system`
+
+ErrCode:400, ErrMsg:Skill name may only contain lowercase letters, numbers, and hyphens, and must not start or end with a hyphen
+	at com.alibaba.nacos.ai.service.skills.SkillOperationServiceImpl.validateSkillNameByParamChecker(SkillOperationServiceImpl.java:1289)
+	at com.alibaba.nacos.ai.service.skills.SkillOperationServiceImpl.bootstrapSkillFromZip(SkillOperationServiceImpl.java:263)
+	at com.alibaba.nacos.ai.config.SkillDataBootstrapInitializer.importBuiltInSkill(SkillDataBootstrapInitializer.java:208)
+	at com.alibaba.nacos.ai.config.SkillDataBootstrapInitializer.lambda$bootstrapBuiltInSkills$0(SkillDataBootstrapInitializer.java:166)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-10-26 17:04:27,791 ERROR Failed to bootstrap built-in skill `ckm:design` from `github.com/nextlevelbuilder/ui-ux-pro-max-skill/ckm-design`
+
+ErrCode:400, ErrMsg:Skill name may only contain lowercase letters, numbers, and hyphens, and must not start or end with a hyphen
+	at com.alibaba.nacos.ai.service.skills.SkillOperationServiceImpl.validateSkillNameByParamChecker(SkillOperationServiceImpl.java:1289)
+	at com.alibaba.nacos.ai.service.skills.SkillOperationServiceImpl.bootstrapSkillFromZip(SkillOperationServiceImpl.java:263)
+	at com.alibaba.nacos.ai.config.SkillDataBootstrapInitializer.importBuiltInSkill(SkillDataBootstrapInitializer.java:208)
+	at com.alibaba.nacos.ai.config.SkillDataBootstrapInitializer.lambda$bootstrapBuiltInSkills$0(SkillDataBootstrapInitializer.java:166)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-10-26 17:04:27,791 ERROR Failed to bootstrap built-in skill `ckm:brand` from `github.com/nextlevelbuilder/ui-ux-pro-max-skill/ckm-brand`
+
+ErrCode:400, ErrMsg:Skill name may only contain lowercase letters, numbers, and hyphens, and must not start or end with a hyphen
+	at com.alibaba.nacos.ai.service.skills.SkillOperationServiceImpl.validateSkillNameByParamChecker(SkillOperationServiceImpl.java:1289)
+	at com.alibaba.nacos.ai.service.skills.SkillOperationServiceImpl.bootstrapSkillFromZip(SkillOperationServiceImpl.java:263)
+	at com.alibaba.nacos.ai.config.SkillDataBootstrapInitializer.importBuiltInSkill(SkillDataBootstrapInitializer.java:208)
+	at com.alibaba.nacos.ai.config.SkillDataBootstrapInitializer.lambda$bootstrapBuiltInSkills$0(SkillDataBootstrapInitializer.java:166)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-10-26 17:04:27,791 ERROR Failed to bootstrap built-in skill `ckm:banner-design` from `github.com/nextlevelbuilder/ui-ux-pro-max-skill/ckm-banner-design`
+
+ErrCode:400, ErrMsg:Skill name may only contain lowercase letters, numbers, and hyphens, and must not start or end with a hyphen
+	at com.alibaba.nacos.ai.service.skills.SkillOperationServiceImpl.validateSkillNameByParamChecker(SkillOperationServiceImpl.java:1289)
+	at com.alibaba.nacos.ai.service.skills.SkillOperationServiceImpl.bootstrapSkillFromZip(SkillOperationServiceImpl.java:263)
+	at com.alibaba.nacos.ai.config.SkillDataBootstrapInitializer.importBuiltInSkill(SkillDataBootstrapInitializer.java:208)
+	at com.alibaba.nacos.ai.config.SkillDataBootstrapInitializer.lambda$bootstrapBuiltInSkills$0(SkillDataBootstrapInitializer.java:166)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-10-26 17:04:27,795 INFO Import built-in skill `ckm:slides` from `github.com/nextlevelbuilder/ui-ux-pro-max-skill/ckm-slides`
+
+2026-10-26 17:04:27,795 INFO Import built-in skill `ckm:ui-styling` from `github.com/nextlevelbuilder/ui-ux-pro-max-skill/ckm-ui-styling`
+
+2026-10-26 17:04:27,796 ERROR Failed to bootstrap built-in skill `ckm:slides` from `github.com/nextlevelbuilder/ui-ux-pro-max-skill/ckm-slides`
+
+ErrCode:400, ErrMsg:Skill name may only contain lowercase letters, numbers, and hyphens, and must not start or end with a hyphen
+	at com.alibaba.nacos.ai.service.skills.SkillOperationServiceImpl.validateSkillNameByParamChecker(SkillOperationServiceImpl.java:1289)
+	at com.alibaba.nacos.ai.service.skills.SkillOperationServiceImpl.bootstrapSkillFromZip(SkillOperationServiceImpl.java:263)
+	at com.alibaba.nacos.ai.config.SkillDataBootstrapInitializer.importBuiltInSkill(SkillDataBootstrapInitializer.java:208)
+	at com.alibaba.nacos.ai.config.SkillDataBootstrapInitializer.lambda$bootstrapBuiltInSkills$0(SkillDataBootstrapInitializer.java:166)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-10-26 17:04:27,838 ERROR Failed to bootstrap built-in skill `ckm:ui-styling` from `github.com/nextlevelbuilder/ui-ux-pro-max-skill/ckm-ui-styling`
+
+ErrCode:400, ErrMsg:Skill name may only contain lowercase letters, numbers, and hyphens, and must not start or end with a hyphen
+	at com.alibaba.nacos.ai.service.skills.SkillOperationServiceImpl.validateSkillNameByParamChecker(SkillOperationServiceImpl.java:1289)
+	at com.alibaba.nacos.ai.service.skills.SkillOperationServiceImpl.bootstrapSkillFromZip(SkillOperationServiceImpl.java:263)
+	at com.alibaba.nacos.ai.config.SkillDataBootstrapInitializer.importBuiltInSkill(SkillDataBootstrapInitializer.java:208)
+	at com.alibaba.nacos.ai.config.SkillDataBootstrapInitializer.lambda$bootstrapBuiltInSkills$0(SkillDataBootstrapInitializer.java:166)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-10-26 17:04:27,838 INFO Built-in skill bootstrap completed, imported 0, skipped 174, failed 6
+
+2026-10-26 17:04:27,838 WARN Built-in skill bootstrap still missing 6 skills: [ckm:banner-design, ckm:brand, ckm:design, ckm:design-system, ckm:slides, ckm:ui-styling]
+
+2026-10-26 17:04:27,839 INFO [CapacityManagement] Intercepting deleteConfig operation for dataId: nacos.ai.skills.bootstrap, group: nacos_internal, namespaceId: public
+
+2026-10-26 17:04:27,846 WARN Use unknown config change pointcut due to unknown source type: null, requestProtocol: null, requestTarget: null
+
+2026-10-26 17:04:27,894 INFO Tomcat initialized with port 8848 (http)
+
+2026-10-26 17:04:27,906 INFO Starting service [Tomcat]
+
+2026-10-26 17:04:27,907 INFO Starting Servlet engine: [Apache Tomcat/10.1.54]
+
+2026-10-26 17:04:27,937 INFO Initializing Spring embedded WebApplicationContext
+
+2026-10-26 17:04:27,937 INFO Root WebApplicationContext: initialization completed in 923 ms
+
+2026-10-26 17:04:27,939 INFO Skip built-in agentspec bootstrap because all bundled agentspecs already exist
+
+2026-10-26 17:04:28,011 INFO Nacos Server API is starting...
+
+2026-10-26 17:04:28,302 INFO Exposing 1 endpoint beneath base path '/actuator'
+
+2026-10-26 17:04:28,328 INFO Tomcat started on port 8848 (http) with context path '/nacos'
+
+2026-10-26 17:04:28,341 INFO Started NacosBootstrap in 1.359 seconds (process running for 10.953)
+
+2026-10-26 17:04:28,341 INFO Nacos Server API started successfully in 1358 ms
+
+2026-10-26 17:04:28,344 WARN This Gauge has been already registered (MeterId{name='application.started.time', tags=[tag(main.application.class=com.alibaba.nacos.bootstrap.NacosBootstrap)]}), the registration will be ignored. Note that subsequent logs will be logged at debug level.
+
+2026-10-26 17:04:28,344 INFO [PluginManager] Discovered 1 ai-pipeline plugins
+
+2026-10-26 17:04:28,345 INFO [PluginManager] Discovered 1 ai-storage plugins
+
+2026-10-26 17:04:28,345 INFO [PluginManager] Discovered 1 visibility plugins
+
+2026-10-26 17:04:28,345 INFO [PluginManager] Discovered 3 auth plugins
+
+2026-10-26 17:04:28,345 INFO [PluginManager] Discovered 1 trace plugins
+
+2026-10-26 17:04:28,345 INFO [PluginManager] Discovered 1 control plugins
+
+2026-10-26 17:04:28,345 INFO [PluginManager] No plugins found for type: config-change
+
+2026-10-26 17:04:28,345 INFO [PluginManager] No plugins found for type: encryption
+
+2026-10-26 17:04:28,345 INFO [PluginManager] Discovered 4 datasource-dialect plugins
+
+2026-10-26 17:04:28,346 INFO [PluginManager] No plugins found for type: environment
+
+2026-10-26 17:04:28,346 INFO [PluginManager] Initialized, 12 plugins discovered
+
+2026-10-26 17:04:28,348 INFO Spring Environment's active profiles : [standalone] in standalone mode : true
+
+2026-10-26 17:04:28,361 INFO The following 1 profile is active: "standalone"
+
+2026-10-26 17:04:28,608 WARN Bean 'nacosConsoleBeanPostProcessorConfiguration' of type [com.alibaba.nacos.console.config.NacosConsoleBeanPostProcessorConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [nacosDuplicateSpringBeanPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
+
+2026-10-26 17:04:28,625 INFO Tomcat initialized with port 8080 (http)
+
+2026-10-26 17:04:28,626 INFO Starting service [Tomcat]
+
+2026-10-26 17:04:28,626 INFO Starting Servlet engine: [Apache Tomcat/10.1.54]
+
+2026-10-26 17:04:28,628 INFO Initializing Spring embedded WebApplicationContext
+
+2026-10-26 17:04:28,628 INFO Root WebApplicationContext: initialization completed in 265 ms
+
+2026-10-26 17:04:28,789 INFO Exposing 1 endpoint beneath base path '/actuator'
+
+2026-10-26 17:04:28,796 INFO Tomcat started on port 8080 (http) with context path '/'
+
+2026-10-26 17:04:28,804 INFO Started NacosBootstrap in 0.457 seconds (process running for 11.416)
+
+2026-10-26 17:04:28,804 INFO Nacos Console started successfully in 457 ms
+
+2026-10-26 17:04:28,805 INFO [PluginManager] Discovered 1 ai-pipeline plugins
+
+2026-10-26 17:04:28,805 INFO [PluginManager] Discovered 1 ai-storage plugins
+
+2026-10-26 17:04:28,805 INFO [PluginManager] Discovered 1 visibility plugins
+
+2026-10-26 17:04:28,806 INFO [PluginManager] Discovered 3 auth plugins
+
+2026-10-26 17:04:28,806 INFO [PluginManager] Discovered 1 trace plugins
+
+2026-10-26 17:04:28,806 INFO [PluginManager] Discovered 1 control plugins
+
+2026-10-26 17:04:28,806 INFO [PluginManager] No plugins found for type: config-change
+
+2026-10-26 17:04:28,806 INFO [PluginManager] No plugins found for type: encryption
+
+2026-10-26 17:04:28,806 INFO [PluginManager] Discovered 4 datasource-dialect plugins
+
+2026-10-26 17:04:28,807 INFO [PluginManager] No plugins found for type: environment
+
+2026-10-26 17:04:28,807 INFO [PluginManager] Initialized, 12 plugins discovered
+
+2026-10-26 17:15:04,134 INFO [capacityManagement] start correct usage
+
+2026-10-26 17:15:04,376 INFO [capacityManagement] end correct usage, cost: 0.236640292s
+
+2026-10-26 17:15:06,805 WARN clearHistoryConfig get scheduled
+
+2026-10-26 17:15:06,805 WARN clearHistoryConfig is enable in current context, try to run cleaner
+
+2026-10-26 17:15:06,806 WARN clearConfigHistory, getBeforeStamp:2026-09-26 17:15:06.0, pageSize:1000
+
+2026-10-26 17:15:06,826 WARN history config cleaner successfully
+
+2026-10-26 17:25:04,379 INFO [capacityManagement] start correct usage
+
+2026-10-26 17:25:04,606 INFO [capacityManagement] end correct usage, cost: 0.225218041s
+
+2026-10-26 17:25:06,826 WARN clearHistoryConfig get scheduled
+
+2026-10-26 17:25:06,828 WARN clearHistoryConfig is enable in current context, try to run cleaner
+
+2026-10-26 17:25:06,829 WARN clearConfigHistory, getBeforeStamp:2026-09-26 17:25:06.0, pageSize:1000
+
+2026-10-26 17:25:06,833 WARN history config cleaner successfully
+
+2026-10-26 17:28:49,766 INFO [PluginStateSnapshotOperation] Snapshot saved: 0 states, 0 configs, success=true
+
+2026-10-26 17:35:04,611 INFO [capacityManagement] start correct usage
+
+2026-10-26 17:35:04,853 INFO [capacityManagement] end correct usage, cost: 0.241218708s
+
+2026-10-26 17:35:06,842 WARN clearHistoryConfig get scheduled
+
+2026-10-26 17:35:06,843 WARN clearHistoryConfig is enable in current context, try to run cleaner
+
+2026-10-26 17:35:06,844 WARN clearConfigHistory, getBeforeStamp:2026-09-26 17:35:06.0, pageSize:1000
+
+2026-10-26 17:35:06,849 WARN history config cleaner successfully
+
+2026-10-26 17:45:04,855 INFO [capacityManagement] start correct usage
+
+2026-10-26 17:45:05,080 INFO [capacityManagement] end correct usage, cost: 0.22466225s
+
+2026-10-26 17:45:06,852 WARN clearHistoryConfig get scheduled
+
+2026-10-26 17:45:06,853 WARN clearHistoryConfig is enable in current context, try to run cleaner
+
+2026-10-26 17:45:06,861 WARN clearConfigHistory, getBeforeStamp:2026-09-26 17:45:06.0, pageSize:1000
+
+2026-10-26 17:45:06,866 WARN history config cleaner successfully
+
+2026-10-26 17:55:05,084 INFO [capacityManagement] start correct usage
+
+2026-10-26 17:55:05,321 INFO [capacityManagement] end correct usage, cost: 0.235539792s
+
+2026-10-26 17:55:06,871 WARN clearHistoryConfig get scheduled
+
+2026-10-26 17:55:06,872 WARN clearHistoryConfig is enable in current context, try to run cleaner
+
+2026-10-26 17:55:06,873 WARN clearConfigHistory, getBeforeStamp:2026-09-26 17:55:06.0, pageSize:1000
+
+2026-10-26 17:55:06,876 WARN history config cleaner successfully
+
+2026-10-26 18:05:05,326 INFO [capacityManagement] start correct usage
+
+2026-10-26 18:05:05,554 INFO [capacityManagement] end correct usage, cost: 0.226876125s
+
+2026-10-26 18:05:06,882 WARN clearHistoryConfig get scheduled
+
+2026-10-26 18:05:06,883 WARN clearHistoryConfig is enable in current context, try to run cleaner
+
+2026-10-26 18:05:06,884 WARN clearConfigHistory, getBeforeStamp:2026-09-26 18:05:06.0, pageSize:1000
+
+2026-10-26 18:05:06,894 WARN history config cleaner successfully
+
+2026-10-26 18:15:05,556 INFO [capacityManagement] start correct usage
+
+2026-10-26 18:15:05,782 INFO [capacityManagement] end correct usage, cost: 0.225712s
+
+2026-10-26 18:15:06,897 WARN clearHistoryConfig get scheduled
+
+2026-10-26 18:15:06,898 WARN clearHistoryConfig is enable in current context, try to run cleaner
+
+2026-10-26 18:15:06,899 WARN clearConfigHistory, getBeforeStamp:2026-09-26 18:15:06.0, pageSize:1000
+
+2026-10-26 18:15:06,905 WARN history config cleaner successfully
+
+2026-10-26 18:25:05,791 INFO [capacityManagement] start correct usage
+
+2026-10-26 18:25:06,032 INFO [capacityManagement] end correct usage, cost: 0.240719042s
+
+2026-10-26 18:25:06,917 WARN clearHistoryConfig get scheduled
+
+2026-10-26 18:25:06,918 WARN clearHistoryConfig is enable in current context, try to run cleaner
+
+2026-10-26 18:25:06,920 WARN clearConfigHistory, getBeforeStamp:2026-09-26 18:25:06.0, pageSize:1000
+
+2026-10-26 18:25:06,921 WARN history config cleaner successfully
+
+2026-10-26 18:35:06,042 INFO [capacityManagement] start correct usage
+
+2026-10-26 18:35:06,270 INFO [capacityManagement] end correct usage, cost: 0.226777917s
+
+2026-10-26 18:35:06,927 WARN clearHistoryConfig get scheduled
+
+2026-10-26 18:35:06,927 WARN clearHistoryConfig is enable in current context, try to run cleaner
+
+2026-10-26 18:35:06,933 WARN clearConfigHistory, getBeforeStamp:2026-09-26 18:35:06.0, pageSize:1000
+
+2026-10-26 18:35:06,938 WARN history config cleaner successfully
+
+2026-10-26 18:45:06,273 INFO [capacityManagement] start correct usage
+
+2026-10-26 18:45:06,497 INFO [capacityManagement] end correct usage, cost: 0.222975959s
+
+2026-10-26 18:45:06,940 WARN clearHistoryConfig get scheduled
+
+2026-10-26 18:45:06,941 WARN clearHistoryConfig is enable in current context, try to run cleaner
+
+2026-10-26 18:45:06,941 WARN clearConfigHistory, getBeforeStamp:2026-09-26 18:45:06.0, pageSize:1000
+
+2026-10-26 18:45:06,943 WARN history config cleaner successfully
+
+2026-10-26 18:55:06,504 INFO [capacityManagement] start correct usage
+
+2026-10-26 18:55:06,747 INFO [capacityManagement] end correct usage, cost: 0.242211917s
+
+2026-10-26 18:55:06,955 WARN clearHistoryConfig get scheduled
+
+2026-10-26 18:55:06,959 WARN clearHistoryConfig is enable in current context, try to run cleaner
+
+2026-10-26 18:55:06,960 WARN clearConfigHistory, getBeforeStamp:2026-09-26 18:55:06.0, pageSize:1000
+
+2026-10-26 18:55:06,964 WARN history config cleaner successfully
+
+2026-10-26 19:05:06,753 INFO [capacityManagement] start correct usage
+
+2026-10-26 19:05:06,968 WARN clearHistoryConfig get scheduled
+
+2026-10-26 19:05:06,968 WARN clearHistoryConfig is enable in current context, try to run cleaner
+
+2026-10-26 19:05:06,969 WARN clearConfigHistory, getBeforeStamp:2026-09-26 19:05:06.0, pageSize:1000
+
+2026-10-26 19:05:06,973 WARN history config cleaner successfully
+
+2026-10-26 19:05:06,980 INFO [capacityManagement] end correct usage, cost: 0.226288708s
+
+2026-10-26 21:14:04,327 WARN clearHistoryConfig get scheduled
+
+2026-10-26 21:14:04,332 WARN clearHistoryConfig is enable in current context, try to run cleaner
+
+2026-10-26 21:14:04,333 WARN clearConfigHistory, getBeforeStamp:2026-09-26 21:14:04.0, pageSize:1000
+
+2026-10-26 21:14:04,328 INFO [capacityManagement] start correct usage
+
+2026-10-26 21:14:04,338 WARN history config cleaner successfully
+
+2026-10-26 21:14:04,559 INFO [capacityManagement] end correct usage, cost: 0.224869084s
+

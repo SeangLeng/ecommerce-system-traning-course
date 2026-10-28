@@ -1,0 +1,117 @@
+192.168.65.1 - - [23/Oct/2026:17:07:15 +0800] "POST /nacos/v3/auth/user/login?username=nacos HTTP/1.1" 200 192 409117 Java/25.0.2 -
+192.168.65.1 - - [23/Oct/2026:17:07:16 +0800] "POST /nacos/v3/auth/user/login?username=nacos HTTP/1.1" 200 192 155483 Java/25.0.2 -
+192.168.65.1 - - [23/Oct/2026:17:07:16 +0800] "POST /nacos/v3/auth/user/login?username=nacos HTTP/1.1" 200 192 87913 Java/25.0.2 -
+192.168.65.1 - - [23/Oct/2026:17:07:16 +0800] "POST /nacos/v3/auth/user/login?username=nacos HTTP/1.1" 200 192 100222 Java/25.0.2 -
+192.168.65.1 - - [23/Oct/2026:17:07:17 +0800] "POST /nacos/v3/auth/user/login?username=nacos HTTP/1.1" 200 192 88072 Java/25.0.2 -
+192.168.65.1 - - [23/Oct/2026:17:07:17 +0800] "POST /nacos/v3/auth/user/login?username=nacos HTTP/1.1" 200 192 84922 Java/25.0.2 -
+192.168.65.1 - - [23/Oct/2026:17:07:18 +0800] "POST /nacos/v3/auth/user/login?username=nacos HTTP/1.1" 200 192 86192 Java/25.0.2 -
+192.168.65.1 - - [23/Oct/2026:17:07:19 +0800] "POST /nacos/v3/auth/user/login?username=nacos HTTP/1.1" 200 192 83436 Java/25.0.2 -
+192.168.65.1 - - [23/Oct/2026:17:07:20 +0800] "POST /nacos/v3/auth/user/login?username=nacos HTTP/1.1" 200 192 96734 Java/25.0.2 -
+192.168.65.1 - - [23/Oct/2026:17:32:11 +0800] "POST /nacos/v3/auth/user/login?username=nacos HTTP/1.1" 200 192 93834 Java/25.0.2 -
+192.168.65.1 - - [23/Oct/2026:18:29:09 +0800] "POST /nacos/v3/auth/user/login?username=nacos HTTP/1.1" 200 192 85554 Java/25.0.2 -
+192.168.65.1 - - [23/Oct/2026:18:30:09 +0800] "POST /nacos/v3/auth/user/login?username=nacos HTTP/1.1" 200 192 84550 Java/25.0.2 -
+192.168.65.1 - - [23/Oct/2026:18:33:09 +0800] "POST /nacos/v3/auth/user/login?username=nacos HTTP/1.1" 200 192 89141 Java/25.0.2 -
+192.168.65.1 - - [23/Oct/2026:18:33:14 +0800] "POST /nacos/v3/auth/user/login?username=nacos HTTP/1.1" 200 192 86755 Java/25.0.2 -
+192.168.65.1 - - [23/Oct/2026:18:33:42 +0800] "POST /nacos/v3/auth/user/login?username=nacos HTTP/1.1" 200 192 90651 Java/25.0.2 -
+192.168.65.1 - - [23/Oct/2026:18:33:43 +0800] "POST /nacos/v3/auth/user/login?username=nacos HTTP/1.1" 200 192 87714 Java/25.0.2 -
+192.168.65.1 - - [23/Oct/2026:18:33:44 +0800] "POST /nacos/v3/auth/user/login?username=nacos HTTP/1.1" 200 192 86925 Java/25.0.2 -
+192.168.65.1 - - [23/Oct/2026:18:33:46 +0800] "POST /nacos/v3/auth/user/login?username=nacos HTTP/1.1" 200 192 84984 Java/25.0.2 -
+192.168.65.1 - - [23/Oct/2026:18:33:47 +0800] "POST /nacos/v3/auth/user/login?username=nacos HTTP/1.1" 200 192 90297 Java/25.0.2 -
+192.168.65.1 - - [23/Oct/2026:18:33:47 +0800] "POST /nacos/v3/auth/user/login?username=nacos HTTP/1.1" 200 192 84108 Java/25.0.2 -
+192.168.65.1 - - [23/Oct/2026:18:33:48 +0800] "POST /nacos/v3/auth/user/login?username=nacos HTTP/1.1" 200 192 95459 Java/25.0.2 -
+192.168.65.1 - - [23/Oct/2026:18:33:50 +0800] "POST /nacos/v3/auth/user/login?username=nacos HTTP/1.1" 200 192 90646 Java/25.0.2 -
+192.168.65.1 - - [23/Oct/2026:18:33:51 +0800] "POST /nacos/v3/auth/user/login?username=nacos HTTP/1.1" 200 192 90462 Java/25.0.2 -
+192.168.65.1 - - [23/Oct/2026:18:33:52 +0800] "POST /nacos/v3/auth/user/login?username=nacos HTTP/1.1" 200 192 95370 Java/25.0.2 -
+192.168.65.1 - - [23/Oct/2026:18:34:27 +0800] "POST /nacos/v3/auth/user/login?username=nacos HTTP/1.1" 200 192 82743 Java/25.0.2 -
+192.168.65.1 - - [23/Oct/2026:18:35:15 +0800] "POST /nacos/v3/auth/user/login?username=nacos HTTP/1.1" 200 192 84234 Java/25.0.2 -
+192.168.65.1 - - [23/Oct/2026:18:36:45 +0800] "POST /nacos/v3/auth/user/login?username=nacos HTTP/1.1" 200 192 89072 Java/25.0.2 -
+192.168.65.1 - - [23/Oct/2026:18:36:47 +0800] "POST /nacos/v3/auth/user/login?username=nacos HTTP/1.1" 200 192 83417 Java/25.0.2 -
+192.168.65.1 - - [23/Oct/2026:18:36:55 +0800] "POST /nacos/v3/auth/user/login?username=nacos HTTP/1.1" 200 192 82776 Java/25.0.2 -
+192.168.65.1 - - [23/Oct/2026:18:36:56 +0800] "POST /nacos/v3/auth/user/login?username=nacos HTTP/1.1" 200 192 82967 Java/25.0.2 -
+192.168.65.1 - - [23/Oct/2026:18:36:57 +0800] "POST /nacos/v3/auth/user/login?username=nacos HTTP/1.1" 200 192 84715 Java/25.0.2 -
+192.168.65.1 - - [23/Oct/2026:18:37:00 +0800] "POST /nacos/v3/auth/user/login?username=nacos HTTP/1.1" 200 192 100417 Java/25.0.2 -
+192.168.65.1 - - [23/Oct/2026:18:37:00 +0800] "POST /nacos/v3/auth/user/login?username=nacos HTTP/1.1" 200 192 90916 Java/25.0.2 -
+192.168.65.1 - - [23/Oct/2026:18:37:00 +0800] "POST /nacos/v3/auth/user/login?username=nacos HTTP/1.1" 200 192 84591 Java/25.0.2 -
+192.168.65.1 - - [23/Oct/2026:18:37:02 +0800] "POST /nacos/v3/auth/user/login?username=nacos HTTP/1.1" 200 192 84281 Java/25.0.2 -
+192.168.65.1 - - [23/Oct/2026:18:37:02 +0800] "POST /nacos/v3/auth/user/login?username=nacos HTTP/1.1" 200 192 88718 Java/25.0.2 -
+192.168.65.1 - - [23/Oct/2026:18:37:02 +0800] "POST /nacos/v3/auth/user/login?username=nacos HTTP/1.1" 200 192 83962 Java/25.0.2 -
+192.168.65.1 - - [23/Oct/2026:18:37:04 +0800] "POST /nacos/v3/auth/user/login?username=nacos HTTP/1.1" 200 192 79370 Java/25.0.2 -
+192.168.65.1 - - [23/Oct/2026:18:37:04 +0800] "POST /nacos/v3/auth/user/login?username=nacos HTTP/1.1" 200 192 88923 Java/25.0.2 -
+192.168.65.1 - - [23/Oct/2026:18:38:04 +0800] "GET / HTTP/1.1" 302 - 35588 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 -
+192.168.65.1 - - [23/Oct/2026:18:38:04 +0800] "GET /next/ HTTP/1.1" 200 1136 29899 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 -
+192.168.65.1 - - [23/Oct/2026:18:38:04 +0800] "GET /next/js/main.js HTTP/1.1" 200 22992 27863 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 -
+192.168.65.1 - - [23/Oct/2026:18:38:04 +0800] "GET /next/js/rolldown-runtime.js HTTP/1.1" 200 826 29699 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 -
+192.168.65.1 - - [23/Oct/2026:18:38:04 +0800] "GET /next/js/vendor-icons.js HTTP/1.1" 200 33593 30765 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 -
+192.168.65.1 - - [23/Oct/2026:18:38:04 +0800] "GET /next/js/vendor-react.js HTTP/1.1" 200 346663 31199 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 -
+192.168.65.1 - - [23/Oct/2026:18:38:04 +0800] "GET /next/css/main3.css HTTP/1.1" 200 145991 13619 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 -
+192.168.65.1 - - [23/Oct/2026:18:38:04 +0800] "GET /next/css/main2.css HTTP/1.1" 200 34024 9754 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 -
+192.168.65.1 - - [23/Oct/2026:18:38:04 +0800] "GET /next/css/main.css HTTP/1.1" 200 156117 7896 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 -
+192.168.65.1 - - [23/Oct/2026:18:38:04 +0800] "GET /next/js/client.js HTTP/1.1" 200 210588 4811 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 -
+192.168.65.1 - - [23/Oct/2026:18:38:04 +0800] "GET /next/js/vendor-markdown.js HTTP/1.1" 200 1675783 46704 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 -
+192.168.65.1 - - [23/Oct/2026:18:38:04 +0800] "GET /next/js/config.js HTTP/1.1" 200 2603 4774 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 -
+192.168.65.1 - - [23/Oct/2026:18:38:04 +0800] "GET /next/js/auth.js HTTP/1.1" 200 638 4569 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 -
+192.168.65.1 - - [23/Oct/2026:18:38:04 +0800] "GET /next/js/vendor-monaco.js HTTP/1.1" 200 4199155 64093 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 -
+192.168.65.1 - - [23/Oct/2026:18:38:04 +0800] "GET /next/img/nacos-icon.png HTTP/1.1" 200 1529 3388 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 -
+192.168.65.1 - - [23/Oct/2026:18:38:04 +0800] "GET /v3/console/server/state?username=nacos HTTP/1.1" 200 735 28296 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 -
+192.168.65.1 - - [23/Oct/2026:18:38:05 +0800] "GET /next/js/button.js HTTP/1.1" 200 1371 4026 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 -
+192.168.65.1 - - [23/Oct/2026:18:38:05 +0800] "GET /next/js/collapsible.js HTTP/1.1" 200 97 3995 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 -
+192.168.65.1 - - [23/Oct/2026:18:38:05 +0800] "GET /next/js/badge.js HTTP/1.1" 200 855 4254 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 -
+192.168.65.1 - - [23/Oct/2026:18:38:05 +0800] "GET /next/js/vendor-ui.js HTTP/1.1" 200 196791 4928 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 -
+192.168.65.1 - - [23/Oct/2026:18:38:05 +0800] "GET /next/js/AppLayout.js HTTP/1.1" 200 19840 7477 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 -
+192.168.65.1 - - [23/Oct/2026:18:38:05 +0800] "GET /next/js/label.js HTTP/1.1" 200 444 2537 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 -
+192.168.65.1 - - [23/Oct/2026:18:38:05 +0800] "GET /next/js/dropdown-menu.js HTTP/1.1" 200 3900 4060 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 -
+192.168.65.1 - - [23/Oct/2026:18:38:05 +0800] "GET /next/js/input.js HTTP/1.1" 200 675 4654 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 -
+192.168.65.1 - - [23/Oct/2026:18:38:05 +0800] "GET /next/js/scroll-area.js HTTP/1.1" 200 923 2801 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 -
+192.168.65.1 - - [23/Oct/2026:18:38:05 +0800] "GET /next/js/dialog.js HTTP/1.1" 200 2122 7084 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 -
+192.168.65.1 - - [23/Oct/2026:18:38:05 +0800] "GET /next/js/separator.js HTTP/1.1" 200 477 3907 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 -
+192.168.65.1 - - [23/Oct/2026:18:38:05 +0800] "GET /next/js/select.js HTTP/1.1" 200 3123 3793 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 -
+192.168.65.1 - - [23/Oct/2026:18:38:05 +0800] "GET /next/js/tooltip.js HTTP/1.1" 200 824 2867 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 -
+192.168.65.1 - - [23/Oct/2026:18:38:05 +0800] "GET /next/img/nacos-logo-dark.svg HTTP/1.1" 200 2109 6742 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 -
+192.168.65.1 - - [23/Oct/2026:18:38:05 +0800] "GET /v3/console/server/guide?username=nacos HTTP/1.1" 200 343 203684 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 -
+192.168.65.1 - - [23/Oct/2026:18:38:05 +0800] "GET /v3/console/server/state?username=nacos HTTP/1.1" 200 735 2404 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 -
+192.168.65.1 - - [23/Oct/2026:18:38:05 +0800] "GET /next/js/switch.js HTTP/1.1" 200 933 3323 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 -
+192.168.65.1 - - [23/Oct/2026:18:38:05 +0800] "GET /next/js/checkbox.js HTTP/1.1" 200 739 3696 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 -
+192.168.65.1 - - [23/Oct/2026:18:38:05 +0800] "GET /next/js/dayjs.min.js HTTP/1.1" 200 7175 4059 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 -
+192.168.65.1 - - [23/Oct/2026:18:38:05 +0800] "GET /next/js/ImportAiResourceDialog.js HTTP/1.1" 200 10778 3949 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 -
+192.168.65.1 - - [23/Oct/2026:18:38:05 +0800] "GET /next/js/skillManagement.js HTTP/1.1" 200 30856 6229 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 -
+192.168.65.1 - - [23/Oct/2026:18:38:05 +0800] "GET /next/js/McpToolSelector.js HTTP/1.1" 200 7714 4822 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 -
+192.168.65.1 - - [23/Oct/2026:18:38:05 +0800] "GET /next/js/toggle-group.js HTTP/1.1" 200 1600 4289 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 -
+192.168.65.1 - - [23/Oct/2026:18:38:05 +0800] "GET /next/js/card.js HTTP/1.1" 200 1061 5567 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 -
+192.168.65.1 - - [23/Oct/2026:18:38:05 +0800] "GET /next/js/mcp.js HTTP/1.1" 200 401 5633 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 -
+192.168.65.1 - - [23/Oct/2026:18:38:05 +0800] "GET /next/js/skeleton.js HTTP/1.1" 200 234 6099 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 -
+192.168.65.1 - - [23/Oct/2026:18:38:05 +0800] "GET /next/js/textarea.js HTTP/1.1" 200 604 2420 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 -
+192.168.65.1 - - [23/Oct/2026:18:38:05 +0800] "GET /next/js/skill.js HTTP/1.1" 200 295 4339 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 -
+192.168.65.1 - - [23/Oct/2026:18:38:05 +0800] "GET /next/js/tabs.js HTTP/1.1" 200 1213 6285 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 -
+192.168.65.1 - - [23/Oct/2026:18:38:05 +0800] "GET /v3/console/core/namespace/list?username=nacos HTTP/1.1" 403 85 31786 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 -
+192.168.65.1 - - [23/Oct/2026:18:38:05 +0800] "GET /next/js/login.js HTTP/1.1" 200 7852 3930 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 -
+192.168.65.1 - - [23/Oct/2026:18:38:05 +0800] "GET /next/img/nacos-logo.svg HTTP/1.1" 200 2106 2730 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 -
+192.168.65.1 - - [23/Oct/2026:18:38:05 +0800] "GET /v3/console/server/state HTTP/1.1" 200 735 6312 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 -
+192.168.65.1 - - [23/Oct/2026:18:38:05 +0800] "GET /v3/console/server/guide HTTP/1.1" 200 343 6311 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 -
+192.168.65.1 - - [23/Oct/2026:18:38:07 +0800] "POST /v3/auth/user/login HTTP/1.1" 200 192 101838 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 -
+192.168.65.1 - - [23/Oct/2026:18:38:07 +0800] "GET /v3/console/server/state?username=nacos HTTP/1.1" 200 735 2673 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 -
+192.168.65.1 - - [23/Oct/2026:18:38:07 +0800] "GET /v3/console/core/namespace/list?username=nacos HTTP/1.1" 200 399 33033 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 -
+192.168.65.1 - - [23/Oct/2026:18:38:07 +0800] "GET /v3/console/ai/skills/list?namespaceId=public&pageNo=1&pageSize=12&username=nacos HTTP/1.1" 200 6288 101472 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 -
+192.168.65.1 - - [23/Oct/2026:18:38:09 +0800] "GET /next/js/service.js HTTP/1.1" 200 711 3056 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 -
+192.168.65.1 - - [23/Oct/2026:18:38:09 +0800] "GET /next/js/table.js HTTP/1.1" 200 1712 4146 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 -
+192.168.65.1 - - [23/Oct/2026:18:38:09 +0800] "GET /next/js/service-store.js HTTP/1.1" 200 1758 3405 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 -
+192.168.65.1 - - [23/Oct/2026:18:38:09 +0800] "GET /next/js/serviceManagement.js HTTP/1.1" 200 10736 4452 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 -
+192.168.65.1 - - [23/Oct/2026:18:38:10 +0800] "GET /v3/console/ns/service/list?namespaceId=public&ignoreEmptyService=true&pageNo=1&pageSize=10&username=nacos HTTP/1.1" 200 114 12068 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 -
+192.168.65.1 - - [23/Oct/2026:18:38:12 +0800] "GET /next/js/configurationManagement.js HTTP/1.1" 200 17596 4913 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 -
+192.168.65.1 - - [23/Oct/2026:18:38:12 +0800] "GET /next/js/config2.js HTTP/1.1" 200 331 2655 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 -
+192.168.65.1 - - [23/Oct/2026:18:38:12 +0800] "GET /next/js/config-store.js HTTP/1.1" 200 1888 2724 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 -
+192.168.65.1 - - [23/Oct/2026:18:38:12 +0800] "GET /v3/console/cs/config/list?search=blur&pageNo=1&pageSize=10&namespaceId=public&username=nacos HTTP/1.1" 200 3144 260817 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 -
+192.168.65.1 - - [23/Oct/2026:18:38:13 +0800] "GET /v3/console/ns/service/list?namespaceId=public&ignoreEmptyService=true&pageNo=1&pageSize=10&username=nacos HTTP/1.1" 200 114 7134 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 -
+192.168.65.1 - - [23/Oct/2026:18:38:15 +0800] "GET /v3/console/ns/service/list?namespaceId=dev&ignoreEmptyService=true&pageNo=1&pageSize=10&username=nacos HTTP/1.1" 200 894 27599 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 -
+192.168.65.1 - - [23/Oct/2026:18:51:59 +0800] "POST /nacos/v3/auth/user/login?username=nacos HTTP/1.1" 200 192 90216 Java/25.0.2 -
+192.168.65.1 - - [23/Oct/2026:18:52:02 +0800] "POST /nacos/v3/auth/user/login?username=nacos HTTP/1.1" 200 192 83901 Java/25.0.2 -
+192.168.65.1 - - [23/Oct/2026:23:03:38 +0800] "POST /nacos/v3/auth/user/login?username=nacos HTTP/1.1" 200 192 87321 Java/25.0.2 -
+192.168.65.1 - - [23/Oct/2026:23:03:39 +0800] "POST /nacos/v3/auth/user/login?username=nacos HTTP/1.1" 200 192 102396 Java/25.0.2 -
+192.168.65.1 - - [23/Oct/2026:23:03:39 +0800] "POST /nacos/v3/auth/user/login?username=nacos HTTP/1.1" 200 192 101617 Java/25.0.2 -
+192.168.65.1 - - [23/Oct/2026:23:03:39 +0800] "POST /nacos/v3/auth/user/login?username=nacos HTTP/1.1" 200 192 78593 Java/25.0.2 -
+192.168.65.1 - - [23/Oct/2026:23:03:40 +0800] "POST /nacos/v3/auth/user/login?username=nacos HTTP/1.1" 200 192 101021 Java/25.0.2 -
+192.168.65.1 - - [23/Oct/2026:23:21:02 +0800] "POST /nacos/v3/auth/user/login?username=nacos HTTP/1.1" 200 192 91485 Java/25.0.2 -
+192.168.65.1 - - [23/Oct/2026:23:21:02 +0800] "POST /nacos/v3/auth/user/login?username=nacos HTTP/1.1" 200 192 91683 Java/25.0.2 -
+192.168.65.1 - - [23/Oct/2026:23:21:03 +0800] "POST /nacos/v3/auth/user/login?username=nacos HTTP/1.1" 200 192 107780 Java/25.0.2 -
+192.168.65.1 - - [23/Oct/2026:23:21:04 +0800] "POST /nacos/v3/auth/user/login?username=nacos HTTP/1.1" 200 192 102280 Java/25.0.2 -
+192.168.65.1 - - [23/Oct/2026:23:23:31 +0800] "POST /nacos/v3/auth/user/login?username=nacos HTTP/1.1" 200 192 102504 Java/25.0.2 -
+192.168.65.1 - - [23/Oct/2026:23:23:33 +0800] "POST /nacos/v3/auth/user/login?username=nacos HTTP/1.1" 200 192 103588 Java/25.0.2 -
