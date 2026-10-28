@@ -1,0 +1,28 @@
+2026-10-23 18:38:05,384 DEBUG auth start, request: GET /v3/console/core/namespace/list
+
+2026-10-23 18:38:05,407 DEBUG access denied, request: GET /v3/console/core/namespace/list, reason: Code: 401, Message: token expired!.
+
+2026-10-23 18:38:07,750 DEBUG auth start, request: GET /v3/console/core/namespace/list
+
+2026-10-23 18:38:07,751 DEBUG API is identity only, skip validate authority, request: GET /v3/console/core/namespace/list
+
+2026-10-23 18:38:07,761 DEBUG auth start, request: GET /v3/console/ai/skills/list
+
+2026-10-23 18:38:07,762 DEBUG auth permission: Permission{resource='Resource{namespaceId='public', group='DEFAULT_GROUP', name='', type='ai', properties={aiType=skill, action=r}}', action='r'}, nacosUser: NacosUser{token='eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuYWNvcyIsImV4cCI6MTc5Mjc2OTg4N30.i08hLLf2wKVDSlYsw_peh5YijytvDYDWPM5V8uqjwF0', globalAdmin=false}
+
+2026-10-23 18:38:10,201 DEBUG auth start, request: GET /v3/console/ns/service/list
+
+2026-10-23 18:38:10,202 DEBUG auth permission: Permission{resource='Resource{namespaceId='public', group='', name='', type='naming', properties={action=r}}', action='r'}, nacosUser: NacosUser{token='eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuYWNvcyIsImV4cCI6MTc5Mjc2OTg4N30.i08hLLf2wKVDSlYsw_peh5YijytvDYDWPM5V8uqjwF0', globalAdmin=false}
+
+2026-10-23 18:38:12,476 DEBUG auth start, request: GET /v3/console/cs/config/list
+
+2026-10-23 18:38:12,477 DEBUG auth permission: Permission{resource='Resource{namespaceId='public', group='', name='', type='config', properties={action=r}}', action='r'}, nacosUser: NacosUser{token='eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuYWNvcyIsImV4cCI6MTc5Mjc2OTg4N30.i08hLLf2wKVDSlYsw_peh5YijytvDYDWPM5V8uqjwF0', globalAdmin=false}
+
+2026-10-23 18:38:13,774 DEBUG auth start, request: GET /v3/console/ns/service/list
+
+2026-10-23 18:38:13,774 DEBUG auth permission: Permission{resource='Resource{namespaceId='public', group='', name='', type='naming', properties={action=r}}', action='r'}, nacosUser: NacosUser{token='eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuYWNvcyIsImV4cCI6MTc5Mjc2OTg4N30.i08hLLf2wKVDSlYsw_peh5YijytvDYDWPM5V8uqjwF0', globalAdmin=false}
+
+2026-10-23 18:38:15,268 DEBUG auth start, request: GET /v3/console/ns/service/list
+
+2026-10-23 18:38:15,268 DEBUG auth permission: Permission{resource='Resource{namespaceId='dev', group='', name='', type='naming', properties={action=r}}', action='r'}, nacosUser: NacosUser{token='eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuYWNvcyIsImV4cCI6MTc5Mjc2OTg4N30.i08hLLf2wKVDSlYsw_peh5YijytvDYDWPM5V8uqjwF0', globalAdmin=false}
+

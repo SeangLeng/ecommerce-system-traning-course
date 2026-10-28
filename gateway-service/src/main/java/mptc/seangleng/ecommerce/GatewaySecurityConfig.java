@@ -22,9 +22,9 @@ public class GatewaySecurityConfig {
     SecurityWebFilterChain gatewayFilterChain(ServerHttpSecurity http) {
 
         http.authorizeExchange(exchange -> exchange
-
                 .pathMatchers("/auth/**", "/products", "/profile").authenticated()
-                .anyExchange().permitAll()
+                .pathMatchers("/public/**").permitAll()
+                .anyExchange().authenticated()
         );
 
         http.csrf(ServerHttpSecurity.CsrfSpec::disable);

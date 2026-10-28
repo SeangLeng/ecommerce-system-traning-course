@@ -1,7 +1,10 @@
 package mptc.seangleng.ecommerce.user.dto;
 
+import lombok.Builder;
+
 import java.util.Date;
 
+@Builder
 public record UserResponse (
         String id,
         String familyName,
@@ -9,5 +12,5 @@ public record UserResponse (
         String gender,
         String mobilePhone,
         String address,
-        Date Birthday
+        Date birthday
 ){}

@@ -2,6 +2,8 @@ package mptc.seangleng.ecommerce.user.dto;
 
 import jakarta.validation.constraints.NotBlank;
 
+import java.util.Date;
+
 public record UserCreateRequest(
         @NotBlank
         String username,
@@ -16,6 +18,8 @@ public record UserCreateRequest(
         @NotBlank
         String password,
         @NotBlank
-        String confirmPassword
+        String confirmPassword,
+        @NotBlank
+        Date birthday
 ) {
 }

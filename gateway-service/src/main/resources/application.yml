@@ -75,6 +75,8 @@ scalar:
       url: /payment-service/v3/api-docs
     - title: Business Service
       url: /business-service/v3/api-docs
+    - title: User Service
+      url: /user-service/v3/api-docs
 
 springdoc:
   swagger-ui:
@@ -87,6 +89,8 @@ springdoc:
         url: /payment-service/v3/api-docs
       - name: Business Service
         url: /business-service/v3/api-docs
+      - name: User Service
+        url: /user-service/v3/api-docs
 #    enabled: false # can use on production
 #  api-docs:
 #    enabled: false
