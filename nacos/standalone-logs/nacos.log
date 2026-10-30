@@ -742,3 +742,15 @@ ErrCode:400, ErrMsg:Skill name may only contain lowercase letters, numbers, and 
 
 2026-10-30 14:08:55,549 INFO [PluginManager] Initialized, 12 plugins discovered
 
+2026-10-30 14:18:46,646 INFO [capacityManagement] start correct usage
+
+2026-10-30 14:18:46,885 INFO [capacityManagement] end correct usage, cost: 0.234091292s
+
+2026-10-30 14:18:50,249 WARN clearHistoryConfig get scheduled
+
+2026-10-30 14:18:50,249 WARN clearHistoryConfig is enable in current context, try to run cleaner
+
+2026-10-30 14:18:50,250 WARN clearConfigHistory, getBeforeStamp:2026-09-30 14:18:50.0, pageSize:1000
+
+2026-10-30 14:18:50,271 WARN history config cleaner successfully
+

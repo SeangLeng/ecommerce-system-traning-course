@@ -13,7 +13,6 @@ import org.keycloak.representations.idm.UserRepresentation;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -45,19 +44,10 @@ public class KeycloakRoleServiceImpl implements KeycloakRoleService {
     @Override
     public List<UserRepresentation> getUsersByRoleName(String roleName) {
         try {
-            List<UserRepresentation> users = new ArrayList<>();
-            int first = 0;
-            int pageSize = 100;
-            List<UserRepresentation> page;
-            do {
-                page = keycloak.realm(config.REALM_NAME)
-                        .roles()
-                        .get(roleName)
-                        .getUserMembers(first, pageSize);
-                users.addAll(page);
-                first += pageSize;
-            } while (page.size() == pageSize);
-            return users;
+            return keycloak.realm(config.REALM_NAME)
+                    .roles()
+                    .get(roleName)
+                    .getUserMembers();
         } catch (NotFoundException ex) {
             throw new KeycloakException(HttpStatus.NOT_FOUND, "Role not found");
         }
