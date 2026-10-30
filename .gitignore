@@ -34,3 +34,4 @@ build/
 
 ### Nacus log ###
 microservice-architecture/nacos/standalone-logs
+nacos/

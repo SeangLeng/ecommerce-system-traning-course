@@ -48,7 +48,22 @@ public class KeycloakUserServiceImpl implements KeycloakService {
                     .get(userId)
                     .update(userRepresentation);
         } catch (Exception e) {
-            log.error(e.getMessage());
+            log.error("Update keycloak user failed: {}", e.getMessage());
+            throw new KeycloakException(HttpStatus.BAD_REQUEST, "Update user failed");
+        }
+    }
+
+    @Override
+    public void deleteKeycloakUser(String userId) {
+        try (Response response = keycloak.realm(adminClientConfig.REALM_NAME)
+                .users()
+                .delete(userId)) {
+            int status = response.getStatus();
+            if (status == HttpStatus.NO_CONTENT.value() || status == HttpStatus.NOT_FOUND.value()) {
+                log.info("Deleted keycloak user: {}", userId);
+                return;
+            }
+            throw new KeycloakException(HttpStatus.BAD_REQUEST, "Delete user failed");
         }
     }
 

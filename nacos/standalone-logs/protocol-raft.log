@@ -4,3 +4,55 @@
 
 2026-10-30 10:09:21,531 INFO ========= The raft protocol has been closed =========
 
+2026-10-30 14:08:50,360 INFO Restored enforced JRaft authentication state from persistent marker
+
+2026-10-30 14:08:50,400 INFO Initializes the Raft protocol, raft-config info : {"data":{},"members":["a120ca624b91:7848"],"strictMode":false,"selfMember":"a120ca624b91:7848"}
+
+2026-10-30 14:08:50,595 INFO ========= The raft protocol is starting... =========
+
+2026-10-30 14:08:50,811 INFO ========= The raft protocol start finished... =========
+
+2026-10-30 14:08:50,823 INFO create raft group : naming_persistent_service_v2
+
+2026-10-30 14:08:51,054 INFO snapshot start to load from : /home/nacos/data/protocol/raft/naming_persistent_service_v2/snapshot/snapshot_13
+
+2026-10-30 14:08:51,060 INFO snapshot success to load from : /home/nacos/data/protocol/raft/naming_persistent_service_v2/snapshot/snapshot_13
+
+2026-10-30 14:08:51,061 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='null', term=null, raftClusterInfo=[a120ca624b91:7848]}
+
+2026-10-30 14:08:51,092 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='a120ca624b91:7848', term=14, raftClusterInfo=[a120ca624b91:7848]}
+
+2026-10-30 14:08:51,095 INFO create raft group : naming_persistent_service
+
+2026-10-30 14:08:51,122 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='null', term=null, raftClusterInfo=[a120ca624b91:7848]}
+
+2026-10-30 14:08:51,137 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='a120ca624b91:7848', term=14, raftClusterInfo=[a120ca624b91:7848]}
+
+2026-10-30 14:08:51,140 INFO create raft group : naming_instance_metadata
+
+2026-10-30 14:08:51,170 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='null', term=null, raftClusterInfo=[a120ca624b91:7848]}
+
+2026-10-30 14:08:51,180 INFO create raft group : naming_service_metadata
+
+2026-10-30 14:08:51,181 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='a120ca624b91:7848', term=14, raftClusterInfo=[a120ca624b91:7848]}
+
+2026-10-30 14:08:51,211 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='null', term=null, raftClusterInfo=[a120ca624b91:7848]}
+
+2026-10-30 14:08:51,231 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='a120ca624b91:7848', term=14, raftClusterInfo=[a120ca624b91:7848]}
+
+2026-10-30 14:08:52,066 INFO create raft group : lock_acquire_service_v2
+
+2026-10-30 14:08:52,090 INFO snapshot start to load from : /home/nacos/data/protocol/raft/lock_acquire_service_v2/snapshot/snapshot_13
+
+2026-10-30 14:08:52,090 INFO snapshot success to load from : /home/nacos/data/protocol/raft/lock_acquire_service_v2/snapshot/snapshot_13
+
+2026-10-30 14:08:52,090 INFO This Raft event changes : RaftEvent{groupId='lock_acquire_service_v2', leader='null', term=null, raftClusterInfo=[a120ca624b91:7848]}
+
+2026-10-30 14:08:52,106 INFO This Raft event changes : RaftEvent{groupId='lock_acquire_service_v2', leader='a120ca624b91:7848', term=14, raftClusterInfo=[a120ca624b91:7848]}
+
+2026-10-30 14:08:52,238 INFO create raft group : plugin_state
+
+2026-10-30 14:08:52,275 INFO This Raft event changes : RaftEvent{groupId='plugin_state', leader='null', term=null, raftClusterInfo=[a120ca624b91:7848]}
+
+2026-10-30 14:08:52,301 INFO This Raft event changes : RaftEvent{groupId='plugin_state', leader='a120ca624b91:7848', term=14, raftClusterInfo=[a120ca624b91:7848]}
+
