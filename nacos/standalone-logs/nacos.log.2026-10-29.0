@@ -1,0 +1,60 @@
+2026-10-29 04:13:51,245 INFO [capacityManagement] start correct usage
+
+2026-10-29 04:13:51,463 INFO [capacityManagement] end correct usage, cost: 0.214327625s
+
+2026-10-29 04:13:51,650 WARN clearHistoryConfig get scheduled
+
+2026-10-29 04:13:51,650 WARN clearHistoryConfig is enable in current context, try to run cleaner
+
+2026-10-29 04:13:51,650 WARN clearConfigHistory, getBeforeStamp:2026-09-29 04:13:51.0, pageSize:1000
+
+2026-10-29 04:13:51,652 WARN history config cleaner successfully
+
+2026-10-29 08:44:41,443 INFO [capacityManagement] start correct usage
+
+2026-10-29 08:44:41,632 WARN clearHistoryConfig get scheduled
+
+2026-10-29 08:44:41,632 WARN clearHistoryConfig is enable in current context, try to run cleaner
+
+2026-10-29 08:44:41,633 WARN clearConfigHistory, getBeforeStamp:2026-09-29 08:44:41.0, pageSize:1000
+
+2026-10-29 08:44:41,635 WARN history config cleaner successfully
+
+2026-10-29 08:44:41,661 INFO [capacityManagement] end correct usage, cost: 0.217516667s
+
+2026-10-29 13:10:26,215 WARN clearHistoryConfig get scheduled
+
+2026-10-29 13:10:26,216 WARN clearHistoryConfig is enable in current context, try to run cleaner
+
+2026-10-29 13:10:26,217 WARN clearConfigHistory, getBeforeStamp:2026-09-29 13:10:26.0, pageSize:1000
+
+2026-10-29 13:10:26,221 WARN history config cleaner successfully
+
+2026-10-29 13:10:26,242 INFO [capacityManagement] start correct usage
+
+2026-10-29 13:10:26,471 INFO [capacityManagement] end correct usage, cost: 0.229084667s
+
+2026-10-29 17:32:52,033 WARN clearHistoryConfig get scheduled
+
+2026-10-29 17:32:52,034 WARN clearHistoryConfig is enable in current context, try to run cleaner
+
+2026-10-29 17:32:52,035 WARN clearConfigHistory, getBeforeStamp:2026-09-29 17:32:52.0, pageSize:1000
+
+2026-10-29 17:32:52,038 WARN history config cleaner successfully
+
+2026-10-29 17:32:52,282 INFO [capacityManagement] start correct usage
+
+2026-10-29 17:32:52,501 INFO [capacityManagement] end correct usage, cost: 0.219298833s
+
+2026-10-29 21:55:05,298 WARN clearHistoryConfig get scheduled
+
+2026-10-29 21:55:05,298 WARN clearHistoryConfig is enable in current context, try to run cleaner
+
+2026-10-29 21:55:05,299 WARN clearConfigHistory, getBeforeStamp:2026-09-29 21:55:05.0, pageSize:1000
+
+2026-10-29 21:55:05,302 WARN history config cleaner successfully
+
+2026-10-29 21:55:05,768 INFO [capacityManagement] start correct usage
+
+2026-10-29 21:55:05,998 INFO [capacityManagement] end correct usage, cost: 0.2296995s
+
