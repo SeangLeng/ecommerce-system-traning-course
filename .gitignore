@@ -33,5 +33,4 @@ build/
 .vscode/
 
 ### Nacus log ###
-microservice-architecture/nacos/standalone-logs
 nacos/

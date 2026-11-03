@@ -4,6 +4,16 @@ spring:
   profiles:
     active: dev
   cloud:
+    sentinel:
+      transport:
+        dashboard: localhost:8081
+        port: 8719
+      eager: true
+      web-context-unify: false
+      scg.fallback:
+        mode: response
+        response-status: 429
+        response-body: '{"error":"Too many requests at gateway"}'
     gateway:
       server:
         webflux:
