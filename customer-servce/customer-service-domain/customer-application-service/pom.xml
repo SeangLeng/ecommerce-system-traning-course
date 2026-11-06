@@ -29,6 +29,10 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>mptc.seangleng</groupId>
+            <artifactId>customer-service-client</artifactId>
+        </dependency>
     </dependencies>
 
 </project>

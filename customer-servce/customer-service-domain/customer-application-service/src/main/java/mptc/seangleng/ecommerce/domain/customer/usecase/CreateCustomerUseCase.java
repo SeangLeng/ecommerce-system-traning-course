@@ -2,9 +2,11 @@ package mptc.seangleng.ecommerce.domain.customer.usecase;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import mptc.seangleng.ecommerce.customer.client.feing.UserFeignClient;
 import mptc.seangleng.ecommerce.domain.customer.dto.CreateCustomerCommand;
 import mptc.seangleng.ecommerce.domain.customer.dto.CreateCustomerResult;
 import mptc.seangleng.ecommerce.domain.customer.exception.CustomerAlreadyExistsException;
+import mptc.seangleng.ecommerce.domain.customer.exception.CustomerNotFoundException;
 import mptc.seangleng.ecommerce.domain.customer.mapper.CustomerDataMapper;
 import mptc.seangleng.ecommerce.domain.customer.port.output.CustomerRepository;
 import mptc.seangleng.ecommerce.domain.entity.Customer;
@@ -21,9 +23,18 @@ public class CreateCustomerUseCase {
     private final CustomerRepository customerRepository;
     private final CustomerDataMapper customerDataMapper;
 
+    private final UserFeignClient userFeignClient;
+
     @Transactional // everything below runs in one DB transaction: if anything fails, nothing is saved
     public CreateCustomerResult execute(CreateCustomerCommand createCustomerCommand) {
         log.info("Execute CreateCustomerUseCase : {}", createCustomerCommand);
+
+        // check user exist or not.
+        try {
+            userFeignClient.getUserById(createCustomerCommand.userId());
+        } catch (CustomerNotFoundException e) {
+            throw new CustomerNotFoundException(e.getMessage());
+        }
 
         if (customerRepository.existsByUsername(createCustomerCommand.username())) {
             throw new CustomerAlreadyExistsException("Username already exists");

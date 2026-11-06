@@ -6,7 +6,6 @@ import jakarta.validation.constraints.NotBlank;
 public record CustomerUpdateRequest(
         String familyName,
         String givenName,
-        @NotBlank
         @Email
         String email,
         String phoneNumber

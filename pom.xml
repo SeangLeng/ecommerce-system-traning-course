@@ -159,6 +159,11 @@
             </dependency>
             <dependency>
                 <groupId>mptc.seangleng</groupId>
+                <artifactId>customer-service-client</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>mptc.seangleng</groupId>
                 <artifactId>business-service-domain</artifactId>
                 <version>${project.version}</version>
             </dependency>
