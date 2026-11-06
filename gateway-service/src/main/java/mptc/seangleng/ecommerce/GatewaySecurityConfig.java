@@ -24,7 +24,7 @@ public class GatewaySecurityConfig {
         http.authorizeExchange(exchange -> exchange
                 .pathMatchers("/auth/**", "/products", "/profile").authenticated()
                 .pathMatchers("/public/**").permitAll()
-                .anyExchange().authenticated()
+                .anyExchange().permitAll()
         );
 
         http.csrf(ServerHttpSecurity.CsrfSpec::disable);

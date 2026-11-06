@@ -1,0 +1,512 @@
+2026-11-04 17:40:14,555 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2026-11-04 17:40:14,573 INFO o.a.j.JMeter: Loading user properties from: user.properties
+2026-11-04 17:40:14,574 INFO o.a.j.JMeter: Loading system properties from: system.properties
+2026-11-04 17:40:14,577 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2026-11-04 17:40:14,577 INFO o.a.j.JMeter: Version 5.6.3
+2026-11-04 17:40:14,577 INFO o.a.j.JMeter: java.version=25.0.2
+2026-11-04 17:40:14,578 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2026-11-04 17:40:14,578 INFO o.a.j.JMeter: os.name=Mac OS X
+2026-11-04 17:40:14,578 INFO o.a.j.JMeter: os.arch=aarch64
+2026-11-04 17:40:14,578 INFO o.a.j.JMeter: os.version=27.0.1
+2026-11-04 17:40:14,578 INFO o.a.j.JMeter: file.encoding=UTF-8
+2026-11-04 17:40:14,578 INFO o.a.j.JMeter: java.awt.headless=null
+2026-11-04 17:40:14,578 INFO o.a.j.JMeter: Max memory     =1073741824
+2026-11-04 17:40:14,578 INFO o.a.j.JMeter: Available Processors =10
+2026-11-04 17:40:14,586 INFO o.a.j.JMeter: Default Locale=English (EN)
+2026-11-04 17:40:14,586 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2026-11-04 17:40:14,586 INFO o.a.j.JMeter: JMeterHome=/Users/macbookpro/coding/Java/ecommerce-system/microservice-architecture/apache-jmeter
+2026-11-04 17:40:14,586 INFO o.a.j.JMeter: user.dir  =/Users/macbookpro/coding/Java/ecommerce-system/microservice-architecture/apache-jmeter/bin
+2026-11-04 17:40:14,586 INFO o.a.j.JMeter: PWD       =/Users/macbookpro/coding/Java/ecommerce-system/microservice-architecture/apache-jmeter/bin
+2026-11-04 17:40:14,591 INFO o.a.j.JMeter: IP: 127.0.0.1 Name: Jenzy.local FullName: localhost
+2026-11-04 17:40:14,596 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2026-11-04 17:40:14,935 INFO o.a.j.JMeterGuiLauncher: Setting LAF to: com.github.weisj.darklaf.DarkLaf:com.github.weisj.darklaf.theme.DarculaTheme
+2026-11-04 17:43:39,465 INFO o.a.j.s.FileServer: Default base='/Users/macbookpro/coding/Java/ecommerce-system/microservice-architecture/apache-jmeter/bin'
+2026-11-04 17:43:39,466 INFO o.a.j.s.FileServer: Set new base='/Users/macbookpro/coding/Java/ecommerce-system/microservice-architecture/apache-jmeter/bin'
+2026-11-04 17:43:39,587 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2026-11-04 17:43:39,599 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2026-11-04 17:43:39,600 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2026-11-04 17:44:06,439 INFO o.a.j.g.a.Load: Loading file: /Users/macbookpro/coding/Java/ecommerce-system/microservice-architecture/apache-jmeter/bin/Thread Group.jmx
+2026-11-04 17:44:06,439 INFO o.a.j.s.FileServer: Set new base='/Users/macbookpro/coding/Java/ecommerce-system/microservice-architecture/apache-jmeter/bin'
+2026-11-04 17:44:06,440 INFO o.a.j.s.SaveService: Loading file: /Users/macbookpro/coding/Java/ecommerce-system/microservice-architecture/apache-jmeter/bin/Thread Group.jmx
+2026-11-04 17:44:06,455 INFO o.a.j.s.FileServer: Set new base='/Users/macbookpro/coding/Java/ecommerce-system/microservice-architecture/apache-jmeter/bin'
+2026-11-04 17:44:16,612 INFO o.a.j.g.JMeterUIDefaults: Applying font scale factor: 1.1
+2026-11-04 17:44:16,656 INFO o.a.j.g.JMeterUIDefaults: Applying font scale factor: 1.1
+2026-11-04 17:44:51,407 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-11-04 17:44:51,408 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-11-04 17:44:51,408 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-11-04 17:44:51,408 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-11-04 17:44:51,408 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2026-11-04 17:44:51,408 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2026-11-04 17:49:44,407 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2026-11-04 17:49:44,407 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
+2026-11-04 17:49:44,407 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2026-11-04 17:49:44,407 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2026-11-04 17:50:12,594 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2026-11-04 17:50:12,595 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2026-11-04 17:50:12,595 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2026-11-04 17:50:12,596 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2026-11-04 17:50:12,597 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2026-11-04 17:50:12,622 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2026-11-04 17:50:12,665 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2026-11-04 17:50:12,665 INFO o.a.j.e.StandardJMeterEngine: Starting 20 threads for group Thread Group.
+2026-11-04 17:50:12,665 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2026-11-04 17:50:12,665 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=20 ramp-up=1 delayedStart=false
+2026-11-04 17:50:12,667 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2026-11-04 17:50:12,669 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2026-11-04 17:50:12,669 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2026-11-04 17:50:12,674 INFO o.a.j.t.p.ConstantPoissonProcessGenerator: Generated 900 timings (Precise Throughput Timer 900 required, rate 30.0, duration 30) in 1 ms. First 15 events will be fired at: 0.0025103211629939892 (+0.0025103211629939892), 0.056029945707464224 (+0.053519624544470235), 0.05809266389713241 (+0.002062718189668189), 0.07731232823136924 (+0.01921966433423683), 0.11889653871161032 (+0.04158421048024108), 0.1371600981075094 (+0.018263559395899076), 0.227095446718647 (+0.08993534861113761), 0.24200287504415274 (+0.014907428325505734), 0.3070560677184908 (+0.06505319267433807), 0.38963998116009035 (+0.08258391344159954), 0.45144028373512723 (+0.06180030257503688), 0.48888439265785677 (+0.037444108922729535), 0.4952540847788922 (+0.006369692121035442), 0.49915429608984985 (+0.0039002113109576353), 0.5093763503529591 (+0.010222054263109293)
+2026-11-04 17:50:12,680 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = Jenzy.local
+2026-11-04 17:50:12,684 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2026-11-04 17:50:12,716 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-2
+2026-11-04 17:50:12,766 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-3
+2026-11-04 17:50:12,816 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-4
+2026-11-04 17:50:12,866 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-5
+2026-11-04 17:50:12,916 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-6
+2026-11-04 17:50:12,967 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-7
+2026-11-04 17:50:13,017 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-8
+2026-11-04 17:50:13,066 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-9
+2026-11-04 17:50:13,115 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-10
+2026-11-04 17:50:13,166 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-11
+2026-11-04 17:50:13,216 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-12
+2026-11-04 17:50:13,266 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-13
+2026-11-04 17:50:13,316 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-14
+2026-11-04 17:50:13,367 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-15
+2026-11-04 17:50:13,417 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-16
+2026-11-04 17:50:13,466 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-17
+2026-11-04 17:50:13,516 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-18
+2026-11-04 17:50:13,566 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-19
+2026-11-04 17:50:13,616 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-20
+2026-11-04 17:50:41,977 INFO o.a.j.t.p.ConstantPoissonProcessGenerator: Generated 900 timings (Precise Throughput Timer 900 required, rate 30.0, duration 30) in 0 ms. First 15 events will be fired at: 30.00887779997858 (+30.00887779997858), 30.020178747389423 (+0.011300947410841644), 30.053977892539404 (+0.03379914514998106), 30.057521500887606 (+0.0035436083482025538), 30.081104399506767 (+0.02358289861916063), 30.111037464715075 (+0.029933065208307852), 30.223117476067078 (+0.11208001135200263), 30.27294245067253 (+0.04982497460545332), 30.298084082623877 (+0.025141631951346), 30.3142171660469 (+0.016133083423024885), 30.442348196912203 (+0.1281310308653012), 30.451741867621344 (+0.009393670709140878), 30.46116062773996 (+0.009418760118617087), 30.4990353517399 (+0.03787472399993774), 30.513448998644325 (+0.014413646904426258)
+2026-11-04 17:50:42,110 INFO o.a.j.t.JMeterThread: Stopping Thread: org.apache.jorphan.util.JMeterStopThreadException: The thread is scheduled to stop in 560 ms and the throughput timer generates a delay of 597. Terminating the thread manually.
+2026-11-04 17:50:42,110 INFO o.a.j.t.JMeterThread: Stopping Thread: org.apache.jorphan.util.JMeterStopThreadException: The thread is scheduled to stop in 558 ms and the throughput timer generates a delay of 567. Terminating the thread manually.
+2026-11-04 17:50:42,110 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: Thread Group 1-18
+2026-11-04 17:50:42,110 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: Thread Group 1-7
+2026-11-04 17:50:42,110 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-18
+2026-11-04 17:50:42,110 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-7
+2026-11-04 17:50:42,151 INFO o.a.j.t.JMeterThread: Stopping Thread: org.apache.jorphan.util.JMeterStopThreadException: The thread is scheduled to stop in 516 ms and the throughput timer generates a delay of 667. Terminating the thread manually.
+2026-11-04 17:50:42,151 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: Thread Group 1-8
+2026-11-04 17:50:42,151 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-8
+2026-11-04 17:50:42,207 INFO o.a.j.t.JMeterThread: Stopping Thread: org.apache.jorphan.util.JMeterStopThreadException: The thread is scheduled to stop in 462 ms and the throughput timer generates a delay of 660. Terminating the thread manually.
+2026-11-04 17:50:42,207 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: Thread Group 1-19
+2026-11-04 17:50:42,207 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-19
+2026-11-04 17:50:42,305 INFO o.a.j.t.JMeterThread: Stopping Thread: org.apache.jorphan.util.JMeterStopThreadException: The thread is scheduled to stop in 362 ms and the throughput timer generates a delay of 588. Terminating the thread manually.
+2026-11-04 17:50:42,305 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: Thread Group 1-4
+2026-11-04 17:50:42,305 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-4
+2026-11-04 17:50:42,351 INFO o.a.j.t.JMeterThread: Stopping Thread: org.apache.jorphan.util.JMeterStopThreadException: The thread is scheduled to stop in 317 ms and the throughput timer generates a delay of 558. Terminating the thread manually.
+2026-11-04 17:50:42,351 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: Thread Group 1-14
+2026-11-04 17:50:42,351 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-14
+2026-11-04 17:50:42,391 INFO o.a.j.t.JMeterThread: Stopping Thread: org.apache.jorphan.util.JMeterStopThreadException: The thread is scheduled to stop in 277 ms and the throughput timer generates a delay of 646. Terminating the thread manually.
+2026-11-04 17:50:42,391 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: Thread Group 1-12
+2026-11-04 17:50:42,391 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-12
+2026-11-04 17:50:42,403 INFO o.a.j.t.JMeterThread: Stopping Thread: org.apache.jorphan.util.JMeterStopThreadException: The thread is scheduled to stop in 265 ms and the throughput timer generates a delay of 643. Terminating the thread manually.
+2026-11-04 17:50:42,404 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: Thread Group 1-10
+2026-11-04 17:50:42,404 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-10
+2026-11-04 17:50:42,421 INFO o.a.j.t.JMeterThread: Stopping Thread: org.apache.jorphan.util.JMeterStopThreadException: The thread is scheduled to stop in 248 ms and the throughput timer generates a delay of 635. Terminating the thread manually.
+2026-11-04 17:50:42,421 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: Thread Group 1-20
+2026-11-04 17:50:42,421 INFO o.a.j.t.JMeterThread: Stopping Thread: org.apache.jorphan.util.JMeterStopThreadException: The thread is scheduled to stop in 247 ms and the throughput timer generates a delay of 673. Terminating the thread manually.
+2026-11-04 17:50:42,422 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-20
+2026-11-04 17:50:42,422 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: Thread Group 1-9
+2026-11-04 17:50:42,422 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-9
+2026-11-04 17:50:42,444 INFO o.a.j.t.JMeterThread: Stopping Thread: org.apache.jorphan.util.JMeterStopThreadException: The thread is scheduled to stop in 224 ms and the throughput timer generates a delay of 664. Terminating the thread manually.
+2026-11-04 17:50:42,444 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: Thread Group 1-13
+2026-11-04 17:50:42,444 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-13
+2026-11-04 17:50:42,460 INFO o.a.j.t.JMeterThread: Stopping Thread: org.apache.jorphan.util.JMeterStopThreadException: The thread is scheduled to stop in 205 ms and the throughput timer generates a delay of 689. Terminating the thread manually.
+2026-11-04 17:50:42,460 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: Thread Group 1-1
+2026-11-04 17:50:42,460 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2026-11-04 17:50:42,480 INFO o.a.j.t.JMeterThread: Stopping Thread: org.apache.jorphan.util.JMeterStopThreadException: The thread is scheduled to stop in 187 ms and the throughput timer generates a delay of 732. Terminating the thread manually.
+2026-11-04 17:50:42,480 INFO o.a.j.t.JMeterThread: Stopping Thread: org.apache.jorphan.util.JMeterStopThreadException: The thread is scheduled to stop in 187 ms and the throughput timer generates a delay of 732. Terminating the thread manually.
+2026-11-04 17:50:42,481 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: Thread Group 1-2
+2026-11-04 17:50:42,481 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-2
+2026-11-04 17:50:42,481 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: Thread Group 1-5
+2026-11-04 17:50:42,481 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-5
+2026-11-04 17:50:42,492 INFO o.a.j.t.JMeterThread: Stopping Thread: org.apache.jorphan.util.JMeterStopThreadException: The thread is scheduled to stop in 177 ms and the throughput timer generates a delay of 740. Terminating the thread manually.
+2026-11-04 17:50:42,492 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: Thread Group 1-15
+2026-11-04 17:50:42,492 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-15
+2026-11-04 17:50:42,606 INFO o.a.j.t.JMeterThread: Stopping Thread: org.apache.jorphan.util.JMeterStopThreadException: The thread is scheduled to stop in 63 ms and the throughput timer generates a delay of 627. Terminating the thread manually.
+2026-11-04 17:50:42,606 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: Thread Group 1-16
+2026-11-04 17:50:42,606 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-16
+2026-11-04 17:50:42,619 INFO o.a.j.t.JMeterThread: Stopping Thread: org.apache.jorphan.util.JMeterStopThreadException: The thread is scheduled to stop in 49 ms and the throughput timer generates a delay of 706. Terminating the thread manually.
+2026-11-04 17:50:42,620 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: Thread Group 1-11
+2026-11-04 17:50:42,620 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-11
+2026-11-04 17:50:42,643 INFO o.a.j.t.JMeterThread: Stopping Thread: org.apache.jorphan.util.JMeterStopThreadException: The thread is scheduled to stop in 26 ms and the throughput timer generates a delay of 765. Terminating the thread manually.
+2026-11-04 17:50:42,643 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: Thread Group 1-17
+2026-11-04 17:50:42,644 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-17
+2026-11-04 17:50:42,656 INFO o.a.j.t.JMeterThread: Stopping Thread: org.apache.jorphan.util.JMeterStopThreadException: The thread is scheduled to stop in 11 ms and the throughput timer generates a delay of 759. Terminating the thread manually.
+2026-11-04 17:50:42,656 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: Thread Group 1-6
+2026-11-04 17:50:42,656 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-6
+2026-11-04 17:50:42,661 INFO o.a.j.t.JMeterThread: Stopping Thread: org.apache.jorphan.util.JMeterStopThreadException: The thread is scheduled to stop in 6 ms and the throughput timer generates a delay of 758. Terminating the thread manually.
+2026-11-04 17:50:42,661 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: Thread Group 1-3
+2026-11-04 17:50:42,661 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-3
+2026-11-04 17:50:42,661 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2026-11-04 17:50:42,662 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2026-11-04 17:53:47,476 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2026-11-04 17:53:47,477 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2026-11-04 17:53:47,477 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2026-11-04 17:53:47,508 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2026-11-04 17:53:47,508 INFO o.a.j.e.StandardJMeterEngine: Starting 20 threads for group Thread Group.
+2026-11-04 17:53:47,508 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2026-11-04 17:53:47,508 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=20 ramp-up=1 delayedStart=false
+2026-11-04 17:53:47,509 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2026-11-04 17:53:47,510 INFO o.a.j.t.p.ConstantPoissonProcessGenerator: Generated 900 timings (Precise Throughput Timer 900 required, rate 30.0, duration 30) in 0 ms. First 15 events will be fired at: 0.008289940936732076 (+0.008289940936732076), 0.010342890739687416 (+0.0020529498029553395), 0.33794037006347755 (+0.32759747932379013), 0.3834936993381821 (+0.04555332927470457), 0.41415048840912183 (+0.030656789070939716), 0.4156756598956102 (+0.0015251714864883414), 0.48394422748979316 (+0.06826856759418298), 0.4860222396336511 (+0.0020780121438579435), 0.6288599117850857 (+0.1428376721514346), 0.6307177585210655 (+0.0018578467359797735), 0.6875741845573813 (+0.0568564260363158), 0.7801255706296384 (+0.0925513860722571), 0.7911924385803037 (+0.01106686795066536), 0.8700042927062912 (+0.07881185412598746), 0.9431077557820666 (+0.07310346307577542)
+2026-11-04 17:53:47,511 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2026-11-04 17:53:47,511 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2026-11-04 17:53:47,559 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-2
+2026-11-04 17:53:47,608 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-3
+2026-11-04 17:53:47,659 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-4
+2026-11-04 17:53:47,709 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-5
+2026-11-04 17:53:47,759 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-6
+2026-11-04 17:53:47,809 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-7
+2026-11-04 17:53:47,859 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-8
+2026-11-04 17:53:47,909 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-9
+2026-11-04 17:53:47,960 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-10
+2026-11-04 17:53:48,010 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-11
+2026-11-04 17:53:48,059 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-12
+2026-11-04 17:53:48,109 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-13
+2026-11-04 17:53:48,159 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-14
+2026-11-04 17:53:48,209 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-15
+2026-11-04 17:53:48,259 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-16
+2026-11-04 17:53:48,309 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-17
+2026-11-04 17:53:48,359 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-18
+2026-11-04 17:53:48,410 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-19
+2026-11-04 17:53:48,458 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-20
+2026-11-04 17:54:16,981 INFO o.a.j.t.p.ConstantPoissonProcessGenerator: Generated 900 timings (Precise Throughput Timer 900 required, rate 30.0, duration 30) in 0 ms. First 15 events will be fired at: 30.00281527017028 (+30.00281527017028), 30.00598399963537 (+0.0031687294650879494), 30.046797203967486 (+0.040813204332117436), 30.07748225495459 (+0.030685050987102613), 30.08792773252289 (+0.010445477568300277), 30.127632092852068 (+0.039704360329178456), 30.167585940676123 (+0.03995384782405509), 30.186019307345443 (+0.018433366669320606), 30.194441988405522 (+0.00842268106007893), 30.200347040985914 (+0.005905052580391867), 30.218463783656198 (+0.018116742670283514), 30.2378977301539 (+0.019433946497702692), 30.24227070452345 (+0.004372974369548643), 30.27093247734647 (+0.02866177282302118), 30.30874135655645 (+0.03780887920997955)
+2026-11-04 17:54:17,100 INFO o.a.j.t.JMeterThread: Stopping Thread: org.apache.jorphan.util.JMeterStopThreadException: The thread is scheduled to stop in 410 ms and the throughput timer generates a delay of 423. Terminating the thread manually.
+2026-11-04 17:54:17,100 INFO o.a.j.t.JMeterThread: Stopping Thread: org.apache.jorphan.util.JMeterStopThreadException: The thread is scheduled to stop in 410 ms and the throughput timer generates a delay of 454. Terminating the thread manually.
+2026-11-04 17:54:17,100 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: Thread Group 1-14
+2026-11-04 17:54:17,100 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: Thread Group 1-13
+2026-11-04 17:54:17,101 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-14
+2026-11-04 17:54:17,101 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-13
+2026-11-04 17:54:17,131 INFO o.a.j.t.JMeterThread: Stopping Thread: org.apache.jorphan.util.JMeterStopThreadException: The thread is scheduled to stop in 379 ms and the throughput timer generates a delay of 433. Terminating the thread manually.
+2026-11-04 17:54:17,131 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: Thread Group 1-15
+2026-11-04 17:54:17,131 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-15
+2026-11-04 17:54:17,161 INFO o.a.j.t.JMeterThread: Stopping Thread: org.apache.jorphan.util.JMeterStopThreadException: The thread is scheduled to stop in 348 ms and the throughput timer generates a delay of 443. Terminating the thread manually.
+2026-11-04 17:54:17,161 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: Thread Group 1-8
+2026-11-04 17:54:17,161 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-8
+2026-11-04 17:54:17,186 INFO o.a.j.t.JMeterThread: Stopping Thread: org.apache.jorphan.util.JMeterStopThreadException: The thread is scheduled to stop in 325 ms and the throughput timer generates a delay of 459. Terminating the thread manually.
+2026-11-04 17:54:17,186 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: Thread Group 1-16
+2026-11-04 17:54:17,186 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-16
+2026-11-04 17:54:17,198 INFO o.a.j.t.JMeterThread: Stopping Thread: org.apache.jorphan.util.JMeterStopThreadException: The thread is scheduled to stop in 311 ms and the throughput timer generates a delay of 465. Terminating the thread manually.
+2026-11-04 17:54:17,198 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: Thread Group 1-4
+2026-11-04 17:54:17,198 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-4
+2026-11-04 17:54:17,205 INFO o.a.j.t.JMeterThread: Stopping Thread: org.apache.jorphan.util.JMeterStopThreadException: The thread is scheduled to stop in 304 ms and the throughput timer generates a delay of 466. Terminating the thread manually.
+2026-11-04 17:54:17,205 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: Thread Group 1-2
+2026-11-04 17:54:17,205 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-2
+2026-11-04 17:54:17,216 INFO o.a.j.t.JMeterThread: Stopping Thread: org.apache.jorphan.util.JMeterStopThreadException: The thread is scheduled to stop in 293 ms and the throughput timer generates a delay of 461. Terminating the thread manually.
+2026-11-04 17:54:17,216 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: Thread Group 1-3
+2026-11-04 17:54:17,216 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-3
+2026-11-04 17:54:17,217 INFO o.a.j.t.JMeterThread: Stopping Thread: org.apache.jorphan.util.JMeterStopThreadException: The thread is scheduled to stop in 293 ms and the throughput timer generates a delay of 478. Terminating the thread manually.
+2026-11-04 17:54:17,217 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: Thread Group 1-18
+2026-11-04 17:54:17,217 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-18
+2026-11-04 17:54:17,275 INFO o.a.j.t.JMeterThread: Stopping Thread: org.apache.jorphan.util.JMeterStopThreadException: The thread is scheduled to stop in 235 ms and the throughput timer generates a delay of 439. Terminating the thread manually.
+2026-11-04 17:54:17,275 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: Thread Group 1-17
+2026-11-04 17:54:17,275 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-17
+2026-11-04 17:54:17,297 INFO o.a.j.t.JMeterThread: Stopping Thread: org.apache.jorphan.util.JMeterStopThreadException: The thread is scheduled to stop in 213 ms and the throughput timer generates a delay of 422. Terminating the thread manually.
+2026-11-04 17:54:17,297 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: Thread Group 1-19
+2026-11-04 17:54:17,297 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-19
+2026-11-04 17:54:17,319 INFO o.a.j.t.JMeterThread: Stopping Thread: org.apache.jorphan.util.JMeterStopThreadException: The thread is scheduled to stop in 190 ms and the throughput timer generates a delay of 428. Terminating the thread manually.
+2026-11-04 17:54:17,319 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: Thread Group 1-9
+2026-11-04 17:54:17,319 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-9
+2026-11-04 17:54:17,329 INFO o.a.j.t.JMeterThread: Stopping Thread: org.apache.jorphan.util.JMeterStopThreadException: The thread is scheduled to stop in 182 ms and the throughput timer generates a delay of 456. Terminating the thread manually.
+2026-11-04 17:54:17,329 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: Thread Group 1-20
+2026-11-04 17:54:17,329 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-20
+2026-11-04 17:54:17,332 INFO o.a.j.t.JMeterThread: Stopping Thread: org.apache.jorphan.util.JMeterStopThreadException: The thread is scheduled to stop in 177 ms and the throughput timer generates a delay of 465. Terminating the thread manually.
+2026-11-04 17:54:17,332 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: Thread Group 1-10
+2026-11-04 17:54:17,333 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-10
+2026-11-04 17:54:17,358 INFO o.a.j.t.JMeterThread: Stopping Thread: org.apache.jorphan.util.JMeterStopThreadException: The thread is scheduled to stop in 151 ms and the throughput timer generates a delay of 444. Terminating the thread manually.
+2026-11-04 17:54:17,358 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: Thread Group 1-6
+2026-11-04 17:54:17,358 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-6
+2026-11-04 17:54:17,364 INFO o.a.j.t.JMeterThread: Stopping Thread: org.apache.jorphan.util.JMeterStopThreadException: The thread is scheduled to stop in 145 ms and the throughput timer generates a delay of 480. Terminating the thread manually.
+2026-11-04 17:54:17,364 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: Thread Group 1-5
+2026-11-04 17:54:17,364 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-5
+2026-11-04 17:54:17,467 INFO o.a.j.t.JMeterThread: Stopping Thread: org.apache.jorphan.util.JMeterStopThreadException: The thread is scheduled to stop in 43 ms and the throughput timer generates a delay of 412. Terminating the thread manually.
+2026-11-04 17:54:17,467 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: Thread Group 1-12
+2026-11-04 17:54:17,467 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-12
+2026-11-04 17:54:17,469 INFO o.a.j.t.JMeterThread: Stopping Thread: org.apache.jorphan.util.JMeterStopThreadException: The thread is scheduled to stop in 40 ms and the throughput timer generates a delay of 463. Terminating the thread manually.
+2026-11-04 17:54:17,469 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: Thread Group 1-11
+2026-11-04 17:54:17,469 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-11
+2026-11-04 17:54:17,481 INFO o.a.j.t.JMeterThread: Stopping Thread: org.apache.jorphan.util.JMeterStopThreadException: The thread is scheduled to stop in 27 ms and the throughput timer generates a delay of 452. Terminating the thread manually.
+2026-11-04 17:54:17,481 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: Thread Group 1-1
+2026-11-04 17:54:17,481 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2026-11-04 17:54:17,483 INFO o.a.j.t.JMeterThread: Stopping Thread: org.apache.jorphan.util.JMeterStopThreadException: The thread is scheduled to stop in 26 ms and the throughput timer generates a delay of 460. Terminating the thread manually.
+2026-11-04 17:54:17,484 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: Thread Group 1-7
+2026-11-04 17:54:17,484 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-7
+2026-11-04 17:54:17,484 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2026-11-04 17:54:17,484 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2026-11-04 17:55:48,921 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2026-11-04 17:55:48,921 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2026-11-04 17:55:48,922 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2026-11-04 17:55:48,954 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2026-11-04 17:55:48,954 INFO o.a.j.e.StandardJMeterEngine: Starting 20 threads for group Thread Group.
+2026-11-04 17:55:48,954 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2026-11-04 17:55:48,954 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=20 ramp-up=1 delayedStart=false
+2026-11-04 17:55:48,955 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2026-11-04 17:55:48,956 INFO o.a.j.t.p.ConstantPoissonProcessGenerator: Generated 900 timings (Precise Throughput Timer 900 required, rate 30.0, duration 30) in 1 ms. First 15 events will be fired at: 0.045176315730740546 (+0.045176315730740546), 0.10762832257062094 (+0.06245200683988039), 0.10901390036004432 (+0.0013855777894233867), 0.12460107435784629 (+0.015587173997801962), 0.12566972247552655 (+0.0010686481176802598), 0.14835020741834182 (+0.02268048494281527), 0.19351325360273064 (+0.04516304618438882), 0.2532017534414355 (+0.059688499838704834), 0.2895766677277012 (+0.036374914286265714), 0.30423502898572985 (+0.014658361258028663), 0.3763539075576283 (+0.07211887857189847), 0.4056623630867673 (+0.029308455529138966), 0.44765928446450554 (+0.04199692137773825), 0.5224436208488548 (+0.07478433638434923), 0.549507206235128 (+0.027063585386273292)
+2026-11-04 17:55:48,957 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2026-11-04 17:55:48,957 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2026-11-04 17:55:49,005 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-2
+2026-11-04 17:55:49,055 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-3
+2026-11-04 17:55:49,105 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-4
+2026-11-04 17:55:49,155 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-5
+2026-11-04 17:55:49,206 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-6
+2026-11-04 17:55:49,256 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-7
+2026-11-04 17:55:49,306 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-8
+2026-11-04 17:55:49,355 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-9
+2026-11-04 17:55:49,405 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-10
+2026-11-04 17:55:49,455 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-11
+2026-11-04 17:55:49,505 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-12
+2026-11-04 17:55:49,555 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-13
+2026-11-04 17:55:49,605 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-14
+2026-11-04 17:55:49,656 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-15
+2026-11-04 17:55:49,706 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-16
+2026-11-04 17:55:49,756 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-17
+2026-11-04 17:55:49,805 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-18
+2026-11-04 17:55:49,855 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-19
+2026-11-04 17:55:49,905 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-20
+2026-11-04 17:56:18,103 INFO o.a.j.t.p.ConstantPoissonProcessGenerator: Generated 900 timings (Precise Throughput Timer 900 required, rate 30.0, duration 30) in 0 ms. First 15 events will be fired at: 30.003055219655717 (+30.003055219655717), 30.010000287271737 (+0.006945067616019429), 30.03315358333197 (+0.023153296060232975), 30.09012339442053 (+0.05696981108856036), 30.12296043732879 (+0.03283704290825895), 30.165861395754803 (+0.0429009584260136), 30.229494012367375 (+0.06363261661257269), 30.259205200968612 (+0.02971118860123667), 30.300212866356066 (+0.04100766538745404), 30.495691886837015 (+0.19547902048094912), 30.51686657492886 (+0.021174688091843308), 30.551670204879677 (+0.03480362995081876), 30.62415117753578 (+0.07248097265610198), 30.63038632569506 (+0.006235148159280612), 30.677666555193703 (+0.04728022949864297)
+2026-11-04 17:56:18,257 INFO o.a.j.t.JMeterThread: Stopping Thread: org.apache.jorphan.util.JMeterStopThreadException: The thread is scheduled to stop in 700 ms and the throughput timer generates a delay of 756. Terminating the thread manually.
+2026-11-04 17:56:18,257 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: Thread Group 1-12
+2026-11-04 17:56:18,257 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-12
+2026-11-04 17:56:18,318 INFO o.a.j.t.JMeterThread: Stopping Thread: org.apache.jorphan.util.JMeterStopThreadException: The thread is scheduled to stop in 638 ms and the throughput timer generates a delay of 726. Terminating the thread manually.
+2026-11-04 17:56:18,318 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: Thread Group 1-17
+2026-11-04 17:56:18,318 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-17
+2026-11-04 17:56:18,433 INFO o.a.j.t.JMeterThread: Stopping Thread: org.apache.jorphan.util.JMeterStopThreadException: The thread is scheduled to stop in 524 ms and the throughput timer generates a delay of 654. Terminating the thread manually.
+2026-11-04 17:56:18,433 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: Thread Group 1-19
+2026-11-04 17:56:18,434 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-19
+2026-11-04 17:56:18,443 INFO o.a.j.t.JMeterThread: Stopping Thread: org.apache.jorphan.util.JMeterStopThreadException: The thread is scheduled to stop in 512 ms and the throughput timer generates a delay of 708. Terminating the thread manually.
+2026-11-04 17:56:18,443 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: Thread Group 1-8
+2026-11-04 17:56:18,443 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-8
+2026-11-04 17:56:18,450 INFO o.a.j.t.JMeterThread: Stopping Thread: org.apache.jorphan.util.JMeterStopThreadException: The thread is scheduled to stop in 507 ms and the throughput timer generates a delay of 732. Terminating the thread manually.
+2026-11-04 17:56:18,450 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: Thread Group 1-13
+2026-11-04 17:56:18,450 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-13
+2026-11-04 17:56:18,483 INFO o.a.j.t.JMeterThread: Stopping Thread: org.apache.jorphan.util.JMeterStopThreadException: The thread is scheduled to stop in 474 ms and the throughput timer generates a delay of 739. Terminating the thread manually.
+2026-11-04 17:56:18,483 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: Thread Group 1-18
+2026-11-04 17:56:18,483 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-18
+2026-11-04 17:56:18,529 INFO o.a.j.t.JMeterThread: Stopping Thread: org.apache.jorphan.util.JMeterStopThreadException: The thread is scheduled to stop in 426 ms and the throughput timer generates a delay of 888. Terminating the thread manually.
+2026-11-04 17:56:18,529 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: Thread Group 1-7
+2026-11-04 17:56:18,530 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-7
+2026-11-04 17:56:18,621 INFO o.a.j.t.JMeterThread: Stopping Thread: org.apache.jorphan.util.JMeterStopThreadException: The thread is scheduled to stop in 334 ms and the throughput timer generates a delay of 817. Terminating the thread manually.
+2026-11-04 17:56:18,621 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: Thread Group 1-3
+2026-11-04 17:56:18,621 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-3
+2026-11-04 17:56:18,684 INFO o.a.j.t.JMeterThread: Stopping Thread: org.apache.jorphan.util.JMeterStopThreadException: The thread is scheduled to stop in 273 ms and the throughput timer generates a delay of 789. Terminating the thread manually.
+2026-11-04 17:56:18,684 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: Thread Group 1-20
+2026-11-04 17:56:18,684 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-20
+2026-11-04 17:56:18,700 INFO o.a.j.t.JMeterThread: Stopping Thread: org.apache.jorphan.util.JMeterStopThreadException: The thread is scheduled to stop in 257 ms and the throughput timer generates a delay of 847. Terminating the thread manually.
+2026-11-04 17:56:18,700 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: Thread Group 1-10
+2026-11-04 17:56:18,700 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-10
+2026-11-04 17:56:18,727 INFO o.a.j.t.JMeterThread: Stopping Thread: org.apache.jorphan.util.JMeterStopThreadException: The thread is scheduled to stop in 229 ms and the throughput timer generates a delay of 825. Terminating the thread manually.
+2026-11-04 17:56:18,727 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: Thread Group 1-14
+2026-11-04 17:56:18,727 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-14
+2026-11-04 17:56:18,729 INFO o.a.j.t.JMeterThread: Stopping Thread: org.apache.jorphan.util.JMeterStopThreadException: The thread is scheduled to stop in 226 ms and the throughput timer generates a delay of 870. Terminating the thread manually.
+2026-11-04 17:56:18,729 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: Thread Group 1-6
+2026-11-04 17:56:18,729 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-6
+2026-11-04 17:56:18,750 INFO o.a.j.t.JMeterThread: Stopping Thread: org.apache.jorphan.util.JMeterStopThreadException: The thread is scheduled to stop in 206 ms and the throughput timer generates a delay of 869. Terminating the thread manually.
+2026-11-04 17:56:18,751 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: Thread Group 1-9
+2026-11-04 17:56:18,751 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-9
+2026-11-04 17:56:18,835 INFO o.a.j.t.JMeterThread: Stopping Thread: org.apache.jorphan.util.JMeterStopThreadException: The thread is scheduled to stop in 119 ms and the throughput timer generates a delay of 839. Terminating the thread manually.
+2026-11-04 17:56:18,835 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: Thread Group 1-1
+2026-11-04 17:56:18,835 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2026-11-04 17:56:18,843 INFO o.a.j.t.JMeterThread: Stopping Thread: org.apache.jorphan.util.JMeterStopThreadException: The thread is scheduled to stop in 112 ms and the throughput timer generates a delay of 861. Terminating the thread manually.
+2026-11-04 17:56:18,844 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: Thread Group 1-5
+2026-11-04 17:56:18,844 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-5
+2026-11-04 17:56:18,876 INFO o.a.j.t.JMeterThread: Stopping Thread: org.apache.jorphan.util.JMeterStopThreadException: The thread is scheduled to stop in 80 ms and the throughput timer generates a delay of 910. Terminating the thread manually.
+2026-11-04 17:56:18,876 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: Thread Group 1-11
+2026-11-04 17:56:18,876 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-11
+2026-11-04 17:56:18,906 INFO o.a.j.t.JMeterThread: Stopping Thread: org.apache.jorphan.util.JMeterStopThreadException: The thread is scheduled to stop in 49 ms and the throughput timer generates a delay of 882. Terminating the thread manually.
+2026-11-04 17:56:18,906 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: Thread Group 1-2
+2026-11-04 17:56:18,906 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-2
+2026-11-04 17:56:18,928 INFO o.a.j.t.JMeterThread: Stopping Thread: org.apache.jorphan.util.JMeterStopThreadException: The thread is scheduled to stop in 28 ms and the throughput timer generates a delay of 879. Terminating the thread manually.
+2026-11-04 17:56:18,928 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: Thread Group 1-15
+2026-11-04 17:56:18,928 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-15
+2026-11-04 17:56:18,934 INFO o.a.j.t.JMeterThread: Stopping Thread: org.apache.jorphan.util.JMeterStopThreadException: The thread is scheduled to stop in 22 ms and the throughput timer generates a delay of 882. Terminating the thread manually.
+2026-11-04 17:56:18,935 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: Thread Group 1-16
+2026-11-04 17:56:18,935 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-16
+2026-11-04 17:56:18,958 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-4
+2026-11-04 17:56:18,958 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-4
+2026-11-04 17:56:18,958 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2026-11-04 17:56:18,958 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2026-11-04 17:58:51,897 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2026-11-04 17:58:51,898 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2026-11-04 17:58:51,898 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2026-11-04 17:58:51,926 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2026-11-04 17:58:51,926 INFO o.a.j.e.StandardJMeterEngine: Starting 20 threads for group Thread Group.
+2026-11-04 17:58:51,926 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2026-11-04 17:58:51,926 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=20 ramp-up=1 delayedStart=false
+2026-11-04 17:58:51,927 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2026-11-04 17:58:51,927 INFO o.a.j.t.p.ConstantPoissonProcessGenerator: Generated 900 timings (Precise Throughput Timer 900 required, rate 30.0, duration 30) in 0 ms. First 15 events will be fired at: 0.13841839401221412 (+0.13841839401221412), 0.15458287281184924 (+0.016164478799635118), 0.16249894763905703 (+0.007916074827207797), 0.17542727288281212 (+0.01292832524375509), 0.1782971188014626 (+0.002869845918650471), 0.19719704554882256 (+0.018899926747359963), 0.20796777633842467 (+0.010770730789602112), 0.23359426895374735 (+0.025626492615322682), 0.24946765660334824 (+0.01587338764960089), 0.2703517252077625 (+0.020884068604414274), 0.3080143995878748 (+0.03766267438011228), 0.3568443929210918 (+0.048829993333217026), 0.3710948954764959 (+0.014250502555404054), 0.4103027691995398 (+0.03920787372304391), 0.41697314933555885 (+0.006670380136019061)
+2026-11-04 17:58:51,928 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2026-11-04 17:58:51,929 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2026-11-04 17:58:51,977 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-2
+2026-11-04 17:58:52,027 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-3
+2026-11-04 17:58:52,077 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-4
+2026-11-04 17:58:52,127 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-5
+2026-11-04 17:58:52,176 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-6
+2026-11-04 17:58:52,227 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-7
+2026-11-04 17:58:52,278 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-8
+2026-11-04 17:58:52,327 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-9
+2026-11-04 17:58:52,378 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-10
+2026-11-04 17:58:52,426 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-11
+2026-11-04 17:58:52,476 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-12
+2026-11-04 17:58:52,526 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-13
+2026-11-04 17:58:52,577 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-14
+2026-11-04 17:58:52,627 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-15
+2026-11-04 17:58:52,677 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-16
+2026-11-04 17:58:52,726 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-17
+2026-11-04 17:58:52,776 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-18
+2026-11-04 17:58:52,827 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-19
+2026-11-04 17:58:52,877 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-20
+2026-11-04 17:59:21,116 INFO o.a.j.t.p.ConstantPoissonProcessGenerator: Generated 900 timings (Precise Throughput Timer 900 required, rate 30.0, duration 30) in 1 ms. First 15 events will be fired at: 30.008444006278644 (+30.008444006278644), 30.04635566762938 (+0.03791166135073709), 30.09409062398097 (+0.047734956351590085), 30.116573663486868 (+0.022483039505896585), 30.142712159748864 (+0.02613849626199638), 30.187325960775254 (+0.04461380102639012), 30.216601275801786 (+0.029275315026531246), 30.233601100384774 (+0.016999824582988765), 30.2471625556012 (+0.0135614552164256), 30.28136053311985 (+0.03419797751865161), 30.287962179020084 (+0.006601645900232711), 30.370387999608162 (+0.08242582058807812), 30.3836303984584 (+0.013242398850238146), 30.388892573060936 (+0.005262174602535197), 30.401011444518325 (+0.012118871457388991)
+2026-11-04 17:59:21,146 INFO o.a.j.t.JMeterThread: Stopping Thread: org.apache.jorphan.util.JMeterStopThreadException: The thread is scheduled to stop in 781 ms and the throughput timer generates a delay of 798. Terminating the thread manually.
+2026-11-04 17:59:21,146 INFO o.a.j.t.JMeterThread: Stopping Thread: org.apache.jorphan.util.JMeterStopThreadException: The thread is scheduled to stop in 781 ms and the throughput timer generates a delay of 846. Terminating the thread manually.
+2026-11-04 17:59:21,146 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: Thread Group 1-5
+2026-11-04 17:59:21,146 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: Thread Group 1-10
+2026-11-04 17:59:21,146 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-5
+2026-11-04 17:59:21,146 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-10
+2026-11-04 17:59:21,199 INFO o.a.j.t.JMeterThread: Stopping Thread: org.apache.jorphan.util.JMeterStopThreadException: The thread is scheduled to stop in 728 ms and the throughput timer generates a delay of 815. Terminating the thread manually.
+2026-11-04 17:59:21,200 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: Thread Group 1-9
+2026-11-04 17:59:21,200 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-9
+2026-11-04 17:59:21,211 INFO o.a.j.t.JMeterThread: Stopping Thread: org.apache.jorphan.util.JMeterStopThreadException: The thread is scheduled to stop in 717 ms and the throughput timer generates a delay of 829. Terminating the thread manually.
+2026-11-04 17:59:21,211 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: Thread Group 1-19
+2026-11-04 17:59:21,211 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-19
+2026-11-04 17:59:21,279 INFO o.a.j.t.JMeterThread: Stopping Thread: org.apache.jorphan.util.JMeterStopThreadException: The thread is scheduled to stop in 649 ms and the throughput timer generates a delay of 806. Terminating the thread manually.
+2026-11-04 17:59:21,279 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: Thread Group 1-20
+2026-11-04 17:59:21,279 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-20
+2026-11-04 17:59:21,286 INFO o.a.j.t.JMeterThread: Stopping Thread: org.apache.jorphan.util.JMeterStopThreadException: The thread is scheduled to stop in 642 ms and the throughput timer generates a delay of 828. Terminating the thread manually.
+2026-11-04 17:59:21,286 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: Thread Group 1-11
+2026-11-04 17:59:21,286 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-11
+2026-11-04 17:59:21,338 INFO o.a.j.t.JMeterThread: Stopping Thread: org.apache.jorphan.util.JMeterStopThreadException: The thread is scheduled to stop in 590 ms and the throughput timer generates a delay of 793. Terminating the thread manually.
+2026-11-04 17:59:21,338 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: Thread Group 1-12
+2026-11-04 17:59:21,338 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-12
+2026-11-04 17:59:21,345 INFO o.a.j.t.JMeterThread: Stopping Thread: org.apache.jorphan.util.JMeterStopThreadException: The thread is scheduled to stop in 582 ms and the throughput timer generates a delay of 800. Terminating the thread manually.
+2026-11-04 17:59:21,346 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: Thread Group 1-4
+2026-11-04 17:59:21,346 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-4
+2026-11-04 17:59:21,352 INFO o.a.j.t.JMeterThread: Stopping Thread: org.apache.jorphan.util.JMeterStopThreadException: The thread is scheduled to stop in 576 ms and the throughput timer generates a delay of 827. Terminating the thread manually.
+2026-11-04 17:59:21,353 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: Thread Group 1-13
+2026-11-04 17:59:21,353 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-13
+2026-11-04 17:59:21,420 INFO o.a.j.t.JMeterThread: Stopping Thread: org.apache.jorphan.util.JMeterStopThreadException: The thread is scheduled to stop in 507 ms and the throughput timer generates a delay of 765. Terminating the thread manually.
+2026-11-04 17:59:21,420 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: Thread Group 1-3
+2026-11-04 17:59:21,420 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-3
+2026-11-04 17:59:21,428 INFO o.a.j.t.JMeterThread: Stopping Thread: org.apache.jorphan.util.JMeterStopThreadException: The thread is scheduled to stop in 500 ms and the throughput timer generates a delay of 840. Terminating the thread manually.
+2026-11-04 17:59:21,428 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: Thread Group 1-14
+2026-11-04 17:59:21,428 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-14
+2026-11-04 17:59:21,457 INFO o.a.j.t.JMeterThread: Stopping Thread: org.apache.jorphan.util.JMeterStopThreadException: The thread is scheduled to stop in 470 ms and the throughput timer generates a delay of 824. Terminating the thread manually.
+2026-11-04 17:59:21,458 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: Thread Group 1-7
+2026-11-04 17:59:21,458 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-7
+2026-11-04 17:59:21,466 INFO o.a.j.t.JMeterThread: Stopping Thread: org.apache.jorphan.util.JMeterStopThreadException: The thread is scheduled to stop in 462 ms and the throughput timer generates a delay of 820. Terminating the thread manually.
+2026-11-04 17:59:21,466 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: Thread Group 1-16
+2026-11-04 17:59:21,466 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-16
+2026-11-04 17:59:21,518 INFO o.a.j.t.JMeterThread: Stopping Thread: org.apache.jorphan.util.JMeterStopThreadException: The thread is scheduled to stop in 409 ms and the throughput timer generates a delay of 781. Terminating the thread manually.
+2026-11-04 17:59:21,518 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: Thread Group 1-8
+2026-11-04 17:59:21,518 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-8
+2026-11-04 17:59:21,527 INFO o.a.j.t.JMeterThread: Stopping Thread: org.apache.jorphan.util.JMeterStopThreadException: The thread is scheduled to stop in 399 ms and the throughput timer generates a delay of 831. Terminating the thread manually.
+2026-11-04 17:59:21,527 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: Thread Group 1-1
+2026-11-04 17:59:21,527 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2026-11-04 17:59:21,548 INFO o.a.j.t.JMeterThread: Stopping Thread: org.apache.jorphan.util.JMeterStopThreadException: The thread is scheduled to stop in 379 ms and the throughput timer generates a delay of 867. Terminating the thread manually.
+2026-11-04 17:59:21,548 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: Thread Group 1-2
+2026-11-04 17:59:21,549 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-2
+2026-11-04 17:59:21,649 INFO o.a.j.t.JMeterThread: Stopping Thread: org.apache.jorphan.util.JMeterStopThreadException: The thread is scheduled to stop in 279 ms and the throughput timer generates a delay of 797. Terminating the thread manually.
+2026-11-04 17:59:21,649 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: Thread Group 1-15
+2026-11-04 17:59:21,649 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-15
+2026-11-04 17:59:21,748 INFO o.a.j.t.JMeterThread: Stopping Thread: org.apache.jorphan.util.JMeterStopThreadException: The thread is scheduled to stop in 180 ms and the throughput timer generates a delay of 799. Terminating the thread manually.
+2026-11-04 17:59:21,748 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: Thread Group 1-17
+2026-11-04 17:59:21,748 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-17
+2026-11-04 17:59:21,836 INFO o.a.j.t.JMeterThread: Stopping Thread: org.apache.jorphan.util.JMeterStopThreadException: The thread is scheduled to stop in 92 ms and the throughput timer generates a delay of 715. Terminating the thread manually.
+2026-11-04 17:59:21,836 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: Thread Group 1-18
+2026-11-04 17:59:21,836 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-18
+2026-11-04 17:59:21,909 INFO o.a.j.t.JMeterThread: Stopping Thread: org.apache.jorphan.util.JMeterStopThreadException: The thread is scheduled to stop in 18 ms and the throughput timer generates a delay of 741. Terminating the thread manually.
+2026-11-04 17:59:21,909 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: Thread Group 1-6
+2026-11-04 17:59:21,909 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-6
+2026-11-04 17:59:21,909 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2026-11-04 17:59:21,909 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2026-11-04 17:59:24,058 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2026-11-04 17:59:24,059 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2026-11-04 17:59:24,059 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2026-11-04 17:59:24,090 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2026-11-04 17:59:24,090 INFO o.a.j.e.StandardJMeterEngine: Starting 20 threads for group Thread Group.
+2026-11-04 17:59:24,090 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2026-11-04 17:59:24,090 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=20 ramp-up=1 delayedStart=false
+2026-11-04 17:59:24,091 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2026-11-04 17:59:24,091 INFO o.a.j.t.p.ConstantPoissonProcessGenerator: Generated 900 timings (Precise Throughput Timer 900 required, rate 30.0, duration 30) in 0 ms. First 15 events will be fired at: 0.00730665638343897 (+0.00730665638343897), 0.009226869138337923 (+0.0019202127548989534), 0.025208983662079465 (+0.015982114523741542), 0.06862198521975116 (+0.04341300155767169), 0.07200082175131906 (+0.003378836531567897), 0.16561305793385994 (+0.09361223618254089), 0.19035574050651816 (+0.024742682572658214), 0.19711925693966514 (+0.006763516433146988), 0.24691949832615911 (+0.04980024138649397), 0.3070694601211743 (+0.060149961795015194), 0.32453782530631137 (+0.017468365185137058), 0.3303935565723848 (+0.005855731266073416), 0.4350032676502491 (+0.10460971107786432), 0.4488310773572668 (+0.01382780970701769), 0.4959510124605371 (+0.04711993510327028)
+2026-11-04 17:59:24,092 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2026-11-04 17:59:24,092 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2026-11-04 17:59:24,140 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-2
+2026-11-04 17:59:24,191 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-3
+2026-11-04 17:59:24,241 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-4
+2026-11-04 17:59:24,291 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-5
+2026-11-04 17:59:24,341 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-6
+2026-11-04 17:59:24,391 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-7
+2026-11-04 17:59:24,441 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-8
+2026-11-04 17:59:24,491 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-9
+2026-11-04 17:59:24,541 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-10
+2026-11-04 17:59:24,591 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-11
+2026-11-04 17:59:24,642 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-12
+2026-11-04 17:59:24,691 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-13
+2026-11-04 17:59:24,741 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-14
+2026-11-04 17:59:24,791 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-15
+2026-11-04 17:59:24,841 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-16
+2026-11-04 17:59:24,891 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-17
+2026-11-04 17:59:24,941 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-18
+2026-11-04 17:59:24,991 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-19
+2026-11-04 17:59:25,041 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-20
+2026-11-04 17:59:53,397 INFO o.a.j.t.p.ConstantPoissonProcessGenerator: Generated 900 timings (Precise Throughput Timer 900 required, rate 30.0, duration 30) in 0 ms. First 15 events will be fired at: 30.00125424222382 (+30.00125424222382), 30.03500653677512 (+0.03375229455130224), 30.07736648608396 (+0.04235994930883891), 30.090591788556086 (+0.013225302472125833), 30.090641921976562 (+5.013342047632818E-5), 30.13978034637444 (+0.049138424397877856), 30.163263195464676 (+0.023482849090235902), 30.179895363483165 (+0.016632168018489324), 30.18790716188223 (+0.008011798399063963), 30.197505175411276 (+0.009598013529046767), 30.211669393939864 (+0.01416421852858818), 30.229451587198948 (+0.01778219325908381), 30.316046351432977 (+0.08659476423402879), 30.379129092689865 (+0.0630827412568884), 30.387556308129867 (+0.008427215440001135)
+2026-11-04 17:59:53,414 INFO o.a.j.t.JMeterThread: Stopping Thread: org.apache.jorphan.util.JMeterStopThreadException: The thread is scheduled to stop in 677 ms and the throughput timer generates a delay of 680. Terminating the thread manually.
+2026-11-04 17:59:53,414 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: Thread Group 1-6
+2026-11-04 17:59:53,414 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-6
+2026-11-04 17:59:53,420 INFO o.a.j.t.JMeterThread: Stopping Thread: org.apache.jorphan.util.JMeterStopThreadException: The thread is scheduled to stop in 671 ms and the throughput timer generates a delay of 716. Terminating the thread manually.
+2026-11-04 17:59:53,420 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: Thread Group 1-11
+2026-11-04 17:59:53,420 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-11
+2026-11-04 17:59:53,472 INFO o.a.j.t.JMeterThread: Stopping Thread: org.apache.jorphan.util.JMeterStopThreadException: The thread is scheduled to stop in 619 ms and the throughput timer generates a delay of 677. Terminating the thread manually.
+2026-11-04 17:59:53,472 INFO o.a.j.t.JMeterThread: Stopping Thread: org.apache.jorphan.util.JMeterStopThreadException: The thread is scheduled to stop in 619 ms and the throughput timer generates a delay of 677. Terminating the thread manually.
+2026-11-04 17:59:53,472 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: Thread Group 1-4
+2026-11-04 17:59:53,472 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: Thread Group 1-7
+2026-11-04 17:59:53,472 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-4
+2026-11-04 17:59:53,472 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-7
+2026-11-04 17:59:53,484 INFO o.a.j.t.JMeterThread: Stopping Thread: org.apache.jorphan.util.JMeterStopThreadException: The thread is scheduled to stop in 609 ms and the throughput timer generates a delay of 715. Terminating the thread manually.
+2026-11-04 17:59:53,484 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: Thread Group 1-17
+2026-11-04 17:59:53,484 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-17
+2026-11-04 17:59:53,500 INFO o.a.j.t.JMeterThread: Stopping Thread: org.apache.jorphan.util.JMeterStopThreadException: The thread is scheduled to stop in 592 ms and the throughput timer generates a delay of 722. Terminating the thread manually.
+2026-11-04 17:59:53,500 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: Thread Group 1-20
+2026-11-04 17:59:53,500 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-20
+2026-11-04 17:59:53,514 INFO o.a.j.t.JMeterThread: Stopping Thread: org.apache.jorphan.util.JMeterStopThreadException: The thread is scheduled to stop in 577 ms and the throughput timer generates a delay of 724. Terminating the thread manually.
+2026-11-04 17:59:53,514 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: Thread Group 1-12
+2026-11-04 17:59:53,514 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-12
+2026-11-04 17:59:53,611 INFO o.a.j.t.JMeterThread: Stopping Thread: org.apache.jorphan.util.JMeterStopThreadException: The thread is scheduled to stop in 481 ms and the throughput timer generates a delay of 635. Terminating the thread manually.
+2026-11-04 17:59:53,611 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: Thread Group 1-19
+2026-11-04 17:59:53,611 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-19
+2026-11-04 17:59:53,614 INFO o.a.j.t.JMeterThread: Stopping Thread: org.apache.jorphan.util.JMeterStopThreadException: The thread is scheduled to stop in 478 ms and the throughput timer generates a delay of 642. Terminating the thread manually.
+2026-11-04 17:59:53,614 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: Thread Group 1-13
+2026-11-04 17:59:53,614 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-13
+2026-11-04 17:59:53,656 INFO o.a.j.t.JMeterThread: Stopping Thread: org.apache.jorphan.util.JMeterStopThreadException: The thread is scheduled to stop in 435 ms and the throughput timer generates a delay of 614. Terminating the thread manually.
+2026-11-04 17:59:53,656 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: Thread Group 1-3
+2026-11-04 17:59:53,656 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-3
+2026-11-04 17:59:53,720 INFO o.a.j.t.JMeterThread: Stopping Thread: org.apache.jorphan.util.JMeterStopThreadException: The thread is scheduled to stop in 371 ms and the throughput timer generates a delay of 568. Terminating the thread manually.
+2026-11-04 17:59:53,720 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: Thread Group 1-2
+2026-11-04 17:59:53,720 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-2
+2026-11-04 17:59:53,827 INFO o.a.j.t.JMeterThread: Stopping Thread: org.apache.jorphan.util.JMeterStopThreadException: The thread is scheduled to stop in 266 ms and the throughput timer generates a delay of 549. Terminating the thread manually.
+2026-11-04 17:59:53,827 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: Thread Group 1-14
+2026-11-04 17:59:53,827 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-14
+2026-11-04 17:59:53,876 INFO o.a.j.t.JMeterThread: Stopping Thread: org.apache.jorphan.util.JMeterStopThreadException: The thread is scheduled to stop in 215 ms and the throughput timer generates a delay of 562. Terminating the thread manually.
+2026-11-04 17:59:53,877 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: Thread Group 1-8
+2026-11-04 17:59:53,877 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-8
+2026-11-04 17:59:53,912 INFO o.a.j.t.JMeterThread: Stopping Thread: org.apache.jorphan.util.JMeterStopThreadException: The thread is scheduled to stop in 179 ms and the throughput timer generates a delay of 598. Terminating the thread manually.
+2026-11-04 17:59:53,912 INFO o.a.j.t.JMeterThread: Stopping Thread: org.apache.jorphan.util.JMeterStopThreadException: The thread is scheduled to stop in 178 ms and the throughput timer generates a delay of 534. Terminating the thread manually.
+2026-11-04 17:59:53,912 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: Thread Group 1-9
+2026-11-04 17:59:53,912 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: Thread Group 1-1
+2026-11-04 17:59:53,912 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-9
+2026-11-04 17:59:53,912 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2026-11-04 17:59:53,923 INFO o.a.j.t.JMeterThread: Stopping Thread: org.apache.jorphan.util.JMeterStopThreadException: The thread is scheduled to stop in 169 ms and the throughput timer generates a delay of 600. Terminating the thread manually.
+2026-11-04 17:59:53,923 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: Thread Group 1-16
+2026-11-04 17:59:53,923 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-16
+2026-11-04 17:59:53,981 INFO o.a.j.t.JMeterThread: Stopping Thread: org.apache.jorphan.util.JMeterStopThreadException: The thread is scheduled to stop in 110 ms and the throughput timer generates a delay of 566. Terminating the thread manually.
+2026-11-04 17:59:53,981 INFO o.a.j.t.JMeterThread: Stopping Thread: org.apache.jorphan.util.JMeterStopThreadException: The thread is scheduled to stop in 111 ms and the throughput timer generates a delay of 730. Terminating the thread manually.
+2026-11-04 17:59:53,982 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: Thread Group 1-15
+2026-11-04 17:59:53,982 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-15
+2026-11-04 17:59:53,982 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: Thread Group 1-10
+2026-11-04 17:59:53,982 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-10
+2026-11-04 17:59:53,994 INFO o.a.j.t.JMeterThread: Stopping Thread: org.apache.jorphan.util.JMeterStopThreadException: The thread is scheduled to stop in 97 ms and the throughput timer generates a delay of 732. Terminating the thread manually.
+2026-11-04 17:59:53,994 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: Thread Group 1-5
+2026-11-04 17:59:53,994 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-5
+2026-11-04 17:59:54,067 INFO o.a.j.t.JMeterThread: Stopping Thread: org.apache.jorphan.util.JMeterStopThreadException: The thread is scheduled to stop in 25 ms and the throughput timer generates a delay of 676. Terminating the thread manually.
+2026-11-04 17:59:54,067 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: Thread Group 1-18
+2026-11-04 17:59:54,067 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-18
+2026-11-04 17:59:54,067 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2026-11-04 17:59:54,068 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)

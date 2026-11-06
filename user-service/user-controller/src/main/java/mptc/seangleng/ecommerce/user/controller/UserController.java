@@ -29,11 +29,15 @@ public class UserController {
         return userService.create(userCreateRequest);
     }
 
+    @GetMapping(value = "/hello")
+    public String hello() {
+        return "Hello Sentinel";
+    }
+
     //  If Circuit Breaker open it will fall back.
     @SentinelResource(
             value = "getUsers",
-            fallback = "getUsersFallback",
-            blockHandler = "getUsersBlock"
+            fallback = "getUsersFallback"
     )
     @GetMapping
     public List<UserResponse> getUsers() {

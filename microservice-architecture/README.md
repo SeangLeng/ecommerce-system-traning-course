@@ -7,7 +7,7 @@ java -Dserver.port=8081 -Dcsp.sentinel.dashboard.server=localhost:8081 -Dproject
 
 ### Next time
 ```shell
-java -Dserver.port=8081 -Dcsp.sentinel.dashboard.server=localhost:8081 -Dproject.name=sentinel-dashboard
+java -Dserver.port=8081 -Dcsp.sentinel.dashboard.server=localhost:8081 -Dproject.name=sentinel-dashboard sentinel-dashboard-1.8.10.jar
 ```
 
 Default account:
