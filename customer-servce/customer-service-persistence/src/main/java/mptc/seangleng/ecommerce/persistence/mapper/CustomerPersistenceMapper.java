@@ -1,5 +1,6 @@
 package mptc.seangleng.ecommerce.persistence.mapper;
 
+import mptc.seangleng.ecommerce.domain.customer.dto.CustomerResult;
 import mptc.seangleng.ecommerce.domain.entity.Customer;
 import mptc.seangleng.ecommerce.order.ecommerce.valueobject.PhoneNumber;
 import mptc.seangleng.ecommerce.persistence.entity.CustomerEntity;
@@ -24,4 +25,6 @@ public interface CustomerPersistenceMapper {
     default PhoneNumber toPhoneNumber(String phoneNumber) {
         return phoneNumber == null ? null : new PhoneNumber(phoneNumber);
     }
+
+    CustomerResult toCustomerResult(CustomerEntity customerEntity);
 }

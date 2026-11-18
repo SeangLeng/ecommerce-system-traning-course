@@ -12,6 +12,6 @@ public class UserFeignClientFallback implements UserFeignClient {
     @Override
     public UserResponse getUserById(String id) {
         log.error("Fallback UserFeignClientFallback, with id: {}", id);
-        throw new UserServiceUnavailable("User unavialable, with id: " + id);
+        throw new UserServiceUnavailable("User unavailable, with id: " + id);
     }
 }
