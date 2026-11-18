@@ -2,6 +2,7 @@ package mptc.seangleng.ecommerce.domain.customer.usecase;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import mptc.seangleng.ecommerce.customer.client.exception.UserServiceUnavailable;
 import mptc.seangleng.ecommerce.customer.client.feing.UserFeignClient;
 import mptc.seangleng.ecommerce.domain.customer.dto.CreateCustomerCommand;
 import mptc.seangleng.ecommerce.domain.customer.dto.CreateCustomerResult;
@@ -34,11 +35,14 @@ public class CreateCustomerUseCase {
             userFeignClient.getUserById(createCustomerCommand.userId());
         } catch (CustomerNotFoundException e) {
             throw new CustomerNotFoundException(e.getMessage());
+        } catch (UserServiceUnavailable e) {
+            throw new CustomerAlreadyExistsException(e.getMessage());
         }
 
         if (customerRepository.existsByUsername(createCustomerCommand.username())) {
             throw new CustomerAlreadyExistsException("Username already exists");
         }
+
         if (customerRepository.existsByEmail(createCustomerCommand.email())) {
             throw new CustomerAlreadyExistsException("Email already exists");
         }
