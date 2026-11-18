@@ -9,6 +9,7 @@ import mptc.seangleng.ecommerce.order.ecommerce.valueobject.CustomerId;
 import mptc.seangleng.ecommerce.persistence.entity.CustomerEntity;
 import mptc.seangleng.ecommerce.persistence.mapper.CustomerPersistenceMapper;
 import mptc.seangleng.ecommerce.persistence.repository.CustomerJpaRepository;
+import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
@@ -39,6 +40,7 @@ public class CustomerRepositoryAdapter implements CustomerRepository {
                 .build();
     }
 
+    @CacheEvict(value = "customer", allEntries = true)
     @Override
     public Customer save(Customer customer) {
         CustomerEntity savedEntity = customerJpaRepository.save(

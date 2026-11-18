@@ -28,6 +28,15 @@ spring:
     properties:
       hibernate:
         format_sql: true
+  data:
+    redis:
+      host: localhost
+      port: 6379
+  cache:
+    type: redis
+    redis:
+      time-to-live: 10m
+      cache-null-values: false
 
 server:
   port: 0
